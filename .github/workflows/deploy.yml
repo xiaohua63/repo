@@ -51,7 +51,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add Packages Packages.bz2 Packages.gz Release
+        git add .
         git commit -m "Update Packages files"
         git push https://$GITHUB_ACTOR:${{ secrets.PAT }}@github.com/${{ github.repository }}.git main
 
