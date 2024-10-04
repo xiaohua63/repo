@@ -3,9 +3,18 @@ name: Deploy Sileo Repo
 on:
   push:
     branches:
-      - main  # 或者你的默认分支名称
+      - main
     paths:
-      - 'debs/**'  # 监听 debs 目录下的文件变化
+      - 'debs/**'
+      - 'Packages'
+      - 'Packages.gz'
+      - 'Packages.bz2'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -35,9 +44,9 @@ jobs:
         git push origin main
 
     - name: Deploy to GitHub Pages
-      if: success()  # 仅在之前步骤成功时运行
+      if: success()
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.PAT }}  # 使用 GITHUB_TOKEN 进行身份验证
+        github_token: ${{ secrets.PAT }}
         publish_branch: gh-pages
-        publish_dir: ./  # 确保你希望发布的内容在仓库根目录下
+        publish_dir: ./
