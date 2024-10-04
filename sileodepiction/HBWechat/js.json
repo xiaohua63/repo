@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://axs6.github.io/repo/images/Axslogo.png",
+    "headerImage": "https://axs66.github.io/repo/images/Axslogo.png",
     "tintColor": "00BFFF",
     "minVersion": "0.3",
     "tabs": [
@@ -32,7 +32,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://axs6.github.io/repo/sileodepiction/HBWechat/Screenshot_01.png"
+                            "url": "https://axs66.github.io/repo/sileodepiction/HBWechat/Screenshot_01.png"
                         }
                     ]
                 },
@@ -69,7 +69,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 08 月 14 日",
+                    "text": "2024 年 9 月 24 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -82,6 +82,28 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+               {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.7.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.优化保存朋友圈实况。\n2.修复非实况版本保存图片闪退的问题。\n3.新增[特色类功能]-进入聊天界面自动呼出输入法。",
+                    "useRawFormat": true
+                },
+               {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.7.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.新增[默认功能]-强制开启多开人脸。\n2.新增[语音类功能]-新的第三方接口模型。\n3.新增[群聊类功能]-新进群自动置顶群聊。\n4.新增[朋友圈功能]-保存朋友圈实况图片到手机相册。",
+                    "useRawFormat": true
+                },
                {
                     "class": "DepictionSubheaderView",
                     "title": "1.7.3",
