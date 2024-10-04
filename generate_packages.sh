@@ -16,16 +16,17 @@ fi
 # List contents of DEB_DIR for debugging
 ls -l "$DEB_DIR"
 
-# Generate a temporary Packages file
+# Generate a temporary Packages file with new .deb info
 dpkg-scanpackages -m "$DEB_DIR" > Packages.tmp
 
-# Check if Packages file exists and merge
+# If Packages file already exists, merge it with the new Packages
 if [ -f Packages ]; then
-  # Append new content to existing Packages, avoiding duplicates
-  awk '!seen[$0]++' Packages Packages.tmp > Packages.new
+  # Merge existing Packages with new entries, preserving manual sections
+  awk 'NR==FNR{seen[$1]; next} !($1 in seen)' Packages Packages.tmp > Packages.new
+  cat Packages.tmp >> Packages.new
   mv Packages.new Packages
 else
-  # If Packages doesn't exist, just move the temp file to Packages
+  # If Packages doesn't exist, move the temp file to Packages
   mv Packages.tmp Packages
 fi
 
