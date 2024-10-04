@@ -16,8 +16,21 @@ fi
 # List contents of DEB_DIR for debugging
 ls -l "$DEB_DIR"
 
-# Generate the Packages file
-dpkg-scanpackages -m "$DEB_DIR" > Packages
+# Generate a temporary Packages file
+dpkg-scanpackages -m "$DEB_DIR" > Packages.tmp
+
+# Check if Packages file exists and merge
+if [ -f Packages ]; then
+  # Append new content to existing Packages, avoiding duplicates
+  awk '!seen[$0]++' Packages Packages.tmp > Packages.new
+  mv Packages.new Packages
+else
+  # If Packages doesn't exist, just move the temp file to Packages
+  mv Packages.tmp Packages
+fi
+
+# Output Packages file for verification
+cat Packages
 
 # Compress the Packages file
 bzip2 -fks Packages
@@ -29,8 +42,8 @@ Origin: Axs Repo
 Label: Axs Repo
 Suite: stable
 Version: 1.0
-Codename: Axs Repo
-Architectures: iphoneos-arm64 iphoneos-arm64e
+Codename: axs
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 自用插件分享，有问题请卸载！！！
 EOF
