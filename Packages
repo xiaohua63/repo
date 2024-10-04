@@ -1221,44 +1221,6 @@ Icon: https://axs66.github.io/repo/icon/Shuffle.png
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.curtin.pkc.rootless
-Version: 0.5-1
-Architecture: iphoneos-arm64
-Maintainer: curtinlv@126.com
-Depends: firmware (>= 5.0)
-Filename: ./debs/PKC_无根_0.5-1.deb
-Size: 386136
-MD5sum: fd7a29ed58ca93e9878dc0371959380a
-SHA1: 6d6986b1221224eb6541cff3fe3c8bcf833bc4d8
-SHA256: bab85c7fe217059c2075ad191c7431405d87a4b8c7e14ee9d351a48c22e036e8
-Section: B-微信插件
-Priority: optional
-Homepage: https://github.com/curtinlv
-Description: 微信多功能插件
-Author: Curtin
-Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
-Name: PKC_无根
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/PKC/js.json
-
-Package: com.curtin.pkc.rootless
-Version: 0.5-2
-Architecture: iphoneos-arm64
-Maintainer: curtinlv@126.com
-Depends: firmware (>= 5.0)
-Filename: ./debs/PKC_无根_0.5-2.deb
-Size: 403484
-MD5sum: f73a2b226d4795d0a687de9930850758
-SHA1: 0eda8101e3250706d7e1347eae440445d465d37a
-SHA256: 4b388c14926286a083c442ca8334f60eb1cc5c96cca1ba322549a4fe803d696c
-Section: B-微信插件
-Priority: optional
-Homepage: https://github.com/curtinlv
-Description: 微信多功能插件 
-Author: Curtin
-Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
-Name: PKC_无根
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/PKC/js.json
-
-Package: com.curtin.pkc.rootless
 Version: 0.5-3
 Architecture: iphoneos-arm64
 Maintainer: curtinlv@126.com
