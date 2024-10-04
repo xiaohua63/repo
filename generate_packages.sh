@@ -19,11 +19,16 @@ ls -l "$DEB_DIR"
 # Generate a temporary Packages file with new .deb info
 dpkg-scanpackages -m "$DEB_DIR" > Packages.tmp
 
-# If Packages file already exists, merge it with the new Packages
+# Check if Packages file already exists
 if [ -f Packages ]; then
-  # Merge existing Packages with new entries, preserving manual sections
-  awk 'NR==FNR{seen[$1]; next} !($1 in seen)' Packages Packages.tmp > Packages.new
-  cat Packages.tmp >> Packages.new
+  # Backup the existing Packages file
+  cp Packages Packages.bak
+
+  # Merge existing Packages with the new Packages, ensuring not to overwrite the manual changes
+  cat Packages.tmp | awk 'BEGIN{RS="";FS="\n";}{print $0; print ""}' | grep -v -f <(awk '/^Package:/{print $2}' Packages) > Packages.new
+  
+  # Append existing Packages to the new file
+  cat Packages >> Packages.new
   mv Packages.new Packages
 else
   # If Packages doesn't exist, move the temp file to Packages
