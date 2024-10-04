@@ -866,6 +866,508 @@ Description: 锤子助手插件
 Author: DumpApp
 Name: 锤子助手-Rootless
 
+Package: com.dvntm.showmytouches
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 464
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.dvntm.showmytouches_1.1.2_iphoneos-arm64.deb
+Size: 53208
+MD5sum: fd7f453d0e2560811aa66ba6b2261a02
+SHA1: d738dab4d8bc50d5bffdadbe11253b234d4f73f9
+SHA256: 295ec02b73306fdee703f3ba38afbe2f2823dcf6aa722de4a217964236910769
+Section: Tweaks
+Description: Displays your touch interactions!
+Author: dvntm
+Name: ShowMyTouches
+
+Package: com.edge.siri
+Version: 3.1.1-9
+Architecture: iphoneos-arm64
+Maintainer: tangerine
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/com.edge.siri_3.1.1-9_iphoneos-arm64.deb
+Size: 15260
+MD5sum: 79ae19ca78ccb04074b9990e00af3d42
+SHA1: c10561144beab4c63e024970c188af7ace3dde8b
+SHA256: db13b2d0dd0aa91d75c01abd823ec3c9051264a5037f98f058aae41b502186db
+Section: Axs-Tweaks
+Description: 模仿iOS18唤醒Siri边框效果，无设置项。安装即生效-----EdgeSiri是一款为 iOS设计的越狱插件，它能够在 Siri 激活时在屏幕周围显示彩色边框。这个边框不仅增加了视觉吸引力，还能在 Siri 被使用时提供更加直观的反馈。
+Author: tangerine
+Name: EdgeSiri
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/edgesiri/js.json
+
+Package: com.ethxnn88.visibleisland
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: ethxnn88 <ethxnn88@gmail.com>
+Depends: firmware (>=16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: ./debs/com.ethxnn88.visibleisland_2.0_iphoneos-arm64.deb
+Size: 43112
+MD5sum: 40136a71f47b99b520dc870c93391fff
+SHA1: d85804b27aff4481699dbffae54a9ef92e3b3869
+SHA256: aaf4bca339b1c3ad379ca371a1a4413c06c5fecef8cb471184863795864377c3
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Enable, fix, and customize the Dynamic Island on older devices.
+Author: ethxnn88 <ethxnn88@gmail.com>
+Depiction: https://ethxnn88.github.io/repo/depiction/web/com.ethxnn88.visibleisland.html
+Icon: https://ethxnn88.github.io/repo/assets/com.ethxnn88.visibleisland/icon.png
+Moderndepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
+Name: VisibleIsland
+Sileodepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
+Tags: compatible_min::ios16.0, compatible_max::ios16.6.1
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 978204
+MD5sum: df75acde1146923fbf41f95b075cc06e
+SHA1: c1a8bace0326530adb0d20b0924c7a71af142ee8
+SHA256: 6d8402fdd8d72b7ddc658d1d6f821ba9f424b5d99a5e6ce514bcdb1badc65fc7
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.hk.rootless.cc
+Version: 2.0.5.5
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration
+Filename: ./debs/com.hk.rootless.cc_2.0.5.5_iphoneos-arm64.deb
+Size: 508160
+MD5sum: 5132f7f035858ae4fbe8814441a94a99
+SHA1: 197c02b87d60a229f8827724fbe6a758c455adc1
+SHA256: 40e3f691e9e8bfa2602f13183b5f18b9418d7fe016b5647ec6862abac71f3112
+Section: Tweaks
+Description: 集合的控制中心模块：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX/推特/油管/Filza/Sileo/Tg等、静音、实时CPU使用率、系统运行时间、Snapper2、微信/支付宝付款码、抬起唤醒等。感谢Skypain、Netskao、SOPPPra、MTAC、P2KDev、jailbreak365 +、AnubisTweaks、真皮等各位大佬！！！
+Author: 妖刀
+Name: CCLess++(rootless)
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/CCLess/js.json
+
+Package: com.hoangdus.speedster
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: Hoangdus
+Installed-Size: 380
+Depends: firmware (>= 13.0)
+Filename: ./debs/com.hoangdus.speedster_2.1.1_iphoneos-arm64.deb
+Size: 40896
+MD5sum: 899e3858b86f91f219f2bdf268de075f
+SHA1: ade87be57422c0240dc5de4d32ae38353f10ad1e
+SHA256: 2fc1d10510e4b4860066cfea8d0455a8279db7dc253d0ed1b3cd51d809a7beda
+Section: Tweaks
+Description: Faster iOS animation.
+Author: Hoangdus
+Name: Speedster
+
+Package: com.jd4iphone
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.jd4iphone_1.3_iphoneos-arm64.deb
+Size: 5464
+MD5sum: 133229afd97833770f44a86091bb87ca
+SHA1: e7861699e3dbe3b77ccf0c942445a814f0b6d674
+SHA256: 7d454bce60ad4c8e9ed02bc77f946ace74ffdf0343d91f1bfc74e07ec093913c
+Section: Tweaks
+Description: 京东去广告+精简
+Author: M哥
+Name: 京东（去广告+精简）
+
+Package: com.jontelang.instalauncher2
+Version: 1.11.0
+Architecture: iphoneos-arm64
+Maintainer: Jonathan Winger Lang <jontelang@gmail.com>
+Installed-Size: 1188
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Conflicts: com.jontelang.instalauncher2.beta
+Filename: ./debs/com.jontelang.instalauncher2_1.11.0_iphoneos-arm64.deb
+Size: 203906
+MD5sum: f881738665a556d86eceb0b2f1e39603
+SHA1: 2eab5ef9c913190a3f6ba1c6220619e526e8c5cc
+SHA256: 0c7c6545061871c7e58820d4e67b0dc9c91dc010f54a2101295d02b4e1503e9e
+Section: Tweaks
+Description: Launch ANY app instantly
+Author: Jonathan Winger Lang <jontelang@gmail.com>
+Icon: file:///Library/PreferenceBundles/instalauncher2preferences.bundle/icons/preferences-icon@2x.png
+Name: InstaLauncher 2
+
+Package: com.ketty.tweaktool
+Version: 0.0.1-252+debug
+Architecture: iphoneos-arm64
+Maintainer: Ketty Allen
+Installed-Size: 452
+Depends: firmware (>= 14.0)
+Filename: ./debs/com.ketty.tweaktool_0.0.1-252+debug_iphoneos-arm64.deb
+Size: 408976
+MD5sum: dea1ded922fe1723c524d2e9857d202c
+SHA1: 784f2757b9cc751b4636b271e5c3884b37413f79
+SHA256: 16e9ae731b19306eb050e994dc346b33c05c3daa4f26764b5510a1854387ceb7
+Section: Utilities
+Description: An awesome SwiftUI application!
+Author: Ketty Allen
+Name: TweakTool
+
+Package: com.lclrc.hammerit
+Version: 1.6.8
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3576
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.6.8_iphoneos-arm64.deb
+Size: 896420
+MD5sum: 586da3375ac1fa5e31fdb72e3ca4de88
+SHA1: f1a191d48f27f8a935e697a68aa9cee9c9f5cc02
+SHA256: f3648cc1ca3d829273a98e4bca4e0171a9f439b5f593d4ac6d34a9fb77bb92a4
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.lclrc.hammerit
+Version: 1.7.0
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.0_iphoneos-arm64.deb
+Size: 981312
+MD5sum: 4fb87ce9360d304e8d2465309475ae83
+SHA1: decc2eccd44306c9ff45ab2a3c5b490ba7c19c8d
+SHA256: 7b03aa9c260322bbf2863ae2c89a55e13da9bab4b0c9f5fffa3f78d8d71591bb
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64.deb
+Size: 977970
+MD5sum: d70699b93e4c1d86aa21a963427ca3cd
+SHA1: 575137e624ea6d038c4ab4dcc7da9a01ee417fc6
+SHA256: 541973ff6c9099deae095555627ee2d6c04d405e39ffff5e75a9751d22636cc2
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.lclrc.snapper3.plugins
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce(乌贼力量)
+Installed-Size: 208
+Depends: mobilesubstrate (>= 1.0.5000)
+Filename: ./debs/com.lclrc.snapper3.plugins_1.0_iphoneos-arm64.deb
+Size: 33616
+MD5sum: 60e4f174cffcfbd90ca630eae6386518
+SHA1: 3036be876709e3b7e7405b36bd57e540d1495c60
+SHA256: ca0bd035973d4a9164098cc412eed08cd1e3e8f83d217224dc2b4834d78993b8
+Section: Axs-Tweaks
+Description: including iMark and Piiico for now
+Author: SquidForce
+Name: Plugins For Snapper3
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Piiico/js.json
+
+Package: com.lenglengyu.shortvideodl-rootless
+Version: 1.8.0
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 4848
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo
+Filename: ./debs/com.lenglengyu.shortvideodl-rootless_1.8.0_iphoneos-arm64.deb
+Size: 1334276
+MD5sum: e7fb8fef983f48149a55ca32f74cbe11
+SHA1: 485ea9f1b2543ece62ab0bb89be0d51381d7f861
+SHA256: 958cb2882df0f511aeb2ebea780c2cbe93696f658a0440a2f4556328ba3aa52e
+Section: Tweaks
+Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号视频下载。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
+Name: 短视频助手-Rootless
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/shortvideodlsileo
+
+Package: com.mtac.bridge
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: MTAC • ETHN
+Installed-Size: 7088
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common
+Filename: ./debs/com.mtac.bridge_1.1_iphoneos-arm64.deb
+Size: 4958880
+MD5sum: 2460a2016e51fdc52d426924eabb1cd5
+SHA1: 8ee8deef6fa14f674b2c1b22eb3fbc78fdfa5048
+SHA256: 5f9f3dedcbd9f2bc29c806543daf9ddd710e6827073bc849e3eb4193eae72d7e
+Section: Tweaks
+Description: The Apple Watch homescreen experience brought to iOS
+Author: MTAC • ETHN
+Name: Bridge
+
+Package: com.mtac.lynxtwo
+Version: 2.5.2
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2744
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/com.mtac.lynxtwo_2.5.2_iphoneos-arm64.deb
+Size: 640176
+MD5sum: 6f1095d0ea06ade100d0866993e84851
+SHA1: 4ce906bbc153407eed01d4e7f46101959c39e438
+SHA256: 0015fbe4918cd127efdd0c74ecae5ddf99d84711709b6db3935eeb76dc5d1c3a
+Section: Tweaks
+Description: Ultimate iDevice Customization for iOS 14, 15 & 16
+Author: MTAC
+Name: Lynx 2
+
+Package: com.nahtedetihw.airpodscompanion
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 10668
+Depends: preferenceloader
+Filename: ./debs/com.nahtedetihw.airpodscompanion_1.4_iphoneos-arm64.deb
+Size: 10353096
+MD5sum: eede33623df6e07f3c3976d5c9a42404
+SHA1: 0874c25b17da566d445704ce1669ac136a7fef0e
+SHA256: c44cf0f14e4abd1937bf35846e50f71268fd76306ce3e39d9e9221e492febbff
+Section: Tweaks
+Description: Floating Noise Cancellation control next to volume slider
+Author: Ethan Whited
+Name: AirpodsCompanion
+
+Package: com.nan.givemedeb
+Version: 0.2.1
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/com.nan.givemedeb_0.2.1_iphoneos-arm64.deb
+Size: 2452
+MD5sum: 9400df388ef7ee3a626acd8a95af5521
+SHA1: 685af9088466a32d0bace2719ea6f1b119879d08
+SHA256: 084fe1fad2bda97ba187eb863b70c3cfa8e2b8f4e8bd934e1b21f87afccd209b
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.netskao.appdata
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 14408
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.netskao.appdata_1.4.1_iphoneos-arm64.deb
+Size: 4637852
+MD5sum: 7c02190692158746803f6ccb3a10a708
+SHA1: 27458e206f55e2c25e7394d5848e0ea709bf288c
+SHA256: ba8a51c489687cd2b0b0528b17cc3a9ca8927d513f20b207bde69c720a8f5be8
+Section: Netskao-Tweaks
+Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
+Author: Fouad Raheb
+Name: AppData
+
+Package: com.netskao.appdata
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 3772
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.netskao.appdata_1.4.2_iphoneos-arm64.deb
+Size: 823820
+MD5sum: 090451a77622a645950b9eb617ff0075
+SHA1: 080c3f5babb93c1d27ed2a608f3867862a3d6eab
+SHA256: 1b64374f4ab692101d3c1ab6563b73622c569908b29475f17e6b1b17e6f62f33
+Section: Netskao-Tweaks
+Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
+Author: Fouad Raheb
+Name: AppData
+
+Package: com.netskao.awemefullscreen
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 88
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemefullscreen_1.1-2_iphoneos-arm64.deb
+Size: 17668
+MD5sum: cc8dcc96ae64bde9c8101cae91c21800
+SHA1: a2aba96b66175e2f8e67a5971d80e084810d987a
+SHA256: 82e84e0980e13e3dd1e90c1c28c488f4ff80ab53d94edfa9e0a45a1a1864400d
+Section: Netskao-Tweaks
+Description: Aweme Homepage Full Screen. Tested on version 29.8.0 only, failure will not be maintained
+Author: Netskao
+Name: AwemeFullScreen
+
+Package: com.netskao.dumpdecrypter
+Version: 1.4-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 4308
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.dumpdecrypter_1.4-1_iphoneos-arm64.deb
+Size: 1303692
+MD5sum: c8b0772f8b0ffcf1c56062289c4b0e29
+SHA1: 7e2852f811343fd0afa5d04faa49a9d5059ea91f
+SHA256: 50b1222855a49c5a7642198e7237ea12796e5fad1b17007e824f593b78cc1b82
+Section: Netskao-Tweaks
+Description: Decrypt iOS Apps
+Author: Netskao
+Name: DumpDecrypter
+
+Package: com.netskao.dumpdecrypter
+Version: 1.4-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 4324
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.dumpdecrypter_1.4-4_iphoneos-arm64.deb
+Size: 1294988
+MD5sum: e3523df1dc0e0c7ecbbe313de4e1918c
+SHA1: 9b0018d70acb9a7ed501d32501a654b016b62908
+SHA256: cdbc5fcff5c869c51bbda0cc088e962106f9be6d83654a7842d50e90af1ee540
+Section: Netskao-Tweaks
+Description: Decrypt iOS Apps and Plugins
+Author: Netskao
+Name: DumpDecrypter
+
+Package: com.netskao.pulloverpro
+Version: 2.1.6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2440
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./debs/com.netskao.pulloverpro_2.1.6_iphoneos-arm64.deb
+Size: 695996
+MD5sum: 390f189db06ebbe7510a44a77d9e61af
+SHA1: effe0adbe57f297eb9305480982d190a6a07d7da
+SHA256: 9ba98e8ebae78f22fd5394f714834bfa011e928df80aa87854ad406dc3406900
+Section: Netskao-Tweaks
+Description: A better way to multitask! Fix support for iOS15+
+Author: c1d3r
+Name: PullOver Pro
+
+Package: com.netskao.showtouch
+Version: 1.0.4-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1432
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.netskao.showtouch_1.0.4-3_iphoneos-arm64.deb
+Size: 375530
+MD5sum: 682cc5a1d2d99f4a2d5d795b831f6b02
+SHA1: 23efe1c17af2aaa2c42244f0ab16eaf1de1e34a8
+SHA256: aa76032ae10920e6db19e36a821ab6624baff4077f20c52486091f43be52d56b
+Section: Netskao-Tweaks
+Description: Shows where you touch the screen
+Author: LonestarX
+Name: ShowTouch
+
+Package: com.netskao.storeswitchaccounts
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 460
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.storeswitchaccounts_1.1-4_iphoneos-arm64.deb
+Size: 101968
+MD5sum: cb58c414e3d71825159b301253981871
+SHA1: d620b07f47b2c978c1d813f0690a3bdf27788745
+SHA256: ad4d2c1f314b3557270d8d29529b3f3a7fb747758b6eb826ce77a96cb01bca96
+Section: Netskao-Tweaks
+Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
+Author: Netskao
+Name: StoreSwitchAccounts
+
+Package: com.opa334.choicy
+Version: 1.4.10-3
+Architecture: iphoneos-arm64
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 884
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/com.opa334.choicy_1.4.10-3_iphoneos-arm64.deb
+Size: 104702
+MD5sum: f93895c1e4cd1022da50a49bf615e31b
+SHA1: 7a3d4fa057ee888543853be6aa2c88da845f353e
+SHA256: 66a503737a9e0b14d7050d6f91ce82ebc7bcc44ff5eabac28f01ca4d8663471e
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
+Package: com.opa334.trollstorehelper
+Version: 2.0.15
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 4400
+Filename: ./debs/com.opa334.trollstorehelper_2.0.15_iphoneos-arm64.deb
+Size: 1919638
+MD5sum: 73e14f01c4d3469e118e63e5f752feba
+SHA1: 9438cf3af05d46de6b60c44d9f899a723a55bf48
+SHA256: 232c5e793b4f7e84ce6e97330475f42f6103a97a1f8c4b01ec6db51c9682ff16
+Section: Applications
+Description: Helper utility to install and manage TrollStore!
+Author: opa334
+Name: TrollStore Helper
+
+Package: com.opa334.trollstorehelper
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 4400
+Filename: ./debs/com.opa334.trollstorehelper_2.1_iphoneos-arm64.deb
+Size: 1920334
+MD5sum: 3b73f08f43d6e3809f21c5f2ab798352
+SHA1: c847686ec46801a42c37039132c6f332b25da952
+SHA256: 41464fca0ad7baa60e14a3b57d6cb41e91b87a13689fdfbbc9bc1185fe6b27de
+Section: Applications
+Description: Helper utility to install and manage TrollStore!
+Author: opa334
+Name: TrollStore Helper
+
+Package: com.p2kdev.tinge
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 432
+Depends: firmware (>= 15.0),mobilesubstrate
+Filename: ./debs/com.p2kdev.tinge_1.1_iphoneos-arm64.deb
+Size: 39996
+MD5sum: 8ca10f003a47deb1f6e337745b814907
+SHA1: 5a627b065a36bc0f908894f481bf7aeaaa5518e8
+SHA256: 9d8a218d53c9c2b87a4217ca1075009884ad3a10f2f630062d7633106d4e0206
+Section: Tweaks
+Description: Color your badges with Perfection!
+Author: P2KDev <p2kdev@gmail.com>
+Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
+Name: Tinge
+
 Package: com.xhg.dyhook
 Version: 8.8.9
 Architecture: iphoneos-arm64
