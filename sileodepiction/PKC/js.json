@@ -1,0 +1,147 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://axs6.github.io/repo/images/Axslogo.png",
+    "tintColor": "00BFFF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text":"TG交流频道",
+                    "action":"https://t.me/wxfx8",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                }, 
+               {
+                    "text":"TG分享群组",
+                    "action":"https://t.me/oncar2",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                },      
+               {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 ",
+                    "useRawFormat": true,
+                },      
+               {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{150, 346}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://axs6.github.io/repo/sileodepiction/PKC/Screenshot_01.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://axs6.github.io/repo/sileodepiction/PKC/Screenshot_02.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "A先生",
+                    "title": "维护者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "VCR66T",
+                    "title": "微信"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 9 月 15 日",
+                    "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.9",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.新增[壁纸]功能，可自定义壁纸。\n2. 优化[匿名艾特]、[自动验证好友]、[群动态昵称]、[早午晚安]等功能 。\n3.插件采用新的UI界面。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.新增一个功能[匿名艾特]。\n2. 新增一个功能[批量修改群昵称] 。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.7",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.新增一个功能，详见功能页面。\n2. 修复[关键词回复]仅艾特我的不回复问题 。\n3.修复[朋友圈特别关注]一些问题，如删除WX重装后重复发送问题。\n4.修复[艾特提示]显示错位问题 。\n5.优化关键代码，使插件运行更加流畅。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.6",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.增加可自定义触发间隔时间，群内细化到触发对方。\n2. 支持一条规则多个关键词配置，多关键词用|分隔，例如:你好|在吗|PKC。\n3.支持批量修改配置。\n4.对谁生效-指定模式下，增加对谁不生效(针对群成员)。\n5.增加【仅回复艾特我的]选项】。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.新增[拍一拍隐藏]功能，在拍一拍二次确认，增加快捷按钮，可一键隐藏当前窗口头像、顶部名字和敏感消息。\n2.优化[收款自动回复]自动确认收款改为与规则关联，当命中规则并且该规则打开[自动收款]开关才会收款；增加邀请进群模式下可选回复内容开关。\n3.优化[收款自动回复]如有手动操作退还情况，并且设置了延时回复，将在延时的时间后不再回复。\n4.优化[关键词自动回复]增加邀请进群模式下可选回复内容开关；增加限制回复5分钟内的消息。\n5.优化[群动态昵称]本人发送任何消息都会触发更新，PC端发也一样更新，但需iOS端有后台。",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}
