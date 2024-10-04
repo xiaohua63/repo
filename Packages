@@ -180,6 +180,27 @@ Description: 查淘宝优惠券，查商品历史价
 Author: Mao
 Name: 淘宝优惠券
 
+Package: com.Axs.ThemePro
+Version: 3.0.8
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: MustangYM
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Provides: ThemePro
+Filename: ./debs/com.Axs.ThemePro_3.0.8_iphoneos-arm64.deb
+Size: 6284284
+MD5sum: 3984d2cfd0ff051e5aec138662492b13
+SHA1: adb9d13a03220ac35a8ff47bcd54a2d6bf162be7
+SHA256: 701d9832215d775428bd35dc96ac8977ede8f9da9d67787852f43a77306b6116
+Section: custom
+Priority: optional
+Description: 用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM
+Name: ThemePro-3.0.8
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.bigshot
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -231,6 +252,92 @@ Description: Fix copylog not working on iOS16
 Author: 0xkuj
 Name: CopyLogFix16
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.ersatz
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 504
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.ersatz_1.0.1_iphoneos-arm64.deb
+Size: 49180
+MD5sum: 9953dcffec1f71954ec54ed4d88767a6
+SHA1: 0e52ebd0e62277adee7b32328facb4c0807eeec3
+SHA256: 1d149f6e961a39b4b1113300de541b0990c939a01b09477a11c53b68e823f454
+Section: Axs-Tweaks
+Description: Replace any text, system-wide! 全局替换任意位置的文字。可以用来自己汉化插件，也可以改自己想要显示的文字！
+Author: Skitty
+Name: Ersatz替换文字
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+Sponsor: Axs
+
+Package: com.Axs.keyboard
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 1060
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.keyboard_1.1-8_iphoneos-arm64.deb
+Size: 233660
+MD5sum: 69cc6bd6c91dfb6f843605ad0bf9944d
+SHA1: d8ea3eff48591d08108ea7fa97a7ca80f87c6333
+SHA256: 2bf5f8e3d9eefe963e41e55e1dc90b7f465efe326babdc142ff0bf58f871bd63
+Section: Axs-Tweaks
+Description: 自定义X键盘底部高度、地球底部高度等。可以解决1.3.7版Svp分屏开启后，地球或者语音按不动的问题。
+Author: Axs
+Name: 键盘高度、地球及语音融入键盘
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/jp/js.json
+
+Package: com.Axs.misaka
+Version: 0.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.misaka_0.1-1+debug_iphoneos-arm64.deb
+Size: 5512
+MD5sum: 51b1eb042406e537a44c0f81cdcc3ae0
+SHA1: 9e83c03a15f7f15abf92a3326177721bd48d6bae
+SHA256: cb83cf8668466250d2a1c1142fb552ddd85b659b9a081cb4ba2ca1c3c5b44508
+Description: 注入即生效，没有任何设置。
+Author: Carck
+Name: 去除misaka匿名艾特次数限制
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.msgfilt.rootless
+Version: 1.0-5
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.Axs.msgfilt.rootless_1.0-5_iphoneos-arm64.deb
+Size: 122248
+MD5sum: 7d16902e38afd5cf3b08e975c46fc45d
+SHA1: b37085fe3d6c9f6f5319fd9a6be7c684acf6b544
+SHA256: 0851ce453cf9d01bcf2807c6bf9669dcb64b8e57a3cd1060e8a098eb11ccf45a
+Section: Rootless
+Priority: optional
+Description: 消息屏蔽助手
+Author: Mao
+Name: 消息屏蔽助手
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/msgfilt/js.json
+Sponsor: admin@25mao.com
+
+Package: com.Axs.muteplay
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: uz.ra
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.muteplay_1.0_iphoneos-arm64.deb
+Size: 3856
+MD5sum: 5e20b5cdeac51fdbc78e3d17fde86e6e
+SHA1: aeca1361b6e41fd8681d56714c4a4182ff3e284e
+SHA256: d30ff201d4fdd9fa67e603f5f71845d0599e3af4ddfe0bc0dd6528ebac234ff7
+Section: Axs-Tweaks
+Description: Mute notifications while playing music。播放音乐的时候，不会因为消息通知，影响音量大小。
+Author: uz.ra
+Icon: https://uz-ra.github.io/icons/MutePlay.png
+Name: MutePlay
 
 Package: com.Axs.net.Axon
 Version: 2.1.3
@@ -303,6 +410,337 @@ Author: fiore
 Name: CCBorder
 Sponsor: Axs
 
+Package: com.Axs.net.dleasy
+Version: 2.14.5k
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.dleasy_2.14.5k_iphoneos-arm64.deb
+Size: 5534076
+MD5sum: 0f7c6496cd623ec646b42db333a7e201
+SHA1: c8752b9892955fc0bb2f5f322008424ca89ea9a6
+SHA256: b5c5d0ba5851ee4fe3c5fe6ac1803f243f8c7725f7d2b659800fe92637010ce2
+Section: Tweaks
+Description: Download social media pictures and videos.本插件可以下载各大视频软件里的视频，但是能不能有效，自己尝试，不要屏蔽插件注入APP！由Axs破解
+Author: AhmedBafkir
+Name: DLEasy
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dleasy/js.json
+Sponsor: Axs
+
+Package: com.Axs.net.hideserialnumber
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.hideserialnumber_0.0.4_iphoneos-arm64.deb
+Size: 58620
+MD5sum: 720a074f0646daff6135e53b9ca2ea93
+SHA1: bf4f84974fa3249921b3782fe15f01ceb0869d2e
+SHA256: 6405ea57ff06c78bd8279ee36a612b3dadeee444b09ac5f9a874bda37acaa58c
+Section: Tweaks
+Description: Hide Serial Number in Settings About page.在“设置关于”页面中隐藏/伪装序列号等相关信息。
+Author: ichitaso
+Name: HideSerialNumber
+Sponsor: Axs
+
+Package: com.Axs.onesettings
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Installed-Size: 1117
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.creaturecoding.shuffle
+Replaces: com.twickd.nightwind.onesettings
+Filename: ./debs/com.Axs.onesettings_2.1.1_iphoneos-arm64.deb
+Size: 220564
+MD5sum: a5d8807c4325c3b66c98580a92787d39
+SHA1: 02a00f517c9d3d17e4de369bcc87fd3ba0abc5ad
+SHA256: b8bf7b5f9abf5536b1984b599455f5e6b5d4f79f326fc5446cfec7ad868f8d16
+Section: Axs-Tweaks
+Description: 对您的设置应用程序进行了极大的增强！
+Author: Nightwind <nightwinddev@gmail.com>
+Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
+Name: OneSettings
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/onesettings/js.json
+
+Package: com.Axs.picsew
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.Axs.picsew_0.0.1_iphoneos-arm64.deb
+Size: 3048
+MD5sum: f8f6aa7477861e62a8c395a1506fb317
+SHA1: 8032ebdb07944c11a44ff002d4f2e284157e47aa
+SHA256: 2a3c5c84a199a1308179b6b0ff3e962fb17803fe3263c031b4402a41fc3b940f
+Section: Axs-Tweaks
+Description: Picsew是一款非常好用的长截图软件！使用方法：App Store搜索下载Picsew。用appdata降级到3.8.6版本，打开Picsew，点击购买即可解锁专业版，付款时点击取消！后期可以一直在苹果商店更新升级使用。
+Author: Axs
+Name: Picsew长截图 破解-Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Picsew/js.json
+Sponsor: Axs
+
+Package: com.Axs.primalfolder2
+Version: 0.1.2
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.primalfolder, me.qusic.taptapfolder, com.lizynz.folder6plus, info.rpdev.betterfourbyyfourfolders, com.ichitaso.primalfolder2
+Filename: ./debs/com.Axs.primalfolder2_0.1.2_iphoneos-arm64.deb
+Size: 50912
+MD5sum: 41382ed292b8820b858f84c450caa7b3
+SHA1: 86fab215166beebaea22080da92de48ee5e7d41c
+SHA256: 23194c4428ee58c29a74ab9ca5e4205235735ccd4c1bab8bc928558b8f5f75c3
+Section: Axs-Tweaks
+Description: 将文件夹显示为图标等多功能文件夹。
+Author: ichitaso
+Name: PrimalFolder2
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.qqtc
+Version: 1.1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 1600
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.Axs.qqtc_1.1.1-1_iphoneos-arm64.deb
+Size: 577392
+MD5sum: a9dab2b07ccaeb0ba6065585ca26e777
+SHA1: 472bd91dd64e73a62cb1e4e564c4b70f374a7e11
+SHA256: bd6fe8ae356a251bf5a8e99d5497b5a029c4a3ce8a4129dc538f7e1b5e0180ce
+Section: Axs-Tweaks
+Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
+Author: Axs
+Name: QQ新版防撤回
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.recorder-bubble
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 304
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.Axs.recorder-bubble_0.0.1_iphoneos-arm64.deb
+Size: 41812
+MD5sum: fd7a8060cf900388e1a0855c48186aca
+SHA1: f0b609ee92a34f4d37a78704c1e998e9a075c329
+SHA256: 591c5a59efd99ae82b77fbda38a3b0c03881851e649a21898ab47031ee2cc515
+Section: Axs-Tweaks
+Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。
+Author: sunshinesong
+Name: 录屏花瓣
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.removewidgetbg
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.Axs.removewidgetbg_1.3_iphoneos-arm64.deb
+Size: 30140
+MD5sum: 40500b3eb781a461fea3f06d11fbda9b
+SHA1: 1d706762499031252754515b177b76810bbfe602
+SHA256: 033d4827a273765abdfbcfb0d07d2bffb32f71b8c74879561ee98a9b5694427e
+Section: Axs-Tweaks
+Description: 移除小组件背景，让桌面更干净。
+Author: Lessica <82flex@gmail.com>
+Name: 移除小组件背景
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.settingsrevamp
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: SOPPPra
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, com.sop.settingsrevamp
+Filename: ./debs/com.Axs.settingsrevamp_2.1.1_iphoneos-arm64.deb
+Size: 97580
+MD5sum: 8183afa7efb25e4976480690f3f877f1
+SHA1: 427dddbf70ca2d5d825a1aca267499319f2f697a
+SHA256: 9edeab2018f72984ef6d8bd7c93b345d22bcd7becccc4dc9222a7b5bd62aa827
+Section: Axs-Tweaks
+Description: 设置自定义、归类插件，源内有汉化包。
+Author: SOPPPra
+Name: SettingsRevamp(rootless)
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/settingsrevamp/js.json
+
+Package: com.Axs.settingsrevamp.hh
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.settingsrevamp.hh_2.1.1_iphoneos-arm64.deb
+Size: 7692
+MD5sum: 6ac6b080f06dfcbd50514272d8defa4b
+SHA1: 52da8ab7cfd9068f2ec3f6caea5d144820ac95e3
+SHA256: 0d68999b521bd65d1ebe03864a23440e5be977d921ca44b4a888f420f7c53752
+Section: Axs-Tweaks
+Description: 将越狱插件收纳在一起，美观，方便管理，此插件为汉化，配合主包使用。
+Author: Axs
+Name: SettingsRevamp汉化
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/settingsrevamp/js.json
+
+Package: com.Axs.sixls
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 2236
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.sixls_1.1-1_iphoneos-arm64.deb
+Size: 1464204
+MD5sum: 67c57ee1e12b7c269bc2178e853369b5
+SHA1: 1441df1cb46ee58c4c6a1e234c5aa6b58a0b3da9
+SHA256: feb506d17972f6d2a0fa2881a40c451f11ccf0f32dfbafbc2e85714c39b6e513
+Section: Axs-Tweaks
+Description: iOS 6 Style Lock Screen!
+Author: Axs
+Depiction: 将ios6的经典外观带到您的锁屏界面上，支持iOS 11到 16。目前功能：滑动解锁、通知、充电视图、声音等!
+Icon: https://axs6.github.io/repo/sileodepiction/sixls/sixls.png
+Name: ios6经典锁屏及声音
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/sixls/js.json
+
+Package: com.Axs.split-view-pro
+Version: 1.3.7
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 5624
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/com.Axs.split-view-pro_1.3.7_iphoneos-arm64.deb
+Size: 1537152
+MD5sum: b6a422a6dd99ab8669a277c2d73ecf13
+SHA1: 5fba79375910b0b72f7e955571809d852f859a00
+SHA256: e2b0379937c20d9b5ebf3328dc0a9bff8d8cc1ca48cea21287717ba6e1771eb6
+Section: 分屏插件
+Description: 分屏，不必太复杂，一切从简即可。
+Author: Axs
+Name: Svp分屏独立版(rootless)
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/svp/js.json
+Ts: sp-sss
+
+Package: com.Axs.swipeextenderx
+Version: 1.6.1~2
+Architecture: iphoneos-arm64
+Maintainer: MiRO
+Installed-Size: 614
+Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.Axs.swipeextenderx_1.6.1~2_iphoneos-arm64.deb
+Size: 85716
+MD5sum: 0863881b5649de657680e3e08fbcb4fa
+SHA1: 7847170a763402fff6a3c97a89e21f860b66b62f
+SHA256: 5fc69959462ca7e035dfa11feeb82cd1498faf52cfd28b1649cd6b224abed601
+Section: Axs-Tweaks
+Description: 通过传奇的 SwipeExpander 调整的完全重制，重塑您的键盘，专为现代 iOS 设计！
+Author: MiRO
+Icon: https://axs6.github.io/repo/sileodepiction/SwipeExtenderX/icon.png
+Name: SwipeExtenderX
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/SwipeExtenderX/js.json
+
+Package: com.Axs.touchvis
+Version: 2.8-1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.touchvis_2.8_iphoneos-arm64.deb
+Size: 708636
+MD5sum: b4b0d808c0d8b8abc26882cb3e145107
+SHA1: bc79f6b25190034b0359bfc49a11bf2591566f40
+SHA256: ac2e5ad07fb8894a2f26faecd55d45661a93ad030b6545d4266f440696eafa7b
+Section: 录屏轨迹
+Description: Displays your touch interactions! 显示触摸屏幕的轨迹；很酷炫，很丝滑的一个插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。
+Author: Lessica
+Icon: https://axs6.github.io/repo/sileodepiction/touchvis/icon.png
+Name: Touch-Viz触摸轨迹
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/touchvis/js.json
+
+Package: com.Axs.wcplugins.rootless
+Version: 0.1-3
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.Axs.wcplugins.rootless_0.1-3_iphoneos-arm64.deb
+Size: 19720
+MD5sum: c1a7ad1e107063d93f10c1317a395396
+SHA1: 7dfb84849f411c484f4da7d453b6b758ed656c8d
+SHA256: bec9a719c4409e15d4b3f5d4eba46937364aded3e6a81adc7ce9c5b1562fb644
+Section: 微信插件
+Priority: optional
+Description: 将微信插件全部收纳在一起方法操作，更美观。
+Author: Mao
+Name: 微信插件管理
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+Sponsor: Axs
+
+Package: com.Axs.wechatnotiavatar
+Version: 1.2-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2336
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/com.Axs.wechatnotiavatar_1.2-5_iphoneos-arm64.deb
+Size: 523300
+MD5sum: 3d500129f301c0b2dc91652302f13975
+SHA1: 0ee5e94e8b4c1168eb460f8b6d6c30ef5e491f24
+SHA256: 3ed863932001a675934d2c4b51e9768d467da95f8643976152e4e1ec2bbfcb18
+Section: 微信插件
+Description: Display Notification Avatars for WeChat App using iOS15+ APIs
+Author: Netskao
+Name: 微信通知头像
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.weifeng
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 884
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.weifeng_1.0_iphoneos-arm64.deb
+Size: 333864
+MD5sum: eedec2aa37ae822535637a2640b0d34b
+SHA1: c8374e62e13c726bee65e175c75c4e47fb5bf9c6
+SHA256: 5f844e166b2d56ed2a9a92c95fa84ee100cda686af8f8822f65388b3ad6ed2f0
+Section: Axs-Tweaks
+Description: 开启会员功能，去除你能看到的所有广告，适用威锋7.0.3及之后的版本！威锋APP在苹果商城下载！
+Author: 小果子
+Name: 解锁威锋vip
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+Sponsor: Axs
+
+Package: com.Axs.wtvrbglauncher
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Lessica
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.wtvrbglauncher_1.0_iphoneos-arm64.deb
+Size: 22872
+MD5sum: 3c6d43018cd1d1891843ccb90345145b
+SHA1: ee11ab4e8b70c7434f968769284b60312955c3f4
+SHA256: ade213fe0da2a98d31ad8fc0fd53f499fa5591dbaf1b58e4fb2bf79be3ef992f
+Section: Axs-Tweaks
+Description: 中文输入法语音转文字免跳转插件。无设置选项，安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞
+Author: Lessica
+Name: 语音转文字免跳转
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.wtvrbglauncher
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Lessica
+Installed-Size: 404
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.wtvrbglauncher_1.1_iphoneos-arm64.deb
+Size: 23184
+MD5sum: acc8974215ddc506967b66780bdfab92
+SHA1: 979acba4833a41c35b8210d8404abb11e1f358d9
+SHA256: 530a6cdfb65c02c5f91b93f7f55d71b574c6a08be360ceaac7906c646e6d17da
+Section: Axs-Tweaks
+Description: 中文输入法语音转文字免跳转插件。无设置选项，安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞
+Author: Lessica
+Name: 语音转文字免跳转
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
 Package: com.anthopak.quickprefs-rootless
 Version: 1.3.3
 Architecture: iphoneos-arm64
@@ -353,6 +791,97 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: ash
 Name: MilkyWay4-iOS16Fix
+
+Package: com.brend0n.qqmusicdesktoplyrics
+Version: 0.3.9~b1
+Architecture: iphoneos-arm64
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 2748
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.1.0) | firmware (>= 15.0), preferenceloader
+Filename: ./debs/com.brend0n.qqmusicdesktoplyrics_0.3.9~b1_iphoneos-arm64 .deb
+Size: 623244
+MD5sum: d639a2ed4bc02f3f0dea0475cf6289f6
+SHA1: 0d4cbbcaa83a7113ad2764e285462a6db32b0f75
+SHA256: 76e47ff936062bb565916ad9601614f9c180b6b949172266fd073bf6c8dce21d
+Section: Tweaks
+Description: 桌面歌词，任意位置显示，支持QQ、网易云、酷狗、酷我、咪咕，可能支持Spotify，放心玩吧！
+Author: Brend0n <brendonjkding@126.com>
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.qqmusicdesktoplyrics
+Name: DesktopLyrics
+Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.qqmusicdesktoplyrics/depiction.json
+
+Package: com.creaturecoding.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64.deb
+Size: 254336
+MD5sum: 12127d0a67f0fe733fbb1f55d55fc9c4
+SHA1: 1fb8d8f4247ec44f7c61629e5f4ef455a682c4a0
+SHA256: 3ce996b98ecdb873527766b69d8b7b86cd959f1f7d3af5dc50d4cf56f0bbad15
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
+Package: com.daodao.snapper3
+Version: 1.0k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Filename: ./debs/com.daodao.snapper3_1.0k_iphoneos-arm64.deb
+Size: 911244
+MD5sum: c3ebac4cff2509f4727211a46278748b
+SHA1: c1bade2b431aae2f03b661d3d9f58bfe6e47c0f7
+SHA256: 3b89d1b0bdadb6af537ba10c90100598c3be521494294b0e8bfc7967071b7233
+Section: 嗨-工具
+Description: 便捷截屏3，已由CBZ破解。已修正OCR，源内可安装中文包。
+Author: Jonathan Winger-lang
+Name: Snapper 3(rootless)
+
+Package: com.dumpapp.wechat-rootless
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 24000
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/com.dumpapp.wechat-rootless_2.0.1_iphoneos-arm64.deb
+Size: 9329474
+MD5sum: 4c9e39f53db5740abc1851ea14fe4130
+SHA1: 21ec3fb45a63f57300bdd42e9498d0585e6a2c2f
+SHA256: 6f7b671d1a535ba5b18beb42ec6ac187840c18d9a702a8eedaf255a07c7d755f
+Section: Tweaks
+Description: 锤子助手插件
+Author: DumpApp
+Name: 锤子助手-Rootless
+
+Package: com.xhg.dyhook
+Version: 8.8.9
+Architecture: iphoneos-arm64
+Maintainer: 人妖嘉嘉
+Installed-Size: 5280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.Axs.dydqc_2.0.3-6_iphoneos-arm64.deb
+Size: 1895628
+MD5sum: 99efe287157ef002a291972e43be0e85
+SHA1: b385f1ec8f510df305351aa6b810c136a18a3115
+SHA256: 3b6c3cb0308dffac5ef8426a4b1cc8f84385f138242ce8b783f93d245e88a7c6
+Section: Tweaks
+Description: 成功让人妖嘉嘉取消了入群费21.88元
+Author: 人妖嘉嘉
+Name: 抖音大气层-永久版
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dyhook/js.json
 
 Package: com.yourepo.0xkuj.storeswitcher2rootless
 Version: 1.0.4
