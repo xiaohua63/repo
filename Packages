@@ -38,6 +38,27 @@ Description: MisakaHelper
 Author: Misaka
 Name: MisakaHelper
 
+Package: MisakaHelper
+Version: 2.1-0-END
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Provides: MisakaHelper
+Filename: ./debs/MisakaHelper_2.1-0-END_iphoneos-arm64.deb
+Size: 13177896
+MD5sum: ad634e0f1a1f866db0ce6e31e85bb6e4
+SHA1: 15aefd671c327c0c4b014cf797ffd2fd287be278
+SHA256: c9963d4eb9bf255628b3814049fb4752ee1e5932cc07507e6d9a089498588918
+Section: 微信插件
+Priority: optional
+Description: MisakaHelper
+Author: Misaka
+Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
+
 Package: cn.Axs.swipeextenderx
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -1704,4 +1725,71 @@ Author: Dcsyhi <dcsyhi1998@gmail.com>
 Depiction: https://chariz.com/get/zetsu
 Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
 Name: Zetsu
+
+Package: netskao.awemepurification-rootless
+Version: 2.9-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2480
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/netskao.awemepurification-rootless_2.9-6_iphoneos-arm64.deb
+Size: 1176056
+MD5sum: b8ba3d15fd33ee25e644b4c38afda709
+SHA1: 3c518fe1905a3ad2e1c53b314e6344459cd96e67
+SHA256: ee49cd31e5b335f0e6cb7ba0639875054120e33c0120cb6d4b7414a14605c07d
+Section: Netskao-Tweaks
+Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
+Author: Netskao
+Name: 抖音净化-Rootless
+
+Package: netskao.tiktokhooks
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 304
+Depends: mobilesubstrate, firmware (>= 9.3)
+Filename: ./debs/netskao.tiktokhooks_1.1-4_iphoneos-arm64.deb
+Size: 109410
+MD5sum: a572c3b2bbd4426dfda5ac02722598fc
+SHA1: 3a92ee02c40d604f0399dfdac3da505bec7d4157
+SHA256: b42fde6cacef11a598bec18999a90cd02e628d69832c466526380a2a2e8d30c3
+Section: Netskao-Tweaks
+Description: TikTok save no watermark videos, Click on the original share button use. TikTok regions can be selected on the settings page. Only version 20.7.0 and above are supported
+Author: Netskao
+Name: TikTok Hooks
+
+Package: netskao.wcpureextension
+Version: 4.2-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 19660
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: netskao.wechatpurification
+Replaces: netskao.wechatpurification
+Provides: netskao.wechatpurification
+Filename: ./debs/netskao.wcpureextension_4.2-6_iphoneos-arm64.deb
+Size: 7085012
+MD5sum: 0b8d3eb12c0485585da6657afeb272e4
+SHA1: cb943067e5734a7b300ed8d55dec14c42d9ddf02
+SHA256: c500588113d6ea84f56f7222fc491d848e2cd2c8adec988662f65a85cd2096da
+Section: Netskao-Tweaks
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Author: Netskao
+Name: 微信净化
+
+Package: netskao.wechatpurification
+Version: 4.2-6-END
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 16708
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/netskao.wechatpurification_4.2-6-END_iphoneos-arm64.deb
+Size: 6278058
+MD5sum: e386a95420df2b52d4638bc60a7cd07e
+SHA1: ddff36cdf9de33b59a66b380b5eaa3c3244d6efa
+SHA256: 61ab3d42b2d7a41c2dbc1670987874b3971c4ad33ca7c956544584785e2b71c6
+Section: Netskao-Tweaks
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Author: Netskao
+Name: 微信净化END
 
