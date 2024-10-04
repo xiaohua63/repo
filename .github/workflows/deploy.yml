@@ -30,7 +30,19 @@ jobs:
     - name: Ensure script has execute permissions
       run: chmod +x ./generate_packages.sh
 
+    - name: Check if Packages file exists
+      id: check_packages
+      run: |
+        if [ -f Packages ]; then
+          echo "Packages file exists."
+          echo "PACKAGES_EXISTS=true" >> $GITHUB_ENV
+        else
+          echo "Packages file does not exist."
+          echo "PACKAGES_EXISTS=false" >> $GITHUB_ENV
+        fi
+
     - name: Run generate_packages.sh
+      if: env.PACKAGES_EXISTS == 'false'
       run: bash ./generate_packages.sh
 
     - name: Commit and push updated Packages
