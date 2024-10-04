@@ -59,6 +59,26 @@ Author: Misaka
 Name: MisakaHelper
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
+Package: ThemePro
+Version: 3.1.1
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: MustangYM <MustangYM@yeah.net>
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Provides: ThemePro
+Filename: ./debs/ThemePro-iphoneos-arm64_Rootless.deb
+Size: 6310344
+MD5sum: bd8745c78b782a3b5579cb4c6b3c48a0
+SHA1: 02cdabd0f80216e593fd86f13ec8d870c7dbe103
+SHA256: 952da9257d3a4d8fa1211790f6558be0a0a77ad76e31cf383edc83317796ca22
+Section: custom
+Priority: optional
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM
+Name: ThemePro-3.1.1-Rootless
+
 Package: cn.Axs.swipeextenderx
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -609,6 +629,24 @@ Author: sunshinesong
 Name: 录屏花瓣
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.recordpause
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/com.Axs.recordpause_2.0.2_iphoneos-arm64.deb
+Size: 10156
+MD5sum: f8723a78bf4d63c45071612d0a0e485e
+SHA1: d54da6b4cc8960c44644a650851cf54e71cb2e51
+SHA256: 421579beab9c07cece855b789b8c05ea3fdc73805a514726d082f8c5adca422e
+Section: C-系统增强
+Description: Pause/resume video recording.使用相机拍摄视频的时候，左侧有一个暂停功能。方便转场使用。
+Author: PoomSmart
+Name: RecordPause录像暂停
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.removewidgetbg
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -869,6 +907,36 @@ Description: 黄白助手-微信插件                                          
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Rootless
 
+Package: com.HBWechatHelper.ailun
+Version: 1.7.4
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/黄白助手1.7.4_无根.deb
+Size: 9449436
+MD5sum: aaead30c42654d43e8d4228cab654465
+SHA1: ff51fa92d3643e095646a3f4624f06ae1562307c
+SHA256: 53f11c2ca313b2e892b28e20391510e995e09a35c7835aed7e7351f50390c232
+Section: Mao
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Rootless
+
+Package: com.HBWechatHelper.ailun
+Version: 1.7.5
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/黄白助手1.7.5_无根.deb
+Size: 9410784
+MD5sum: 0e8fb41991f1aac7b48612dcdb01b4b5
+SHA1: f3b547a0ccbc921e0da3924b3212cf4f3576b519
+SHA256: 3f4cdf55a609d9696294246feffea64a273b4045e5e32688cae3b861708807bb
+Section: Mao
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Rootless
+
 Package: com.anthopak.quickprefs-rootless
 Version: 1.3.3
 Architecture: iphoneos-arm64
@@ -1117,6 +1185,24 @@ Size: 572656
 MD5sum: 9aa4227ea72b1acb9c1758af24e7021d
 SHA1: f8f2933f8756a216b74fb1f68bb4f79ad346c0ec
 SHA256: 2be5276c2d29e810f27d6d13e5e7e86d98278a6f44518bb50d3bcc517484f29e
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
+
+Package: com.curtin.pkc.rootless
+Version: 0.6-0
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.6-0.deb
+Size: 595452
+MD5sum: f0828601fee977f991fe5d19c91b4fb9
+SHA1: ba3957e31a62237c579772fd161a92c3944dd6e8
+SHA256: 8355a33b85f37742df9c21541bbdcb861c25d1b87911e54cc23ea16e4e92b011
 Section: PKC-插件
 Priority: optional
 Homepage: https://github.com/curtinlv
@@ -1935,6 +2021,67 @@ Section: Tweaks
 Description: Adds a button to switch account in App Store account page on iOS 11+.
 Author: 0xkuj <0xkujz@gmail.com>
 Name: StoreSwitcher 2 (rootless)
+
+Package: com.yourepo.trollstore.noredirect
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.yourepo.trollstore.noredirect_1.2_iphoneos-arm64.deb
+Size: 36956
+MD5sum: cd08f34c4cb69bbaf2b0408b0ed5a4e3
+SHA1: a415c89e5c2dc85507301b2f2f0a7cdb9fd0d549
+SHA256: ab0a388eb6517840a500c3f55e7a94ea8a1c353371562ff5b0dd448bf1645950
+Section: B-系统增强
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Author: Lessica <82flex@gmail.com>
+Name: No Redirect禁止启动应用
+
+Package: com.yourepo.trollstore.sneakycam-rootless
+Version: 2.0.7
+Architecture: iphoneos-arm64
+Maintainer: 搬运工 <qiaozhani000@163.com>
+Depends: mobilesubstrate, preferenceloader, oldabi
+Filename: ./debs/com.yourepo.trollstore.sneakycam-rootless_2.0.7_iphoneos-arm64.deb
+Size: 140014
+MD5sum: 434f0871ab4a05724b0035ee63678fdb
+SHA1: edf404035a9bba77470ed8ea97f7e25e0c905411
+SHA256: cf67e818d46f0d26820b034e5e16fcc4648af17cd7ac1db60308aa02ec4ac3ea
+Section: B-系统增强
+Description: Discretely take a photo or record a video from anywhere, even with your screen off.即使在屏幕关闭的情况下，也可以在任何地方随意拍照或录制视频。 使用方法∶快速按两次音量上键开始录制视频，再次按两次停止录制，快速按两次音量下键拍摄照片。 此插件为转插，需要legacy64插件支持。
+Author: Spark <qiaozhani000@163.com>
+Name: 隐私相机SneakyCam
+
+Package: com.yourepo.trollstore.telegramreturnenterkeyreturnkeychangedtosendfunct
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: IP Man <qiaozhani000@163.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.yourepo.trollstore.telegramreturnenterkeyreturnkeychangedtosendfunct_1.0_iphoneos-arm64.deb
+Size: 3720
+MD5sum: 5a72a90705492fbf36827ad75b37807a
+SHA1: b48a3cae41e23081545aa407d3e62c884d97b027
+SHA256: 8a6c51972ff842403c62993268350ae5f7ff2d775a04d1d823eef14217d6e394
+Section: Tweaks
+Description: Telegram* 回车键/换行键 改为“发送”功能
+Author: IP Man <qiaozhani000@163.com>
+Icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/Telegram.png
+Name: Telegram Return 回车键
+
+Package: com.yourepo.trollstore.wechatversion33
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 秋名山 <qiaozhani000@163.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.trollstore.wechatversion33_1.0_iphoneos-arm64.deb
+Size: 4324
+MD5sum: 8e33c1fc17e9275b682fd7a912e67adc
+SHA1: bba962a4cc922874bf6f38e29e97f159746accd5
+SHA256: 9c129a3b3967e6f670b7e0193a4b7121827f16b5c6e771da8112a1f69ab12dff
+Section: A-微信插件
+Description: 修改微信版本号。
+Author: 秋名山 <qiaozhani000@163.com>
+Name: WeChatVersion33
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
