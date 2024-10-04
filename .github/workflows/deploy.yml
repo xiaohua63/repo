@@ -3,9 +3,18 @@ name: Deploy Sileo Repo
 on:
   push:
     branches:
-      - main  # 监听 main 分支上的变化
+      - main
     paths:
-      - 'debs/**'  # 监听 debs 目录下的文件变化
+      - 'debs/**'
+      - 'Packages'
+      - 'Packages.gz'
+      - 'Packages.bz2'
+  workflow_dispatch:
+
+permissions:
+  contents: write  # 确保有推送权限
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -26,18 +35,18 @@ jobs:
 
     - name: Commit and push updated Packages
       env:
-        GITHUB_TOKEN: ${{ secrets.PAT }}  # 使用新的个人访问令牌
+        GITHUB_TOKEN: ${{ secrets.PAT }}  # 使用 secrets.PAT
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git pull origin main  # 拉取远程更改
         git add Packages Packages.bz2 Packages.gz Release
-        git commit -m "Update Packages files" || echo "No changes to commit"
-        git push origin main || echo "Push failed"
+        git commit -m "Update Packages files"
+        git push https://$GITHUB_ACTOR:${{ secrets.PAT }}@github.com/${{ github.repository }}.git main
 
     - name: Deploy to GitHub Pages
+      if: success()
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.PAT }}  # 使用新的个人访问令牌
+        github_token: ${{ secrets.PAT }}  # 使用 secrets.PAT
         publish_branch: gh-pages
-        publish_dir: ./  # 确保你希望发布的内容在仓库根目录下
+        publish_dir: ./
