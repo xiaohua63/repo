@@ -1,0 +1,198 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://axs66.github.io/repo/images/Axslogo.png",
+    "tintColor": "00BFFF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text":"✈分享频道",
+                    "action":"https://t.me/wxfx8",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                }, 
+               {
+                    "text":"✈交流群组",
+                    "action": "https://t.me/oncar2",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "微信misaka助手，和其它类型微信插件类似，更多群功能!自行体验!可以解决低版本微信不能使用小程序问题!好像也可以抢红包!可以强制关注公众号，比如解决微信净化插件问题!",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{300, 346.45}",
+                    "screenshots": [                       
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://axs66.github.io/repo/sileodepiction/Misaka/Screenshot_01.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "A先生",
+                    "title": "维护者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "VCR66T",
+                    "title": "微信"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 08 月 29 日",
+                    "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.1.0-END",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.免除授权机制。\n2.免除关注公众号。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.1.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.修复防撤回同步，不显示撤回人问题。\n2.分组消息优先，列表消息优先，按时间排序。\n3.新增【截图套壳】功能：先把模板包保存到本地，Misaka-常规功能-使用模板-导入。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.9",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.优化授权逻辑。\n2.优化关键字回复的逻辑和界面。\n3.新增后台消息提醒。\n4.新增屏蔽群里某用户的触发（全局）（点击用户头像，右上角，屏蔽关键字）。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "添加临时授权至9.5号。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.7",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复上一版本部分用户闪退的情况。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.6",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.关键字群邀请，添加快速邀请，检测群聊人数功能。\n2.快速邀请：遍历设置好待邀请的群聊，直接邀请一个未满人的群。\n3.检测群聊：检测好待邀请的群聊中，每个群的当前人数。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复授权闪退问题。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1修复部分用户检测不了授权群问题。\n2.修复ipad端，悬浮球会闪退问题。\n3.修复自动通过好友有概率不回复内容的问题。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复202版本识别二维码时会弹窗的问题。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "新增1.在首页+ 或者悬浮球快速到找该消息。\n2.新增好友设置标签。新增红包详情。\n3.支持批量发送分组成员名片给指定的人。\n4.定时任务新增以每N分钟、每N小时模式触发任务。\n5.新增检测重复群功能。",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}
