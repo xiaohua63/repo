@@ -662,6 +662,23 @@ Author: Lessica <82flex@gmail.com>
 Name: 移除小组件背景
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.removewidgetbg
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.Axs.removewidgetbg_1.6_iphoneos-arm64.deb
+Size: 30196
+MD5sum: f364ce45d95a9adb2a9f46736a2d31f9
+SHA1: 78a2860e8e184abf8eb40d3dc915383f3aa3a3e6
+SHA256: 01e7c628a8291a56891c1753c50e3e6f5c0f256d6420fbbaeb04c779822a637b
+Section: B-系统增强
+Description: Remove the background of the widgets on the home screen.
+Author: Lessica <82flex@gmail.com>
+Icon: https://axs66.github.io/repo/icon/ycxzjbj.png
+Name: 移除小组件背景
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/pingfan/js.json
+
 Package: com.Axs.settingsrevamp
 Version: 2.1.1
 Architecture: iphoneos-arm64
