@@ -2099,21 +2099,6 @@ Author: Brend0n <qiaozhani000@163.com>
 Icon: https://axs6.github.io/repo/icon/settings.png
 Name: 注销不锁屏
 
-Package: com.yourepo.trollstore.noredirect
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
-Filename: ./debs/com.yourepo.trollstore.noredirect_1.2_iphoneos-arm64.deb
-Size: 36956
-MD5sum: cd08f34c4cb69bbaf2b0408b0ed5a4e3
-SHA1: a415c89e5c2dc85507301b2f2f0a7cdb9fd0d549
-SHA256: ab0a388eb6517840a500c3f55e7a94ea8a1c353371562ff5b0dd448bf1645950
-Section: B-系统增强
-Description: Stop specified apps from redirecting to App Store, Safari or other apps.
-Author: Lessica <82flex@gmail.com>
-Name: No Redirect禁止启动应用
-
 Package: com.yourepo.trollstore.telegramreturnenterkeyreturnkeychangedtosendfunct
 Version: 1.0
 Architecture: iphoneos-arm64
