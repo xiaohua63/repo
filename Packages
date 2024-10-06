@@ -309,6 +309,23 @@ Name: Ersatz替换文字
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 Sponsor: Axs
 
+Package: com.Axs.h5gg
+Version: 7.9.1
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.Axs.h5gg_7.9.1_iphoneos-arm64.deb
+Size: 2104404
+MD5sum: bbe808177f3aa60ea2b104fd82e20466
+SHA1: 6bcde0b2d4d6463eacd1bd24fda1eef04a1dc345
+SHA256: 57c80c15530f2cb08bccab6d57e0c6caac5eb1b354a8a2f91b8177dcb341b091
+Section: Axs-Tweaks
+Description: 游戏开挂神器，会用的使用，不会用的就不要安装。
+Author: tuancc
+Icon: https://axs66.github.io/repo/icon/h5gg.png
+Name: H5GG跨进程悬浮版
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/h5gg/js.json
+
 Package: com.Axs.keyboard
 Version: 1.1-8
 Architecture: iphoneos-arm64
