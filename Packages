@@ -205,11 +205,11 @@ Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
 Filename: ./debs/com.25mao.leftpan.rootless_1.0-6_iphoneos-arm64.deb
-Size: 44360
-MD5sum: 165de5189906c67723950756d1615e2a
-SHA1: f3bca55d390e5c3b3b43aeca3bb2c22089b6d42c
-SHA256: 7518729108658add2f0d539647dc2a385f28f8052cdfd70388505181ac83a005
-Section: C-系统增强
+Size: 44296
+MD5sum: d131aaac8b31204c6d1b4620ccbbfe33
+SHA1: 69761e0b26feb0fd1dab379f3450991a26973f2e
+SHA256: 3fc22983c3def3a19d0a15eb7925565e264dade8996ada6cb7f2a78264b8ce92
+Section: 系统增强
 Priority: optional
 Description: 左滑返回上一页面
 Author: Mao
@@ -568,17 +568,17 @@ Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcu
 Conflicts: com.creaturecoding.shuffle
 Replaces: com.twickd.nightwind.onesettings
 Filename: ./debs/com.Axs.onesettings_2.2_iphoneos-arm64.deb
-Size: 207016
-MD5sum: 979f18748a3b1251beb896e1f4cd1045
-SHA1: 6e4c4771d8384c79f726da13b38077efbd0cf41e
-SHA256: 1d3ed835ba4a72a8b4683f8d08c77bad2b3d99c11976068c081ea1a6a4b8009f
-Section: G-越狱插件收纳
+Size: 206996
+MD5sum: 04f0e9d4e003361f296d59c30d2b291f
+SHA1: b3a8e8b6f8338007e6901bf959fbf5d156f23bdd
+SHA256: 92a7dbc9572b5c674e69f0a8cdcb2b6fb1d2061f61f0ae7d58431fbfdeaeede8
+Section: 越狱插件收纳
 Description: A great enhancement to your Settings App!
 Tag: cydia::commercial, compatible_min::ios14.0
 Author: Nightwind <nightwinddev@gmail.com>
-Icon: https://axs6.github.io/repo/icon/onesettings.png
+Icon: https://axs66.github.io/repo/icon/onesettings.png
 Name: OneSettings
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/onesettings/js.json
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/onesettings/js.json
 
 Package: com.Axs.picsew
 Version: 0.0.1
@@ -605,10 +605,10 @@ Maintainer: Phuc Do
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
 Filename: ./debs/com.Axs.plamyuipro_1.0_iphoneos-arm64.deb
 Size: 728004
-MD5sum: 90cccc2a1f03f0f0fbcb7e9f71a2dad1
-SHA1: 1092854bd8d0a4128971f3a02626caf76665005c
-SHA256: 1a88cb3590d53db7368d565917d12491f79f505125a523bf14975749e5bfc6fc
-Section: B-系统增强
+MD5sum: 25c49c32186c10d04ae519b67946f167
+SHA1: 922284e66c28e11477664c7f9e144691094b51d3
+SHA256: 4f5146c965611cf2fd7cb820a5ff8a40c586de381d71bc64416dd9523feb9ecf
+Section: 系统增强
 Description: 支持 iOS15/16 的控制中心美化工具，可修改原生模块的图标/效果，修改控制中心背景壁纸等。
 Author: Phuc Do
 Icon: https://axs66.github.io/repo/icon/plamyuipro.png
@@ -656,15 +656,16 @@ Maintainer: sunshinesong
 Installed-Size: 304
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Filename: ./debs/com.Axs.recorder-bubble_0.0.1_iphoneos-arm64.deb
-Size: 41812
-MD5sum: fd7a8060cf900388e1a0855c48186aca
-SHA1: f0b609ee92a34f4d37a78704c1e998e9a075c329
-SHA256: 591c5a59efd99ae82b77fbda38a3b0c03881851e649a21898ab47031ee2cc515
+Size: 41848
+MD5sum: 94c1248923cbc6532ac2de67fb19206a
+SHA1: 08c185c8774fdbd260bc19771bb0b47008748c00
+SHA256: 5111cd3c230fe8585948e47b86ad5120ac3e65e2af56ca1de8c9ae84e9043725
 Section: Axs-Tweaks
 Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。
 Author: sunshinesong
+Icon: https://axs66.github.io/repo/icon/huaban.png
 Name: 录屏花瓣
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.Axs.recordpause
 Version: 2.0.2
@@ -674,11 +675,11 @@ Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
 Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
 Filename: ./debs/com.Axs.recordpause_2.0.2_iphoneos-arm64.deb
-Size: 10176
-MD5sum: 84452e54351b613894fac9a84d0b4227
-SHA1: 353a8c7b03ee036e5b679efcaafa1a40f852b767
-SHA256: db7e5efcc8ffed939aa6a7674409c6a0e9899241ce3fd35787a5a57f21278b47
-Section: B-系统增强
+Size: 10184
+MD5sum: 1bb05b15fbd7188fb8e498afdd57cc5f
+SHA1: 25dca2517ba585a1e0ad123a67b1ec56248c4191
+SHA256: 580e2c9c0a73f1a79b42697bfc5cd1564ea84ecafed7f3f688d068888a6a3b2f
+Section: 系统增强
 Description: Pause/resume video recording.使用相机拍摄视频的时候，左侧有一个暂停功能。方便转场使用。
 Author: PoomSmart
 Icon: https://axs66.github.io/repo/icon/camera.png
@@ -709,15 +710,16 @@ Maintainer: SOPPPra
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
 Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, com.sop.settingsrevamp
 Filename: ./debs/com.Axs.settingsrevamp_2.1.1_iphoneos-arm64.deb
-Size: 97580
-MD5sum: 8183afa7efb25e4976480690f3f877f1
-SHA1: 427dddbf70ca2d5d825a1aca267499319f2f697a
-SHA256: 9edeab2018f72984ef6d8bd7c93b345d22bcd7becccc4dc9222a7b5bd62aa827
-Section: Axs-Tweaks
+Size: 97516
+MD5sum: 13b284889dd3d08bb9e5534bb064b324
+SHA1: e77d668e6869a378007a263d9bc86073e1de01f4
+SHA256: 65c76518c02650078821aab55aff86f111b10ee6ddd356981db272c1d416e0f2
+Section: 越狱插件收纳
 Description: 设置自定义、归类插件，源内有汉化包。
 Author: SOPPPra
+Icon: https://axs66.github.io/repo/icon/SettingsRevamp.png
 Name: SettingsRevamp(rootless)
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/settingsrevamp/js.json
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/settingsrevamp/js.json
 
 Package: com.Axs.settingsrevamp.hh
 Version: 2.1.1
@@ -977,6 +979,23 @@ Description: 黄白助手-微信插件                                          
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Rootless
 
+Package: com.HBWechatHelper.ailun
+Version: 1.7.5
+Architecture: iphoneos-arm64
+Maintainer: HuangBai
+Depends: mobilesubstrate
+Filename: ./debs/com.HBWechatHelper.ailun_1.7.5_iphoneos-arm64.deb
+Size: 9411940
+MD5sum: 84ec1f7827b79c6e4ca5da2cf9d86e85
+SHA1: 4fbf247b5dfc11c9281b56ed3342a6ea55d412f9
+SHA256: c78a9249f8207ce74e9758d8570130a42e751355c01e55587eecbfb87b8efef0
+Section: 微信插件
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai
+Icon: https://axs66.github.io/repo/icon/wechat.png
+Name: 黄白助手(微信插件)-Rootless
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/HBWechat/js.json
+
 Package: com.anthopak.quickprefs-rootless
 Version: 1.3.3
 Architecture: iphoneos-arm64
@@ -1019,14 +1038,16 @@ Architecture: iphoneos-arm64
 Maintainer: ash
 Depends: firmware (>= 15.0), mobilesubstrate, jp.akusio.milkyway4
 Filename: ./debs/com.ash.milkyway4-ios16fix_0.0.1_iphoneos-arm64.deb
-Size: 12716
-MD5sum: 2ec85592db0bb7b936061f11675c0e13
-SHA1: 6e8c9e2021d22776364d6e1852663a9881ce1575
-SHA256: 96f64d923700ae302260a3b8261464225ac52a93f64e1b8dca3aac9083e67e97
-Section: Tweaks
+Size: 12800
+MD5sum: d00520cddd681c21d8662cee7b7bc923
+SHA1: dec3837dcc6b8dd174cb11cc2849ac0105cbb575
+SHA256: bd2a7493f04a8060ab07085588ee74fa3478b91c224b515d7c47ad37519c87af
+Section: 分屏插件
 Description: An awesome MobileSubstrate tweak!
 Author: ash
+Icon: https://axs66.github.io/repo/icon/MilkyWay.png
 Name: MilkyWay4-iOS16Fix
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.brend0n.qqmusicdesktoplyrics
 Version: 0.3.9~b1
@@ -1056,11 +1077,11 @@ Depends: com.creaturecoding.libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
 Filename: ./debs/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64.deb
-Size: 254336
-MD5sum: 12127d0a67f0fe733fbb1f55d55fc9c4
-SHA1: 1fb8d8f4247ec44f7c61629e5f4ef455a682c4a0
-SHA256: 3ce996b98ecdb873527766b69d8b7b86cd959f1f7d3af5dc50d4cf56f0bbad15
-Section: Tweaks
+Size: 254348
+MD5sum: ef73420167e51232d679ec596f886a3e
+SHA1: 7d6808ed57fa744ca0ac673ee3705f48628dd1ac
+SHA256: da709a0a991ec675f2f187326ca6ea59a1b0bae94b4fecfd58f805be615b64f2
+Section: 录屏轨迹
 Homepage: https://creaturecoding.com/
 Description: Organize your settings
 Tag: purpose::extension, compatible_min::ios10
@@ -1215,6 +1236,25 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
 
+Package: com.curtin.pkc.rootless
+Version: 0.6-0
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.curtin.pkc.rootless_0.6-0_iphoneos-arm64.deb
+Size: 595516
+MD5sum: bc0b7ffd1a03a1fcd77e7577b97b3fec
+SHA1: 9c8c95d2dd81c886b84f875bebea157c9b8093f6
+SHA256: 62732874972c6ca403ebf3a67ba84c457e8d045d2464706c3cb444132c29bd16
+Section: 微信插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://axs66.github.io/repo/icon/wechat.png
+Name: PKC_无根
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/PKC/js.json
+
 Package: com.dumpapp.wechat-rootless
 Version: 2.0.1
 Architecture: iphoneos-arm64
@@ -1238,14 +1278,16 @@ Maintainer: dvntm
 Installed-Size: 464
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.dvntm.showmytouches_1.1.2_iphoneos-arm64.deb
-Size: 53208
-MD5sum: fd7f453d0e2560811aa66ba6b2261a02
-SHA1: d738dab4d8bc50d5bffdadbe11253b234d4f73f9
-SHA256: 295ec02b73306fdee703f3ba38afbe2f2823dcf6aa722de4a217964236910769
-Section: Tweaks
+Size: 53412
+MD5sum: 3447443f273a1d1c356f0726c59a5a45
+SHA1: 9c92f94ecb2d2f111f70fdf8cb8d2793de40f57d
+SHA256: 7d635ce28ffc229992fcbf282b3193f64bc88b32189c0a5bc424b8cef3a77699
+Section: 录屏轨迹
 Description: Displays your touch interactions!
 Author: dvntm
+Icon: https://axs66.github.io/repo/icon/ShowMyTouches.png
 Name: ShowMyTouches
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.edge.siri
 Version: 3.1.1-9
@@ -1293,11 +1335,11 @@ Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64.deb
-Size: 978144
-MD5sum: 9d1ac084a7bfc8cc8acf83b50393c7a0
-SHA1: 5ced64f71b0f64573a27bd7b222cd957463908b1
-SHA256: a3b65ac08c20e626ff1573ffd1cf92c214a36cf36c6e9c48e7a90587c71d220f
-Section: C-系统增强
+Size: 977448
+MD5sum: be493d55bf0f24c4bbffe03d8b1239bd
+SHA1: afa90a94990d625cd00aad510f1b081921b3975e
+SHA256: 189fba655519bf4e0203bc40d2c1330107a46efb0263212ce6723a70586c423a
+Section: 系统增强
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleanup and management utility
 Author: Ivano Bilenchi
@@ -1380,11 +1422,11 @@ Maintainer: jontelang
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
 Filename: ./debs/com.jontelang.snapper3_1.0_iphoneos-arm64.deb
-Size: 911464
-MD5sum: ef6dd35ed072b1c045543ddb31761f15
-SHA1: f20f36b2059ac3c5813f1ed0434a77e970289600
-SHA256: b27ccf31aebf5d1d209d1936d85bcc03edc8008859b6fe151b9c3cefa673daeb
-Section: C-系统增强
+Size: 911300
+MD5sum: 3891dd6bcc9f73220e875e282f5c846e
+SHA1: e8ad6245ebcf19059beef37eef241b6b3d7a6216
+SHA256: f874a05881a4021de66b6dc7e1df508ba2227a16987623f2faed22014f43e7fb
+Section: 系统增强
 Description: 便捷截屏3。
 Author: Jonathan Winger-lang
 Icon: https://axs66.github.io/repo/icon/Snapper3.png
@@ -1628,18 +1670,20 @@ Name: DumpDecrypter
 Package: com.netskao.dumpdecrypter
 Version: 1.4-4
 Architecture: iphoneos-arm64
-Maintainer: Nets
+Maintainer: Netskao
 Installed-Size: 4324
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/com.netskao.dumpdecrypter_1.4-4_iphoneos-arm64.deb
-Size: 1294988
-MD5sum: e3523df1dc0e0c7ecbbe313de4e1918c
-SHA1: 9b0018d70acb9a7ed501d32501a654b016b62908
-SHA256: cdbc5fcff5c869c51bbda0cc088e962106f9be6d83654a7842d50e90af1ee540
-Section: Netskao-Tweaks
+Size: 1294660
+MD5sum: 77d6b0ea0d7073aa467e17758768853e
+SHA1: 4704aaac551cc7c014f13ba7212f28134acc730c
+SHA256: e29dd4ea5616f0911412452834462dc29ad0997f6808c4913cfdc5decdd56a95
+Section: Axs-Tweaks
 Description: Decrypt iOS Apps and Plugins
 Author: Netskao
+Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
 Name: DumpDecrypter
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/dumpdecrypter/js.json
 
 Package: com.netskao.pulloverpro
 Version: 2.1.6
@@ -1649,14 +1693,16 @@ Installed-Size: 2440
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.c1d3r.pulloverpro
 Filename: ./debs/com.netskao.pulloverpro_2.1.6_iphoneos-arm64.deb
-Size: 695996
-MD5sum: 390f189db06ebbe7510a44a77d9e61af
-SHA1: effe0adbe57f297eb9305480982d190a6a07d7da
-SHA256: 9ba98e8ebae78f22fd5394f714834bfa011e928df80aa87854ad406dc3406900
-Section: Netskao-Tweaks
+Size: 696408
+MD5sum: 90d9cf26b0dcfa34ee1c5e8c1e20e1e4
+SHA1: e4d4b1f82f5dfafe4043d30ceea9c0c6ebc226bb
+SHA256: df4f908e31986305327ac0987c2da2d3a1cf8654cbc33dc4d7ba2d7d103073ec
+Section: 分屏插件
 Description: A better way to multitask! Fix support for iOS15+
 Author: c1d3r
+Icon: https://axs66.github.io/repo/icon/PullOverPro.png
 Name: PullOver Pro
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.showtouch
 Version: 1.0.4-3
@@ -1665,14 +1711,16 @@ Maintainer: Nets
 Installed-Size: 1432
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.netskao.showtouch_1.0.4-3_iphoneos-arm64.deb
-Size: 375530
-MD5sum: 682cc5a1d2d99f4a2d5d795b831f6b02
-SHA1: 23efe1c17af2aaa2c42244f0ab16eaf1de1e34a8
-SHA256: aa76032ae10920e6db19e36a821ab6624baff4077f20c52486091f43be52d56b
-Section: Netskao-Tweaks
+Size: 376076
+MD5sum: 5896eea227fa5aae4d855017a1a62a76
+SHA1: 3c1bcf7dcd2c7e77d4a15ac92067607b27dee32a
+SHA256: a10905e3f46a8a3ab9603291b5229c52106ca5cb2f67cf44f95f1d84bec44ada
+Section: 录屏轨迹
 Description: Shows where you touch the screen
 Author: LonestarX
+Icon: https://axs66.github.io/repo/icon/ShowTouch.png
 Name: ShowTouch
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.storeswitchaccounts
 Version: 1.1-4
@@ -1879,14 +1927,16 @@ Maintainer: sunshinesong
 Installed-Size: 13648
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.sunshinesong.split-view-pro_1.1.6_iphoneos-arm64.deb
-Size: 5177798
-MD5sum: 0633f6b017afdbbc2513ea5b24cf19de
-SHA1: 61c37fdc9ef8cc51d962d0cb329e5d99ecd5798c
-SHA256: 9c6622889ef922038863816b9a947caf5738a520f87f8e12245816faad58e44f
-Section: Tweaks
+Size: 3482224
+MD5sum: 4370869bdcc0882572050d4fe28445d6
+SHA1: 0b2cfe7889d79bce87e71848465a6c19401ef11c
+SHA256: 0f6703b9bca97907aa737daf5dece2067a2da9fb6df37cde2456e45aa6ac4831
+Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
+Icon: https://axs66.github.io/repo/icon/split.png
 Name: split-view-pro
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/split-view-pro/js.json
 Ts: sp-sss
 
 Package: com.sutuplus.releasefugu15
@@ -2079,6 +2129,23 @@ Description: Discretely take a photo or record a video from anywhere, even with 
 Author: Spark <qiaozhani000@163.com>
 Name: 隐私相机SneakyCam
 
+Package: com.yourepo.trollstore.sneakycam-rootless
+Version: 2.0.7
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate, preferenceloader, oldabi
+Filename: ./debs/com.yourepo.trollstore.sneakycam-rootless_2.0.deb
+Size: 104532
+MD5sum: e24be14d802fc4e03b604f82ec7b279a
+SHA1: 65a26debce2f8c8362498e3de038adb8d5172fe4
+SHA256: 8989f6ad0ccbe70c965b515330fa30a8af627c37468f14a45d32757651b084d1
+Section: 系统增强
+Description: Discretely take a photo or record a video from anywhere, even with your screen off.即使在屏幕关闭的情况下，也可以在任何地方随意拍照或录制视频。 使用方法∶快速按两次音量上键开始录制视频，再次按两次停止录制，快速按两次音量下键拍摄照片。 此插件为转插，需要legacy64插件支持。
+Author: Spark <qiaozhani000@163.com>
+Icon: https://axs66.github.io/repo/icon/camera.png
+Name: 隐私相机SneakyCam
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.yourepo.trollstore.telegramreturnenterkeyreturnkeychangedtosendfunct
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2102,15 +2169,17 @@ Maintainer: @akusio_RR
 Installed-Size: 3464
 Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
 Filename: ./debs/jp.akusio.milkyway4_0.1.1_iphoneos-arm64.deb
-Size: 1300024
-MD5sum: 99edb14844cd69b105112066b3f8fcf0
-SHA1: f5a1fbaa717230b7e53491ff0a0d2b3dfeb03b3d
-SHA256: e91af083915e376a6a263842a639201a980bcdf6c547dd2cab001082b731c6b2
-Section: Tweaks
+Size: 1300292
+MD5sum: f34107e5903ca84744f9d74c0ddfaffa
+SHA1: 8aec86992556626364da13e85e4657c1d841f43a
+SHA256: b29378efd653cc054234193bfc871bc49fc7973ff274a86df2558f15d94eefed
+Section: 分屏插件
 Description: multitasking for iOS15 rootless.
 Author: @akusio_RR
 Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
+Icon: https://axs66.github.io/repo/icon/MilkyWay.png
 Name: MilkyWay4-rootless
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: jp.dcsyhi.zetsu
 Version: 1.6.1
@@ -2138,17 +2207,18 @@ Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
 Installed-Size: 12005
 Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
 Filename: ./debs/jp.dcsyhi.zetsu_1.6.2_iphoneos-arm64.deb
-Size: 10165196
-MD5sum: e8e3076c027d47a4c7385e93f62319b6
-SHA1: 3150e2b94f3f4cdcc2d7115c91dfa5720a3a05b7
-SHA256: d99206f4ced9de9d491867ebc1e88e306f20e5c9e75c9d4632efca3786ba9e24
-Section: Tweaks
+Size: 10164868
+MD5sum: 277e7a24e024725041ba02878f75b6f4
+SHA1: 27d16cb736c496030613925832cf3791686291f1
+SHA256: c04def29f028b5a263ae89236c78409d7c8737cc6d30399624cda706b2462bd1
+Section: 分屏插件
 Description: Multitasking on iOS15 - iOS16.
 Tag: compatible_min::ios15.0
 Author: Dcsyhi <dcsyhi1998@gmail.com>
 Depiction: https://chariz.com/get/zetsu
-Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
+Icon: https://axs66.github.io/repo/icon/zetsu.png
 Name: Zetsu
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/zestu/js.json
 
 Package: netskao.awemepurification-rootless
 Version: 2.9-6
