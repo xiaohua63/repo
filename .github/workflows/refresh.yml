@@ -1,20 +1,10 @@
 name: "refresh"
 
 on:
-  push:
-    branches:
-      - main
-      - 'debs/*.deb'
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types: 
+      - completed
 
 jobs:
   build:
