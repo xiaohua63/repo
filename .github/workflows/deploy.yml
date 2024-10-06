@@ -6,15 +6,6 @@ on:
       - main
     paths:
       - 'debs/**'
-      - 'Packages'
-      - 'Packages.gz'
-      - 'Packages.bz2'
-  workflow_dispatch:
-
-permissions:
-  contents: write  # 确保有推送权限
-  pages: write
-  id-token: write
 
 jobs:
   build:
