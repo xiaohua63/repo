@@ -14,11 +14,9 @@ SHA1: e58df94fbe10b97f904e3895f18ca055e87ca39a
 SHA256: f386ecd8893702ddd1f8512869d6857672c63dfb9c22096cce931ce45ee4d749
 Section: custom
 Priority: optional
-Description: 微信文字转语音原神版,模型运算版本,等待6秒左右合成成功
+Description: 微信文字转语音原神版,模型运算版本,等待6秒左右合成成功- 官网:www.apibug.com
 Author: Apibug
 Name: ApibugTextToVoice
-Icon: https://axs66.github.io/repo/icon/wechat.png
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/Apibug/js.json
 
 Package: MisakaHelper
 Version: 2.0-0
@@ -2225,3 +2223,4 @@ Section: Netskao-Tweaks
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
 Author: Netskao
 Name: 微信净化END
+
