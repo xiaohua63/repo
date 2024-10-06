@@ -1928,21 +1928,6 @@ Author: P2KDev <p2kdev@gmail.com>
 Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
 Name: Tinge
 
-Package: com.pingfan.wechat
-Version: 2.2-1
-Architecture: iphoneos-arm64
-Maintainer: 平凡
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/虚拟视频_2.2-1无根.deb
-Size: 2827574
-MD5sum: c2d45cb109aba3fce8ed44dedbd214ec
-SHA1: 02e9fcacf4ff600e783d751eec2ac462b2f74c76
-SHA256: 98b5aad76a45de668f9c9b4a1567f347dec2b8398203b361886ec1b080b257c1
-Section: Tweaks
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
-Author: 平凡
-Name: 虚拟视频
-
 Package: com.ryannair05.cask3
 Version: 1.0.2
 Architecture: iphoneos-arm64
