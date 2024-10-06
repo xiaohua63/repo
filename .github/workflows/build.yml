@@ -3,9 +3,6 @@ name: Deploy static content to Pages
 on:
   push:
     branches: ["main"]
-  paths:
-      - 'debs/*.deb'
-      
   workflow_dispatch:
 
 permissions:
