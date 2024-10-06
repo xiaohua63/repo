@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -29,15 +29,15 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Check if .deb files were uploaded
-        id: check_files
+      - name: Commit manually modified Packages
         run: |
-          # 检查是否有新的 .deb 文件
-          if ls debs/*.deb 1> /dev/null 2>&1; then
-            echo "new_deb_files=true" >> $GITHUB_ENV
-          else
-            echo "new_deb_files=false" >> $GITHUB_ENV
-          fi
+          git config --local user.name "github-actions"
+          git config --local user.email "actions@github.com"
+          git add Packages Packages.bz2 Packages.gz
+          git commit -m "Update Packages" || echo "No changes to commit"
+          git push https://${{ secrets.PAT }}@github.com/axs66/repo.git HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
 
       - name: Run generate_packages.sh
         run: |
@@ -45,17 +45,6 @@ jobs:
           ./generate_packages.sh
         env:
           PERSONAL_TOKEN: ${{ secrets.PAT }}
-
-      - name: Output Packages files
-        run: ls -l Packages*  # 列出所有相关文件以进行调试
-
-      - name: Commit updated Packages
-        run: |
-          git config --local user.name "github-actions"
-          git config --local user.email "actions@github.com"
-          git add Packages Packages.bz2 Packages.gz  # 添加所有相关文件
-          git commit -m "Update Packages" || echo "No changes to commit"
-          git push https://${{ secrets.PAT }}@github.com/axs66/repo.git HEAD:main
 
       - name: Setup Pages
         uses: actions/configure-pages@v5.0.0
