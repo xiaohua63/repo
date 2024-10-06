@@ -61,23 +61,6 @@ Author: Misaka
 Name: MisakaHelper
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
-Package: cn.Axs.swipeextenderx
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/cn.Axs.swipeextenderx_0.0.2_iphoneos-arm64.deb
-Size: 10524
-MD5sum: 211e7bc92340ec708a0ae5421ad0bdc6
-SHA1: 327fd8afe29a2205370d8d74bd0a5582096510fc
-SHA256: 5f76901c354ea23dbf54e95931a464f707636ddbce0462942b23b8edb88bdcd8
-Section: Axs-Tweaks
-Description: 对插件设置进行汉化，方便你我他。
-Author: Axs
-Name: SwipeExtenderX汉化
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
-
 Package: cn.llld.wxx
 Version: 1.0.6
 Architecture: iphoneos-arm64
