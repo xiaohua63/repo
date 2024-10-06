@@ -758,15 +758,16 @@ Maintainer: Axs
 Installed-Size: 5624
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
 Filename: ./debs/com.Axs.split-view-pro_1.3.7_iphoneos-arm64.deb
-Size: 1537152
-MD5sum: b6a422a6dd99ab8669a277c2d73ecf13
-SHA1: 5fba79375910b0b72f7e955571809d852f859a00
-SHA256: e2b0379937c20d9b5ebf3328dc0a9bff8d8cc1ca48cea21287717ba6e1771eb6
+Size: 1537864
+MD5sum: 1c0adac86e2c08ccc31476c2a5caa558
+SHA1: ce79b6348a00e5025f29f46a1b51a8cce5699447
+SHA256: d4a38e4b88cac344134144e414ef312ea267089bd96d02de57af30628bd1c786
 Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: Axs
+Icon: https://axs66.github.io/repo/icon/svp.png
 Name: Svp分屏独立版(rootless)
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/svp/js.json
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/svp/js.json
 Ts: sp-sss
 
 Package: com.Axs.storeswitcher2
