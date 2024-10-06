@@ -16,25 +16,16 @@ fi
 # List contents of DEB_DIR for debugging
 ls -l "$DEB_DIR"
 
-# 定义自定义的 Section 文件
-CUSTOM_SECTIONS_FILE="./custom_sections.txt"
+# Check if Packages file exists, if not, generate the Packages file
+if [ ! -f Packages ]; then
+    dpkg-scanpackages -m "$DEB_DIR" > Packages
 
-# 先保存自定义 Section 到临时文件
-if [ -f "$CUSTOM_SECTIONS_FILE" ]; then
-    cp "$CUSTOM_SECTIONS_FILE" custom_sections_backup.txt
+    # Compress the Packages file
+    bzip2 -fks Packages
+    gzip -fk Packages
+else
+    echo "Packages file already exists. Skipping generation."
 fi
-
-# Generate the Packages file
-dpkg-scanpackages -m "$DEB_DIR" > Packages
-
-# 合并自定义的 Section 信息
-if [ -f "custom_sections_backup.txt" ]; then
-    cat custom_sections_backup.txt >> Packages
-fi
-
-# Compress the Packages file
-bzip2 -fks Packages
-gzip -fk Packages
 
 # Create the Release file
 cat <<EOF > Release
