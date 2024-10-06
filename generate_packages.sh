@@ -16,23 +16,16 @@ fi
 # List contents of DEB_DIR for debugging
 ls -l "$DEB_DIR"
 
-# Generate the new Packages file
-dpkg-scanpackages -m "$DEB_DIR" > Packages.new
-
-# Check if the original Packages file exists
-if [ -f Packages ]; then
-  # Extract the section信息
-  # 你需要根据实际情况调整这个提取逻辑
-  grep -A 1 "^Package: " Packages > Packages.manual
-else
-  # 如果没有原文件，则手动修改的部分为空
-  echo "" > Packages.manual
-fi
-
-# 合并新的和手动修改的内容
-cat Packages.manual Packages.new > Packages
-# 去重处理
-sort -u Packages -o Packages
+# Generate the Packages file, ensuring each package is distinct
+dpkg-scanpackages "$DEB_DIR" /dev/null | awk '{
+    if ($1 == "Package:") {
+        if (pkg != "") {
+            print "";  # Add a newline between packages
+        }
+        pkg = $2;  # Capture the package name
+    }
+    print;
+}' > Packages
 
 # Compress the Packages file
 bzip2 -fks Packages
