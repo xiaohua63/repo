@@ -3,9 +3,9 @@ name: Deploy Sileo Repo
 on:
   push:
     branches:
-      - main
+      - main  # 监听 main 分支上的变化
     paths:
-      - 'debs/**'
+      - 'debs/**'  # 监听 debs 目录下的文件变化
 
 jobs:
   build:
@@ -21,41 +21,23 @@ jobs:
     - name: Ensure script has execute permissions
       run: chmod +x ./generate_packages.sh
 
-    - name: Check if Packages file exists
-      id: check_packages
-      run: |
-        if [ -f Packages ]; then
-          echo "Packages file exists."
-          echo "PACKAGES_EXISTS=true" >> $GITHUB_ENV
-        else
-          echo "Packages file does not exist."
-          echo "PACKAGES_EXISTS=false" >> $GITHUB_ENV
-        fi
-
     - name: Run generate_packages.sh
-      if: env.PACKAGES_EXISTS == 'false'
       run: bash ./generate_packages.sh
-
-    - name: Check git status
-      run: git status
-
-    - name: Check Packages file content
-      run: cat Packages
 
     - name: Commit and push updated Packages
       env:
-        GITHUB_TOKEN: ${{ secrets.PAT }}  # 使用 secrets.PAT
+        GITHUB_TOKEN: ${{ secrets.PAT }}  # 使用新的个人访问令牌
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add Packages Packages.bz2 Packages.gz Release generate_packages.sh
+        git pull origin main  # 拉取远程更改
+        git add Packages Packages.bz2 Packages.gz Release
         git commit -m "Update Packages files" || echo "No changes to commit"
-        git push https://$GITHUB_ACTOR:${{ secrets.PAT }}@github.com/${{ github.repository }}.git main
+        git push origin main || echo "Push failed"
 
     - name: Deploy to GitHub Pages
-      if: success()
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.PAT }}  # 使用 secrets.PAT
+        personal_token: ${{ secrets.PAT }}  # 使用新的个人访问令牌
         publish_branch: gh-pages
-        publish_dir: ./
+        publish_dir: ./  # 确保你希望发布的内容在仓库根目录下
