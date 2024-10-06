@@ -17,6 +17,7 @@ Priority: optional
 Description: 微信文字转语音原神版,模型运算版本,等待6秒左右合成成功- 官网:www.apibug.com
 Author: Apibug
 Name: ApibugTextToVoice
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Apibug/js.json
 
 
 Package: MisakaHelper
