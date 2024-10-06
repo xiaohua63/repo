@@ -894,23 +894,6 @@ Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 Sponsor: Axs
 
 Package: com.Axs.wtvrbglauncher
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Lessica
-Installed-Size: 400
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.Axs.wtvrbglauncher_1.0_iphoneos-arm64.deb
-Size: 22872
-MD5sum: 3c6d43018cd1d1891843ccb90345145b
-SHA1: ee11ab4e8b70c7434f968769284b60312955c3f4
-SHA256: ade213fe0da2a98d31ad8fc0fd53f499fa5591dbaf1b58e4fb2bf79be3ef992f
-Section: Axs-Tweaks
-Description: 中文输入法语音转文字免跳转插件。无设置选项，安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞
-Author: Lessica
-Name: 语音转文字免跳转
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
-
-Package: com.Axs.wtvrbglauncher
 Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: Lessica
@@ -1273,23 +1256,6 @@ Author: Ketty Allen
 Icon: https://axs66.github.io/repo/icon/TweakTool.png
 Name: TweakTool
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-
-Package: com.lclrc.hammerit
-Version: 1.6.8
-Architecture: iphoneos-arm64
-Maintainer: lclrc(SquidForce)
-Installed-Size: 3576
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
-Filename: ./debs/com.lclrc.hammerit_1.6.8_iphoneos-arm64.deb
-Size: 896420
-MD5sum: 586da3375ac1fa5e31fdb72e3ca4de88
-SHA1: f1a191d48f27f8a935e697a68aa9cee9c9f5cc02
-SHA256: f3648cc1ca3d829273a98e4bca4e0171a9f439b5f593d4ac6d34a9fb77bb92a4
-Section: Tweaks
-Description: Control your text or translate as you wish.
-Author: lclrc(SquidForce)
-Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
-Name: Hammer It
 
 Package: com.lclrc.hammerit
 Version: 1.7.0
