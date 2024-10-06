@@ -539,6 +539,23 @@ Author: ichitaso
 Name: HideSerialNumber
 Sponsor: Axs
 
+Package: com.Axs.noredirect
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.Axs.noredirect_1.2_iphoneos-arm64.deb
+Size: 37092
+MD5sum: ea2518cd6566c1bcdc4b06ce690e8eef
+SHA1: 094dab34668276a5db8c7f5297e48b20c21f7d84
+SHA256: 7b68dfa8ce0951866dab29e8e915e9d99fc223ba6a356a2e6d11d6eed67cdd61
+Section: 系统增强
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Author: Lessica <82flex@gmail.com>
+Icon: https://axs6.github.io/repo/icon/noredirect.png
+Name: No Redirect禁止启动应用
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.onesettings
 Version: 2.1.1
 Architecture: iphoneos-arm64
@@ -777,6 +794,23 @@ Dev: rplus
 Icon: file:///var/jb/Library/PreferenceBundles/SleipnizerSettings.bundle/Sleipnizer@2x.png
 Name: Sleipnizer for Safari (iOS 15-16)
 
+Package: com.Axs.sneakycam
+Version: 2.0.7
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate, preferenceloader, oldabi
+Filename: ./debs/com.Axs.sneakycam_2.0.7.deb
+Size: 104672
+MD5sum: 55a944d0eda4e761c08c8a2933204004
+SHA1: be0d0ee43d133fda5cafeddc3150f909c53771ed
+SHA256: bf85ad9c097c8f453091bf541e4a5c80f6023b7d39954f6d738afd9e98e38236
+Section: 系统增强
+Description: Discretely take a photo or record a video from anywhere, even with your screen off.即使在屏幕关闭的情况下，也可以在任何地方随意拍照或录制视频。 使用方法∶快速按两次音量上键开始录制视频，再次按两次停止录制，快速按两次音量下键拍摄照片。 此插件为转插，需要legacy64插件支持。
+Author: Spark <qiaozhani000@163.com>
+Icon: https://axs66.github.io/repo/icon/camera.png
+Name: 隐私相机SneakyCam
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.split-view-pro
 Version: 1.3.7
 Architecture: iphoneos-arm64
@@ -795,6 +829,23 @@ Name: Svp分屏独立版(rootless)
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/svp/js.json
 Ts: sp-sss
 
+Package: com.Axs.storeswitcher2
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Depends: firmware (>= 11)
+Filename: ./debs/com.Axs.storeswitcher2_1.0.4_iphoneos-arm64.deb
+Size: 14404
+MD5sum: 83c25b822f977f1462d5f9c33f773697
+SHA1: c6fc49bd48aea0ce9935324ff40475afdf2a8587
+SHA256: 8fe5e761dfee285296ed47f00de2e39e6944527425f7b4a730187d95d23cb4c5
+Section: 苹果商店账号切换
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: 0xkuj <0xkujz@gmail.com>
+Icon: https://axs66.github.io/repo/icon/appstore.png
+Name: StoreSwitcher 2 (rootless)
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64
@@ -812,6 +863,23 @@ Author: MiRO
 Icon: https://axs6.github.io/repo/sileodepiction/SwipeExtenderX/icon.png
 Name: SwipeExtenderX
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/SwipeExtenderX/js.json
+
+Package: com.Axs.touchvis
+Version: 2.8-1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.touchvis_2.8-1_iphoneos-arm64.deb
+Size: 708680
+MD5sum: fe806e25c2a51a3245c9b2c275874010
+SHA1: 2dc730d1c705f8b230ea5d5c51ba97f7937c7bc4
+SHA256: 421150cd44f28f77b214dcab6ceef1c3a1e27a282f64e811c8805f6686ca3e11
+Section: 录屏轨迹
+Description: Displays your touch interactions! 显示触摸屏幕的轨迹；很酷炫，很丝滑的一个插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。
+Author: Lessica
+Icon: https://axs66.github.io/repo/sileodepiction/touchvis/icon.png
+Name: Touch-Viz触摸轨迹
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/touchvis/js.json
 
 Package: com.Axs.wcplugins.rootless
 Version: 0.1-3
@@ -908,14 +976,32 @@ Installed-Size: 404
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.Axs.wtvrbglauncher_1.1_iphoneos-arm64.deb
 Size: 23184
-MD5sum: acc8974215ddc506967b66780bdfab92
-SHA1: 979acba4833a41c35b8210d8404abb11e1f358d9
-SHA256: 530a6cdfb65c02c5f91b93f7f55d71b574c6a08be360ceaac7906c646e6d17da
-Section: Axs-Tweaks
+MD5sum: 2993d94f5b778718dbdc9a6875064ecd
+SHA1: feba54e8d84587d608d9f7ae6eef0c4a3a6ce4a8
+SHA256: d1ecf63acf123c97c5fd1e3e01d3f5b3e973c7eb2f55e102e8701b7180f6401b
+Section: 微信插件
 Description: 中文输入法语音转文字免跳转插件。无设置选项，安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞
 Author: Lessica
+Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 语音转文字免跳转
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.zxbsp
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Brend0n <qiaozhani000@163.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.zxbsp_0.0.3_iphoneos-arm64.deb
+Size: 3420
+MD5sum: fa43305747e8f4f5fcd22a11c5bf1788
+SHA1: ceca4155512aa35e021d42264d85b182a95b6ca4
+SHA256: 68c50fee19862897a2eaba92e520b41ed0ab805c32300650748eb8963f60d449
+Section: 系统增强
+Description: 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Author: Brend0n <qiaozhani000@163.com>
+Icon: https://axs66.github.io/repo/icon/settings.png
+Name: 注销不锁屏
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.HBWechatHelper.ailun
 Version: 1.7.2
@@ -1060,11 +1146,11 @@ Depends: com.creaturecoding.libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
 Filename: ./debs/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64.deb
-Size: 254348
-MD5sum: ef73420167e51232d679ec596f886a3e
-SHA1: 7d6808ed57fa744ca0ac673ee3705f48628dd1ac
-SHA256: da709a0a991ec675f2f187326ca6ea59a1b0bae94b4fecfd58f805be615b64f2
-Section: 录屏轨迹
+Size: 254392
+MD5sum: f0770ba19f7efab53f0bd4b847e4a121
+SHA1: 71b7904df3723427fc207a54af39e7dc73440e2c
+SHA256: d89bc9ee1154b7e0b6aa4f217fc8cf3946bcae62b71aca5982084ae21d56674f
+Section: 越狱插件收纳
 Homepage: https://creaturecoding.com/
 Description: Organize your settings
 Tag: purpose::extension, compatible_min::ios10
@@ -1245,14 +1331,16 @@ Maintainer: WeChat
 Installed-Size: 24000
 Depends: mobilesubstrate, firmware (>= 12.0)
 Filename: ./debs/com.dumpapp.wechat-rootless_2.0.1_iphoneos-arm64.deb
-Size: 9329474
-MD5sum: 4c9e39f53db5740abc1851ea14fe4130
-SHA1: 21ec3fb45a63f57300bdd42e9498d0585e6a2c2f
-SHA256: 6f7b671d1a535ba5b18beb42ec6ac187840c18d9a702a8eedaf255a07c7d755f
-Section: Tweaks
+Size: 9337092
+MD5sum: fae07bc3e8b57b2888afbfcf8f6c9f2d
+SHA1: 1201d22b6cd5d5ff00b9c218fb7d2d6b725e0eb8
+SHA256: 115be288a44d0a325d8c705f062df00f9719e7c2045f5e29b6ac84d0aeb8ed10
+Section: 微信插件
 Description: 锤子助手插件
 Author: DumpApp
+Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 锤子助手-Rootless
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/dumpapp/js.json
 
 Package: com.dvntm.showmytouches
 Version: 1.1.2
@@ -1609,14 +1697,16 @@ Maintainer: Nets
 Installed-Size: 3772
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.netskao.appdata_1.4.2_iphoneos-arm64.deb
-Size: 823820
-MD5sum: 090451a77622a645950b9eb617ff0075
-SHA1: 080c3f5babb93c1d27ed2a608f3867862a3d6eab
-SHA256: 1b64374f4ab692101d3c1ab6563b73622c569908b29475f17e6b1b17e6f62f33
-Section: Netskao-Tweaks
+Size: 823044
+MD5sum: 9b0e0064947f15fe03a51201696f419a
+SHA1: 740b12a48d223e3f7399e71be8db57c5eca096a8
+SHA256: 38f2780627789219915c92f7fe61c82e47b54452d5752533bfe858745ef22ddf
+Section: Axs-Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
+Icon: https://axs66.github.io/repo/icon/Appdata.png
 Name: AppData
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/appdata/js.json
 
 Package: com.netskao.awemefullscreen
 Version: 1.1-2
@@ -1708,18 +1798,20 @@ Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 Package: com.netskao.storeswitchaccounts
 Version: 1.1-4
 Architecture: iphoneos-arm64
-Maintainer: Nets
+Maintainer: Netskao
 Installed-Size: 460
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/com.netskao.storeswitchaccounts_1.1-4_iphoneos-arm64.deb
-Size: 101968
-MD5sum: cb58c414e3d71825159b301253981871
-SHA1: d620b07f47b2c978c1d813f0690a3bdf27788745
-SHA256: ad4d2c1f314b3557270d8d29529b3f3a7fb747758b6eb826ce77a96cb01bca96
-Section: Netskao-Tweaks
+Size: 102480
+MD5sum: b117f9abdaf6b7a6b94c2c3b27280527
+SHA1: 6ab76fa60c25883b925994aeaeb87a274d8d9b67
+SHA256: 3fc4b4df31f707ae856383762dea200be998aeec301392e2870245c96009c167
+Section: 苹果商店账号切换
 Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
 Author: Netskao
+Icon: https://axs66.github.io/repo/icon/appstore.png
 Name: StoreSwitchAccounts
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.opa334.choicy
 Version: 1.4.10-3
@@ -2132,14 +2224,16 @@ Maintainer: Nets
 Installed-Size: 2480
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: ./debs/netskao.awemepurification-rootless_2.9-6_iphoneos-arm64.deb
-Size: 1176056
-MD5sum: b8ba3d15fd33ee25e644b4c38afda709
-SHA1: 3c518fe1905a3ad2e1c53b314e6344459cd96e67
-SHA256: ee49cd31e5b335f0e6cb7ba0639875054120e33c0120cb6d4b7414a14605c07d
-Section: Netskao-Tweaks
+Size: 1175440
+MD5sum: 1e4a2830bccccbf4d2ba3373cc9f9870
+SHA1: 86f212fd96ff58a6c17d7391f9dfe0e70fd3dd6d
+SHA256: d9bfa4eaf369cc7c96e6880af0aeed5e021dfed66af68a0b994461b40a6d679a
+Section: Axs-Tweaks
 Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
 Author: Netskao
+Icon: https://axs66.github.io/repo/icon/dy.png
 Name: 抖音净化-Rootless
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: netskao.tiktokhooks
 Version: 1.1-4
@@ -2148,47 +2242,53 @@ Maintainer: Nets
 Installed-Size: 304
 Depends: mobilesubstrate, firmware (>= 9.3)
 Filename: ./debs/netskao.tiktokhooks_1.1-4_iphoneos-arm64.deb
-Size: 109410
-MD5sum: a572c3b2bbd4426dfda5ac02722598fc
-SHA1: 3a92ee02c40d604f0399dfdac3da505bec7d4157
-SHA256: b42fde6cacef11a598bec18999a90cd02e628d69832c466526380a2a2e8d30c3
-Section: Netskao-Tweaks
+Size: 81000
+MD5sum: 97b1f7a42c9083227b1d909c2362860a
+SHA1: 64471ad78fe6a2a31836316c4148d4625ade63eb
+SHA256: 80ed62837d017e16dcf9a8d1868b958ed53d48bc823854e66306e5aee58cda2c
+Section: Axs-Tweaks
 Description: TikTok save no watermark videos, Click on the original share button use. TikTok regions can be selected on the settings page. Only version 20.7.0 and above are supported
 Author: Netskao
+Icon: https://axs66.github.io/repo/icon/tiktok.png
 Name: TikTok Hooks
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: netskao.wcpureextension
 Version: 4.2-6
 Architecture: iphoneos-arm64
-Maintainer: Nets
+Maintainer: Netskao
 Installed-Size: 19660
 Depends: mobilesubstrate, firmware (>= 12.0)
 Conflicts: netskao.wechatpurification
 Replaces: netskao.wechatpurification
 Provides: netskao.wechatpurification
 Filename: ./debs/netskao.wcpureextension_4.2-6_iphoneos-arm64.deb
-Size: 7085012
-MD5sum: 0b8d3eb12c0485585da6657afeb272e4
-SHA1: cb943067e5734a7b300ed8d55dec14c42d9ddf02
-SHA256: c500588113d6ea84f56f7222fc491d848e2cd2c8adec988662f65a85cd2096da
-Section: Netskao-Tweaks
+Size: 7089140
+MD5sum: dc84a0ae5f1230bbea2da1d3d75e31a8
+SHA1: ab0399b5eaa52850da58ffe2bc9f6bbfade75eb7
+SHA256: ff1941936c8a0e7c10595f54283f3263488794d5389ba4c8af51450414e17e68
+Section: 微信插件
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
 Author: Netskao
+Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 微信净化
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/wcpureextension/js.json
 
 Package: netskao.wechatpurification
 Version: 4.2-6-END
 Architecture: iphoneos-arm64
-Maintainer: Nets
+Maintainer: Netskai
 Installed-Size: 16708
 Depends: mobilesubstrate, firmware (>= 12.0)
 Filename: ./debs/netskao.wechatpurification_4.2-6-END_iphoneos-arm64.deb
-Size: 6278058
-MD5sum: e386a95420df2b52d4638bc60a7cd07e
-SHA1: ddff36cdf9de33b59a66b380b5eaa3c3244d6efa
-SHA256: 61ab3d42b2d7a41c2dbc1670987874b3971c4ad33ca7c956544584785e2b71c6
+Size: 6273732
+MD5sum: 557d3b1d66c2f69b4a57e5df6042b968
+SHA1: b9b57e34e7936600457f27bea4e89de92de0d23c
+SHA256: 4d92e68a2bef7d0b55dc54c8e01d7b68b4bbdf1b735b9c471ed6e22eb0b50f27
 Section: Netskao-Tweaks
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
-Author: Netskao
+Author: 微信插件
+Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 微信净化END
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/wcpureextension/js.json
 
