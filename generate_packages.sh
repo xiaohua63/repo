@@ -16,21 +16,23 @@ fi
 # List contents of DEB_DIR for debugging
 ls -l "$DEB_DIR"
 
-# Create a temporary Packages file to hold new data
-TEMP_PACKAGES=$(mktemp)
+# Generate the new Packages file
+dpkg-scanpackages -m "$DEB_DIR" > Packages.new
 
-# Generate the Packages file
-dpkg-scanpackages -m "$DEB_DIR" > "$TEMP_PACKAGES"
-
-# If the Packages file exists, merge manually edited sections
+# Check if the original Packages file exists
 if [ -f Packages ]; then
-  # Create a merged Packages file
-  cat Packages "$TEMP_PACKAGES" | sort -u > Packages.merged
-  mv Packages.merged Packages
+  # Extract the section信息
+  # 你需要根据实际情况调整这个提取逻辑
+  grep -A 1 "^Package: " Packages > Packages.manual
 else
-  # If no existing Packages file, just rename the temporary file
-  mv "$TEMP_PACKAGES" Packages
+  # 如果没有原文件，则手动修改的部分为空
+  echo "" > Packages.manual
 fi
+
+# 合并新的和手动修改的内容
+cat Packages.manual Packages.new > Packages
+# 去重处理
+sort -u Packages -o Packages
 
 # Compress the Packages file
 bzip2 -fks Packages
