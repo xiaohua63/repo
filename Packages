@@ -649,11 +649,11 @@ Architecture: iphoneos-arm64
 Maintainer: Lessica <82flex@gmail.com>
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
 Filename: ./debs/com.Axs.removewidgetbg_1.6_iphoneos-arm64.deb
-Size: 30208
-MD5sum: 4082e29b42fdb1462fdf3ecd2291a82b
-SHA1: f4b6ea454f5019a2642c7b6ff8d7e12abb886eb6
-SHA256: 3519effc2d07c0c1ea698e4bbd513aa3dda5b7853c87fdf00b589a0ba7f2f775
-Section: B-系统增强
+Size: 30176
+MD5sum: 118f713222b584fc4b78554ee102ed3d
+SHA1: e36cf8daf5f270977c4f468f9e43212528e61647
+SHA256: df62f8551b64fc6678bf7a0f0d97f88bdfb13e814e7a4b94580e66d05b36e8cc
+Section: Axs-Tweaks
 Description: Remove the background of the widgets on the home screen.
 Author: Lessica <82flex@gmail.com>
 Icon: https://axs66.github.io/repo/icon/ycxzjbj.png
