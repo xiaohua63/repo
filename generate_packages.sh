@@ -16,16 +16,21 @@ fi
 # List contents of DEB_DIR for debugging
 ls -l "$DEB_DIR"
 
-# Generate the Packages file, ensuring each package is distinct
-dpkg-scanpackages "$DEB_DIR" /dev/null | awk '{
-    if ($1 == "Package:") {
-        if (pkg != "") {
-            print "";  # Add a newline between packages
-        }
-        pkg = $2;  # Capture the package name
-    }
-    print;
-}' > Packages
+# 定义自定义的 Section 文件
+CUSTOM_SECTIONS_FILE="./custom_sections.txt"
+
+# 先保存自定义 Section 到临时文件
+if [ -f "$CUSTOM_SECTIONS_FILE" ]; then
+    cp "$CUSTOM_SECTIONS_FILE" custom_sections_backup.txt
+fi
+
+# Generate the Packages file
+dpkg-scanpackages -m "$DEB_DIR" > Packages
+
+# 合并自定义的 Section 信息
+if [ -f "custom_sections_backup.txt" ]; then
+    cat custom_sections_backup.txt >> Packages
+fi
 
 # Compress the Packages file
 bzip2 -fks Packages
