@@ -804,24 +804,6 @@ Icon: https://axs66.github.io/repo/icon/swipeextender.png
 Name: SwipeExtenderX汉化
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/SwipeExtenderX/js.json
 
-Package: com.Axs.swipeextenderx
-Version: 1.6.1~2
-Architecture: iphoneos-arm64
-Maintainer: MiRO
-Installed-Size: 614
-Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/com.Axs.swipeextenderx_1.6.1~2_iphoneos-arm64.deb
-Size: 85716
-MD5sum: 0863881b5649de657680e3e08fbcb4fa
-SHA1: 7847170a763402fff6a3c97a89e21f860b66b62f
-SHA256: 5fc69959462ca7e035dfa11feeb82cd1498faf52cfd28b1649cd6b224abed601
-Section: Axs-Tweaks
-Description: 通过传奇的 SwipeExpander 调整的完全重制，重塑您的键盘，专为现代 iOS 设计！
-Author: MiRO
-Icon: https://axs6.github.io/repo/sileodepiction/SwipeExtenderX/icon.png
-Name: SwipeExtenderX
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/SwipeExtenderX/js.json
-
 Package: com.Axs.touchvis
 Version: 2.8-1
 Architecture: iphoneos-arm64
