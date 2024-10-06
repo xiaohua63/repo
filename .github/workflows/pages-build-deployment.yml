@@ -13,13 +13,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0' # 你需要的 Ruby 版本
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
 
       - name: Build with Jekyll
         run: |
-          bundle install
           bundle exec jekyll build -d ./_site
 
       - name: Upload artifact
