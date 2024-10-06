@@ -787,6 +787,24 @@ Name: StoreSwitcher 2 (rootless)
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.Axs.swipeextenderx
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.Axs.swipeextenderx_0.0.2_iphoneos-arm64.deb
+Size: 10388
+MD5sum: 83e99b9768dfcf7f142557b6a05da713
+SHA1: 6c9fff01d0bf978d1ff86ad18f5c8b8b35ed3ccc
+SHA256: 95e5a3fefe971ce07cf3b3a90f6c063313575fc7dd19e283e9cfeb1a56024402
+Section: Axs-Tweaks
+Description: 对插件设置进行汉化，方便你我他。
+Author: Axs
+Icon: https://axs66.github.io/repo/icon/swipeextender.png
+Name: SwipeExtenderX汉化
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/SwipeExtenderX/js.json
+
+Package: com.Axs.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64
 Maintainer: MiRO
