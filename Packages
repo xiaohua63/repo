@@ -145,25 +145,6 @@ Description: Safari Essential Features
 Author: 0xkuj
 Name: SafariX
 
-Package: com.25mao.KuaiDou
-Version: 0.1-1
-Architecture: iphoneos-arm64
-Maintainer: https://trollstorex.github.io/repo/
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.25mao.KuaiDou_0.1-1_iphoneos-arm64.deb
-Size: 14208
-MD5sum: 64677598d5c90bdb3ebe44287ed3cb8d
-SHA1: f86808e761d9ac15abdbbac9f2d2db14daf9814b
-SHA256: 1b61874eae8980499929200d2a1860e43cdb50e0569472c024557c54daa1c6ec
-Section: 微信插件
-Description: ### 微信插件
- * 发送文字自动转换为表情
- * 需要同时安装微信助手和微信插件管理
-Author: Mao
-Icon: https://TrollStoreX.Github.io/sileodepiction/Kuaidou/icon.png
-Name: 快斗
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Kuaidou/js.json
-
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
 Architecture: iphoneos-arm64
@@ -342,6 +323,23 @@ Description: 自定义X键盘底部高度、地球底部高度等。可以解决
 Author: Axs
 Name: 键盘高度、地球及语音融入键盘
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/jp/js.json
+
+Package: com.Axs.kuaidou
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.Axs.kuaidou_0.1-1_iphoneos-arm64.deb
+Size: 14220
+MD5sum: c4f95e598b5faa1172322607dcae8e9e
+SHA1: f6258dc7af13932d700bfca0b27261dda4506b9c
+SHA256: c52de7d4d8e0b8c21b7bca2d6545cefb167d6e7dc926f057ed804b0c5873f421
+Section: 微信插件
+Description: 微信插件* 发送文字自动转换为表情* 需要同时安装微信助手和微信插件管理
+Author: Mao <qiaozhani000@163.com>
+Icon: https://axs66.github.io/repo/icon/wechat.png
+Name: 快斗
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.Axs.misaka
 Version: 0.1-1+debug
