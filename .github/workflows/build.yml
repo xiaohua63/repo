@@ -36,17 +36,16 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.PAT }}
 
-      - name: Output Packages file
-        run: cat Packages  # 输出 Packages 文件内容以进行调试
+      - name: Output Packages files
+        run: ls -l Packages*  # 列出所有相关文件以进行调试
 
       - name: Commit updated Packages
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "actions@github.com"
-          git add Packages
+          git add Packages Packages.bz2 Packages.gz  # 添加所有相关文件
           git commit -m "Update Packages" || echo "No changes to commit"
           git push https://${{ secrets.PAT }}@github.com/axs66/repo.git HEAD:main
-        # 不再需要 GITHUB_TOKEN 环境变量
 
       - name: Setup Pages
         uses: actions/configure-pages@v5.0.0
