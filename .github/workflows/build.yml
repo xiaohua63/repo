@@ -3,6 +3,9 @@ name: Deploy static content to Pages
 on:
   push:
     branches: ["main"]
+  paths:
+      - 'debs/*.deb'
+      
   workflow_dispatch:
 
 permissions:
@@ -35,6 +38,19 @@ jobs:
           ./generate_packages.sh
         env:
           PERSONAL_TOKEN: ${{ secrets.PAT }}
+
+      - name: Output Packages file
+        run: cat Packages  # 输出 Packages 文件内容以进行调试
+
+      - name: Commit updated Packages
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "actions@github.com"
+          git add Packages
+          git commit -m "Update Packages" || echo "No changes to commit"  # 如果没有变化则不报错
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5.0.0
