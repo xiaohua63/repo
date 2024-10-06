@@ -786,6 +786,24 @@ Icon: https://axs66.github.io/repo/icon/appstore.png
 Name: StoreSwitcher 2 (rootless)
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.swipeextender
+Version: 1.6.1~2
+Architecture: iphoneos-arm64
+Maintainer: MiRO
+Installed-Size: 614
+Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.Axs.swipeextender_1.6.1~2_iphoneos-arm64.deb
+Size: 85428
+MD5sum: 23c65de2cfdd57faca08658d0dcf4eb8
+SHA1: 8474d8e9b61335f3347adcea80f468011e740b36
+SHA256: b41e76dd869d0a6f5ab8d54a58d57c90216f26597ddc5789791bdbee8d04a151
+Section: 系统增强
+Description: 通过传奇的 SwipeExpander 调整的完全重制，重塑您的键盘，专为现代 iOS 设计！
+Author: MiRO
+Icon: https://axs66.github.io/repo/sileodepiction/SwipeExtenderX/icon.png
+Name: SwipeExtenderX
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/SwipeExtenderX/js.json
+
 Package: com.Axs.swipeextenderx
 Version: 0.0.2
 Architecture: iphoneos-arm64
