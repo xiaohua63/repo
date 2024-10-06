@@ -1,54 +1,43 @@
-name: "refresh"
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
 
 on:
-  workflow_run:
-    workflows: ["pages-build-deployment"]
-    types: 
-      - completed
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5.0.0
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
-          submodules: recursive
-
-      - name: Install dependencies
-        run: |
-          sudo apt update
-          sudo apt install dpkg-dev bzip2 xz-utils zstd -y
-
-      - name: Refresh Packages
-        run: |
-          rm -rf ./Packages*
-          dpkg-scanpackages -m ./debs /dev/null > ./Packages
-          cat Packages  # 输出内容
-          bzip2 -v -k -9 Packages
-          xz -v -k -9 --extreme Packages
-          zstd --ultra -22 -k Packages -o Packages.zst
-
-      - name: Save changes if local change
-        run: |
-          git config --global user.email 'action@github.com'
-          git config --global user.name 'GitHub Action'
-          git add .
-          git status  # 输出当前状态
-          if ! git diff --staged --exit-code 1>>/dev/null; then
-            git commit -m 'Refresh Packages'
-            git push
-          fi
-
-      - name: Download remove_all_actions
-        run: |
-          sudo curl -L -o '/usr/bin/remove_all_actions' 'https://raw.githubusercontent.com/invalidunit/action/main/remove_all_actions'
-          sudo chmod -R 0755 '/usr/bin/remove_all_actions'
-
-      - name: Remove all old actions
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
-          GH_REPO: ${{ github.repository }}
-        run: |
-          remove_all_actions
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4.0.5
