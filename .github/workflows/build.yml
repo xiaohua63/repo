@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # 修改为写权限
+  contents: write
   pages: write
   id-token: write
 
@@ -28,6 +28,16 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
+      - name: Check if .deb files were uploaded
+        id: check_files
+        run: |
+          # 检查是否有新的 .deb 文件
+          if ls debs/*.deb 1> /dev/null 2>&1; then
+            echo "new_deb_files=true" >> $GITHUB_ENV
+          else
+            echo "new_deb_files=false" >> $GITHUB_ENV
+          fi
 
       - name: Run generate_packages.sh
         run: |
