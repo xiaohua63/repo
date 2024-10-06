@@ -61,6 +61,25 @@ Author: Misaka
 Name: MisakaHelper
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
+Package: cax.zhumi.ThemeManager.rootless
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: zhumi
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/cax.zhumi.ThemeManager.rootless_1.6.2_iphoneos-arm64.deb
+Size: 2702920
+MD5sum: 357633f91000906d7671df2a92d310be
+SHA1: ff67be650e7afdef6741498447611219568689b7
+SHA256: 6641846c08db9eb81b2d5aac1b52b20de0d778b5ee67b7d70ea5aca44a4de053
+Section: 主题
+Priority: optional
+Description: 猪咪微信主题(无根越狱专用)(Rootless)
+Author: zhumi
+Icon: https://axs6.github.io/repo/icon/wechat.png
+Name: ThemeManager-Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
 Package: cn.llld.wxx
 Version: 1.0.6
 Architecture: iphoneos-arm64
