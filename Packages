@@ -9,13 +9,10 @@ Author: AhmedBafkir
 Author: AnthoPak <anthopakdev@gmail.com>
 Author: Apibug
 Author: Axs
-Author: Axs 
 Author: Brend0n <brendonjkding@126.com>
 Author: Brend0n <qiaozhani000@163.com>
 Author: Carck
 Author: CoolStar
-Author: Crassna
-Author: CreatureSurvive <TG频道@wxfx8>
 Author: CreatureSurvive <support@creaturecoding.com>
 Author: Curtin
 Author: Curtin <curtinlv@126.com>
@@ -23,15 +20,10 @@ Author: Dcsyhi <dcsyhi1998@gmail.com>
 Author: DumpApp
 Author: Ethan Whited
 Author: Fouad Raheb
-Author: Hitori
 Author: Hoangdus
-Author: HuangBai
-Author: HuangBai 
 Author: HuangBai <QQ:1343309363@qq.com>
 Author: IP Man <qiaozhani000@163.com>
-Author: Ivano Bilenchi <TG频道@wxfx8>
 Author: Ivano Bilenchi <support@ib-soft.net>
-Author: Jonathan Winger Lang <TG频道@wxfx8>
 Author: Jonathan Winger Lang <jontelang@gmail.com>
 Author: Jonathan Winger-lang
 Author: Ketty Allen
@@ -46,14 +38,11 @@ Author: MiRO
 Author: Misaka
 Author: MustangYM
 Author: M哥
-Author: Nathan Senter
 Author: Netskao
 Author: Nightwind <nightwinddev@gmail.com>
-Author: P2KDev <TG频道@wxfx8>
 Author: P2KDev <p2kdev@gmail.com>
 Author: Phuc Do
 Author: PoomSmart
-Author: Ryan Nair <TG频道@wxfx8>
 Author: Ryan Nair <ryannairtweaks@gmail.com>
 Author: SOPPPra
 Author: SWING
@@ -65,13 +54,11 @@ Author: appku
 Author: ash
 Author: c1d3r
 Author: dvntm
-Author: ethxnn88 <TG频道@wxfx8>
 Author: ethxnn88 <ethxnn88@gmail.com>
 Author: fiore
 Author: ichitaso
 Author: lclrc(SquidForce)
 Author: lenglengyu
-Author: lly
 Author: opa334
 Author: opa334 <opa334@protonmail.com>
 Author: r_plus <anasthasia.r+sleipnizer@gmail.com>
@@ -80,7 +67,6 @@ Author: tangerine
 Author: uckermark
 Author: udevs
 Author: uz.ra
-Author: zhaonan <TG频道@wxfx8>
 Author: zhaonan <invalidunit@icloud.com>
 Author: 人妖嘉嘉
 Author: 公众号：苏兔（bysutu） <super.cat.sutuplus@gmail.com>
@@ -89,7 +75,6 @@ Author: 小果子
 Author: 平凡
 Author: 来了老弟 X：h_h_x_t
 Author: 秋名山 <qiaozhani000@163.com>
-Author: 苏兔
 Conflicts: ApibugTextToVoice
 Conflicts: MisakaHelper
 Conflicts: ThemePro
@@ -163,11 +148,9 @@ Depends: mobilesubstrate, preferenceloader
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
 Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
 Depends: mobilesubstrate, preferenceloader, oldabi
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
 Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
 Depends: preferenceloader
@@ -192,19 +175,16 @@ Description: Advanced Tweak Configuration!
 Description: An awesome MobileSubstrate tweak!
 Description: An awesome SwiftUI application!
 Description: Animated table scrolling
-Description: App Store需要付费的软件可以先试试此内购插件，弹窗付款点取消即可，如果不行，那就是破解不了！放弃吧！
 Description: Aweme Homepage Full Screen. Tested on version 29.8.0 only, failure will not be maintained
 Description: Color your badges with Perfection!
 Description: Control your text or translate as you wish.
 Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
-Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
 Description: Decrypt iOS Apps
 Description: Decrypt iOS Apps and Plugins
 Description: Discretely take a photo or record a video from anywhere, even with your screen off.即使在屏幕关闭的情况下，也可以在任何地方随意拍照或录制视频。 使用方法∶快速按两次音量上键开始录制视频，再次按两次停止录制，快速按两次音量下键拍摄照片。 此插件为转插，需要legacy64插件支持。
 Description: Display Notification Avatars for WeChat App using iOS15+ APIs
 Description: Displays your touch interactions!
 Description: Displays your touch interactions! 显示触摸屏幕的轨迹；很酷炫，很丝滑的一个插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。
-Description: Download social media pictures and videos
 Description: Download social media pictures and videos.本插件可以下载各大视频软件里的视频，但是能不能有效，自己尝试，不要屏蔽插件注入APP！由Axs破解
 Description: Enable, fix, and customize the Dynamic Island on older devices.
 Description: Enhance the stock CC or Prysm on the fly(修改控制中心背景图，用第二个Stock就行了)
@@ -225,7 +205,6 @@ Description: Pause/resume video recording.使用相机拍摄视频的时候，�
 Description: Picsew是一款非常好用的长截图软件！使用方法：App Store搜索下载Picsew。用appdata降级到3.8.6版本，打开Picsew，点击购买即可解锁专业版，付款时点击取消！后期可以一直在苹果商店更新升级使用。
 Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
 Description: Quickly access settings prefs from 3D Touch Menu
-Description: Remove the background of the widgets on the home screen.
 Description: Replace any text, system-wide! 全局替换任意位置的文字。可以用来自己汉化插件，也可以改自己想要显示的文字！
 Description: Safari Essential Features
 Description: Shows where you touch the screen
@@ -234,47 +213,33 @@ Description: Telegram* 回车键/换行键 改为“发送”功能
 Description: The Apple Watch homescreen experience brought to iOS
 Description: The first real iOS system cleanup and management utility
 Description: TikTok save no watermark videos, Click on the original share button use. TikTok regions can be selected on the settings page. Only version 20.7.0 and above are supported
-Description: Tweak to enable the hidden storage settings
 Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Description: convenient faster browsing with gestures
-Description: deb插件快速备份
 Description: iOS 6 Style Lock Screen!
 Description: including iMark and Piiico for now
 Description: multitasking for iOS15 rootless.
 Description: 一款真后台插件，先去系统设置控制中心里添加这个模块，方框形状的，然后进入你想要的APP，下滑控制中心点击真后台按钮即可！没有源比搬运工源介绍如此详细！
 Description: 中文输入法语音转文字免跳转插件。无设置选项，安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞
 Description: 京东去广告+精简
-Description: 便捷截屏3
 Description: 便捷截屏3，已由CBZ破解。已修正OCR，源内可安装中文包。
 Description: 修改微信版本号。
 Description: 像CoolCC一样，删除控制中心模块背景并添加边框，控制中心发光。
-Description: 全权限砸壳
-Description: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
-Description: 发送文字自动转换为表情，需要同时安装微信助手和微信插件管理
 Description: 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
 Description: 对您的设置应用程序进行了极大的增强！
 Description: 对插件设置进行汉化，方便你我他。
-Description: 将B-微信插件全部收纳在一起方法操作，更美观。
-Description: 将G-越狱插件收纳在一起，美观，方便管理，此插件为汉化，配合主包使用。
 Description: 将微信插件全部收纳在一起方法操作，更美观。
 Description: 将文件夹显示为图标等多功能文件夹。
 Description: 将越狱插件收纳在一起，美观，方便管理，此插件为汉化，配合主包使用。
 Description: 尝试保存 apt 缓存目录下所有 deb
 Description: 左滑返回上一页面
 Description: 开启会员功能，去除你能看到的所有广告，适用威锋7.0.3及之后的版本！威锋APP在苹果商城下载！
-Description: 微信主体美化
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
 Description: 微信助手
-Description: 微信多功能插件
-Description: 微信多功能插件 
-Description: 微信小布丁1.0.6版本，可注入可越狱使用。
 Description: 微信小布丁1.0.6版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告（可自定义关注视频和直播中订阅号），屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数，后台模糊，界面透明等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***,8.0.31版本专供，高版本仅用部分功能（我自用是8.0.31，没适配高版本）
-Description: 微信文字转语音原神版,模型运算版本,等待6秒左右合成成功
 Description: 微信文字转语音原神版,模型运算版本,等待6秒左右合成成功- 官网:www.apibug.com
 Description: 成功让人妖嘉嘉取消了入群费21.88元
-Description: 抖音全屏播放， 仅支持29.8.0上测试
 Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏、新增朋友圈转发、修改聊天时间以及修改部分bug。
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
@@ -282,7 +247,6 @@ Description: 支持 iOS15/16 的控制中心美化工具，可修改原生模块
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号视频下载。
 Description: 斗图助手-Rootless
 Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。
-Description: 最新版微信（v8.0.49）去广告插件。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  
 Description: 最新版微信（v8.0.49）去广告插件。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  源内所有插件仅供本人测试使用，下载后请于24小时内删除! 软件源：https://repo.abox.plus  TG：https://t.me/abox1993
 Description: 本插件安装包来自苏兔源
 Description: 本插件非常的好用！推荐！
@@ -297,7 +261,6 @@ Description: 灵动消息，就是这么简单。仅仅支持iOS16+ (14pro,14pro
 Description: 用于加载微信美化主题,安装完成重启微信生效!
 Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
 Description: 移除小组件背景，让桌面更干净。
-Description: 群管理Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
 Description: 群管理Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
 Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
 Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
@@ -305,15 +268,12 @@ Description: 自定义X键盘底部高度、地球底部高度等。可以解决
 Description: 设置自定义、归类插件，源内有汉化包。
 Description: 通过传奇的 SwipeExpander 调整的完全重制，重塑您的键盘，专为现代 iOS 设计！
 Description: 锤子助手插件
-Description: 集合的控制中心模块。
 Description: 集合的控制中心模块：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX/推特/油管/Filza/Sileo/Tg等、静音、实时CPU使用率、系统运行时间、Snapper2、微信/支付宝付款码、抬起唤醒等。感谢Skypain、Netskao、SOPPPra、MTAC、P2KDev、jailbreak365 +、AnubisTweaks、真皮等各位大佬！！！
 Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
-Description:微信多功能插件
 Dev: rplus
 Essential: no
 Filename: ./debs/MisakaHelper_2.0-0_iphoneos-arm64_rootless.deb
 Filename: ./debs/MisakaHelper_2.1-0-END_iphoneos-arm64.deb
-Filename: ./debs/PKC_无根_0.5-1.deb
 Filename: ./debs/PKC_无根_0.5-2.deb
 Filename: ./debs/PKC_无根_0.5-3.deb
 Filename: ./debs/PKC_无根_0.5-4.deb
@@ -339,9 +299,6 @@ Filename: ./debs/com.25mao.miyou.rootless_3.8-0_iphoneos-arm64.deb
 Filename: ./debs/com.25mao.youquan.rootless_3.0-9_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.Axon_2.1.3_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.ThemePro_3.0.8_iphoneos-arm64.deb
-Filename: ./debs/com.Axs.ThemePro_3.1.0_iphoneos-arm64.deb
-Filename: ./debs/com.Axs.ThemePro_3.1.1_iphoneos-arm64.deb
-Filename: ./debs/com.Axs.appcardlite_2.1.6-6_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.aria_0.9.8.1_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.backgrounderaction15_0.1.deb
 Filename: ./debs/com.Axs.bigshot_1.1_iphoneos-arm64.deb
@@ -352,11 +309,8 @@ Filename: ./debs/com.Axs.dleasy_2.14.5k_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.dydqc_2.0.3-6_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.ersatz_1.0.1_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.hideserialnumber_0.0.4_iphoneos-arm64.deb
-Filename: ./debs/com.Axs.iapstorefugu_0.0.2_iphoneos-arm64.deb
-Filename: ./debs/com.Axs.internalstoragesettings_1.0_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.keyboard_1.1-8_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.misaka_0.1-1+debug_iphoneos-arm64.deb
-Filename: ./debs/com.Axs.misaki_2.1.8_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.msgfilt.rootless_1.0-5_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.muteplay_1.0_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.onesettings_2.1.1_iphoneos-arm64.deb
@@ -368,7 +322,6 @@ Filename: ./debs/com.Axs.qqtc_1.1.1-1_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.recorder-bubble_0.0.1_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.recordpause_2.0.2_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.removewidgetbg_1.3_iphoneos-arm64.deb
-Filename: ./debs/com.Axs.removewidgetbg_1.6_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.settingsrevamp.hh_2.1.1_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.settingsrevamp_2.1.1_iphoneos-arm64.deb
 Filename: ./debs/com.Axs.sixls_1.1-1_iphoneos-arm64.deb
@@ -433,7 +386,6 @@ Filename: ./debs/com.udevs.dockx_2.6.1_iphoneos-arm64.deb
 Filename: ./debs/com.udevs.dockx_2.6.2_iphoneos-arm64.deb
 Filename: ./debs/com.yourepo.trollstore.noredirect_1.2_iphoneos-arm64.deb
 Filename: ./debs/com.yourepo.trollstore.sneakycam-rootless_2.0.7_iphoneos-arm64.deb
-Filename: ./debs/com.yourepo.trollstore.telegramreturn_1.0_iphoneos-arm64.deb
 Filename: ./debs/com.yourepo.trollstore.telegramreturnenterkeyreturnkeychangedtosendfunct_1.0_iphoneos-arm64.deb
 Filename: ./debs/com.yourepo.trollstore.wechatversion33_1.0_iphoneos-arm64.deb
 Filename: ./debs/com.yourepo.trollstore.zxbsp_0.0.3_iphoneos-arm64.deb
@@ -469,76 +421,6 @@ Icon: https://axs6.github.io/repo/icon/settings.png
 Icon: https://axs6.github.io/repo/sileodepiction/SwipeExtenderX/icon.png
 Icon: https://axs6.github.io/repo/sileodepiction/sixls/sixls.png
 Icon: https://axs6.github.io/repo/sileodepiction/touchvis/icon.png
-Icon: https://axs66.Github.io/sileodepiction/repo_pic/Telegram.png
-Icon: https://axs66.github.io/repo/icon/AirPods2Pro.png
-Icon: https://axs66.github.io/repo/icon/Appdata.png
-Icon: https://axs66.github.io/repo/icon/Aria.png
-Icon: https://axs66.github.io/repo/icon/Axon.png
-Icon: https://axs66.github.io/repo/icon/Bridge.png
-Icon: https://axs66.github.io/repo/icon/CCSettings.png
-Icon: https://axs66.github.io/repo/icon/ChoicyIcon.png
-Icon: https://axs66.github.io/repo/icon/ClassicFolders3.png
-Icon: https://axs66.github.io/repo/icon/ClassicKeyboard.png
-Icon: https://axs66.github.io/repo/icon/DLEasy.png
-Icon: https://axs66.github.io/repo/icon/Folder.png
-Icon: https://axs66.github.io/repo/icon/HammerIt.png
-Icon: https://axs66.github.io/repo/icon/MediaPlayer.png
-Icon: https://axs66.github.io/repo/icon/MilkyWay.png
-Icon: https://axs66.github.io/repo/icon/Piiico.png
-Icon: https://axs66.github.io/repo/icon/PullOverPro.png
-Icon: https://axs66.github.io/repo/icon/SettingsRevamp.png
-Icon: https://axs66.github.io/repo/icon/ShowMyTouches.png
-Icon: https://axs66.github.io/repo/icon/ShowTouch.png
-Icon: https://axs66.github.io/repo/icon/Shuffle.png
-Icon: https://axs66.github.io/repo/icon/SiriPlusIcon.png
-Icon: https://axs66.github.io/repo/icon/Snapper3.png
-Icon: https://axs66.github.io/repo/icon/Speedster.png
-Icon: https://axs66.github.io/repo/icon/Taobao.png
-Icon: https://axs66.github.io/repo/icon/TweakTool.png
-Icon: https://axs66.github.io/repo/icon/appcardlite.png
-Icon: https://axs66.github.io/repo/icon/appstore.png
-Icon: https://axs66.github.io/repo/icon/bubbleapps.png
-Icon: https://axs66.github.io/repo/icon/camera.png
-Icon: https://axs66.github.io/repo/icon/ccBorder.png
-Icon: https://axs66.github.io/repo/icon/cjt.png
-Icon: https://axs66.github.io/repo/icon/copylog.png
-Icon: https://axs66.github.io/repo/icon/dockx.png
-Icon: https://axs66.github.io/repo/icon/dspzs.png
-Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
-Icon: https://axs66.github.io/repo/icon/dy.png
-Icon: https://axs66.github.io/repo/icon/dynamic.png
-Icon: https://axs66.github.io/repo/icon/ersatz.png
-Icon: https://axs66.github.io/repo/icon/filza.png
-Icon: https://axs66.github.io/repo/icon/givemedeb.png
-Icon: https://axs66.github.io/repo/icon/huaban.png
-Icon: https://axs66.github.io/repo/icon/iCleanerPro.png
-Icon: https://axs66.github.io/repo/icon/iapstore.png
-Icon: https://axs66.github.io/repo/icon/instalauncher2.png
-Icon: https://axs66.github.io/repo/icon/jd.png
-Icon: https://axs66.github.io/repo/icon/lynx2.png
-Icon: https://axs66.github.io/repo/icon/misaki.png
-Icon: https://axs66.github.io/repo/icon/noredirect.png
-Icon: https://axs66.github.io/repo/icon/onesettings.png
-Icon: https://axs66.github.io/repo/icon/picsew.png
-Icon: https://axs66.github.io/repo/icon/plamyuipro.png
-Icon: https://axs66.github.io/repo/icon/qq.png
-Icon: https://axs66.github.io/repo/icon/safari.png
-Icon: https://axs66.github.io/repo/icon/settings.png
-Icon: https://axs66.github.io/repo/icon/siri.png
-Icon: https://axs66.github.io/repo/icon/sixls.png
-Icon: https://axs66.github.io/repo/icon/split.png
-Icon: https://axs66.github.io/repo/icon/svp.png
-Icon: https://axs66.github.io/repo/icon/swipeextender.png
-Icon: https://axs66.github.io/repo/icon/tiktok.png
-Icon: https://axs66.github.io/repo/icon/tinge.png
-Icon: https://axs66.github.io/repo/icon/trollstore.png
-Icon: https://axs66.github.io/repo/icon/wechat.png
-Icon: https://axs66.github.io/repo/icon/weifeng.png
-Icon: https://axs66.github.io/repo/icon/ycxzjbj.png
-Icon: https://axs66.github.io/repo/icon/yytz.png
-Icon: https://axs66.github.io/repo/icon/zuohua.png
-Icon: https://axs66.github.io/repo/sileodepiction/SwipeExtenderX/icon.png
-Icon: https://axs66.github.io/repo/sileodepiction/touchvis/icon.png
 Icon: https://ethxnn88.github.io/repo/assets/com.ethxnn88.visibleisland/icon.png
 Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
@@ -556,7 +438,6 @@ Installed-Size: 1117
 Installed-Size: 1188
 Installed-Size: 11989
 Installed-Size: 12005
-Installed-Size: 136
 Installed-Size: 13648
 Installed-Size: 1432
 Installed-Size: 14408
@@ -613,7 +494,6 @@ Installed-Size: 744
 Installed-Size: 76
 Installed-Size: 808
 Installed-Size: 812
-Installed-Size: 860
 Installed-Size: 862
 Installed-Size: 88
 Installed-Size: 884
@@ -651,12 +531,10 @@ MD5sum: 3f5615a6e5d13822fda52cd6df695609
 MD5sum: 40136a71f47b99b520dc870c93391fff
 MD5sum: 40500b3eb781a461fea3f06d11fbda9b
 MD5sum: 41382ed292b8820b858f84c450caa7b3
-MD5sum: 41a794d572d0456881bffc2159efb7f8
 MD5sum: 434f0871ab4a05724b0035ee63678fdb
 MD5sum: 45db94dc837cb87dda7f44dc0d87d833
 MD5sum: 49b47c16acc1a31a59f59dee7d13930e
 MD5sum: 4c9e39f53db5740abc1851ea14fe4130
-MD5sum: 4ea2748ea51b8fb64ca0bcd173119794
 MD5sum: 4fb87ce9360d304e8d2465309475ae83
 MD5sum: 5132f7f035858ae4fbe8814441a94a99
 MD5sum: 51b1eb042406e537a44c0f81cdcc3ae0
@@ -667,7 +545,6 @@ MD5sum: 5a2bb6e236d115e19c64d909eec81ed0
 MD5sum: 5a72a90705492fbf36827ad75b37807a
 MD5sum: 5ac4e7a5acb7eba1173b901ce55ca109
 MD5sum: 5c00bb8a9e5e2786048def95b24f8ffe
-MD5sum: 5c252b6a5147e2736b8ddb4c65ea316c
 MD5sum: 5e20b5cdeac51fdbc78e3d17fde86e6e
 MD5sum: 60e4f174cffcfbd90ca630eae6386518
 MD5sum: 64519249d59220122920dba9fbe7f405
@@ -689,9 +566,7 @@ MD5sum: 7c02190692158746803f6ccb3a10a708
 MD5sum: 7d16902e38afd5cf3b08e975c46fc45d
 MD5sum: 7d98ab73e5c1597a86f6f8e6ed665e94
 MD5sum: 8183afa7efb25e4976480690f3f877f1
-MD5sum: 82d351890732d313a646b58c45ccfccb
 MD5sum: 842224d2d101bf73a934ed7d3a33a36e
-MD5sum: 862e1b66c58914f978aade2a49e35c05
 MD5sum: 88b2d38f678bb6aebb5455d164763205
 MD5sum: 899e3858b86f91f219f2bdf268de075f
 MD5sum: 8ca10f003a47deb1f6e337745b814907
@@ -707,7 +582,6 @@ MD5sum: 9c9ce2d537ed6e82e3362962a089dc69
 MD5sum: 9d00ee9122678180283a6efa366d09ac
 MD5sum: a3ded81ac01d60edc79298f680c640d1
 MD5sum: a572c3b2bbd4426dfda5ac02722598fc
-MD5sum: a5a915d432d0295863dcbf9b007bd468
 MD5sum: a5d8807c4325c3b66c98580a92787d39
 MD5sum: a9dab2b07ccaeb0ba6065585ca26e777
 MD5sum: aaead30c42654d43e8d4228cab654465
@@ -734,7 +608,6 @@ MD5sum: d33158b07e10ca9345c1ae3fe0a77483
 MD5sum: d37788996fba28c8663b8f711cc3c840
 MD5sum: d639a2ed4bc02f3f0dea0475cf6289f6
 MD5sum: d70699b93e4c1d86aa21a963427ca3cd
-MD5sum: d84c6b9965e6660c3752234e033cc981
 MD5sum: dea1ded922fe1723c524d2e9857d202c
 MD5sum: df75acde1146923fbf41f95b075cc06e
 MD5sum: e317636fd9893fd9401cc3748ad23e1f
@@ -752,7 +625,6 @@ MD5sum: f881738665a556d86eceb0b2f1e39603
 MD5sum: f8f6aa7477861e62a8c395a1506fb317
 MD5sum: f93895c1e4cd1022da50a49bf615e31b
 MD5sum: fa37903f894a8ca6be5ace3c66a1ae2e
-MD5sum: fd7a29ed58ca93e9878dc0371959380a
 MD5sum: fd7a8060cf900388e1a0855c48186aca
 MD5sum: fd7f453d0e2560811aa66ba6b2261a02
 Maintainer: 0xkuj
@@ -761,27 +633,19 @@ Maintainer: @akusio_RR
 Maintainer: AnthoPak <anthopakdev@gmail.com>
 Maintainer: Apibug <apibug6@gmail.com>
 Maintainer: Axs
-Maintainer: Axs<qiaozhani000@163.com>
 Maintainer: Brend0n <brendonjkding@126.com>
 Maintainer: Brend0n <qiaozhani000@163.com>
-Maintainer: Carby <TG频道@wxfx8>
 Maintainer: Carby <super.cat.sutuplus@gmail.com>
 Maintainer: CoolStar
-Maintainer: Crassna
-Maintainer: CreatureSurvive <TG频道@wxfx8>
 Maintainer: CreatureSurvive <support@creaturecoding.com>
 Maintainer: Curtin <curtinlv@126.com>
 Maintainer: CyPwn
 Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
 Maintainer: Ethan Whited
-Maintainer: Hitori
 Maintainer: Hoangdus
-Maintainer: HuangBai 
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Maintainer: IP Man <qiaozhani000@163.com>
-Maintainer: Ivano Bilenchi <TG频道@wxfx8>
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Maintainer: Jonathan Winger Lang <TG频道@wxfx8>
 Maintainer: Jonathan Winger Lang <jontelang@gmail.com>
 Maintainer: Ketty Allen
 Maintainer: Lessica
@@ -793,32 +657,26 @@ Maintainer: Misaka
 Maintainer: MustangYM
 Maintainer: MustangYM <MustangYM@yeah.net>
 Maintainer: M哥
-Maintainer: Nathan Senter
 Maintainer: Nets
 Maintainer: Nightwind <nightwinddev@gmail.com>
-Maintainer: P2KDev <TG频道@wxfx8>
 Maintainer: P2KDev <p2kdev@gmail.com>
 Maintainer: Phuc Do
 Maintainer: PoomSmart
-Maintainer: Ryan Nair <TG频道@wxfx8>
 Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
 Maintainer: SOPPPra
 Maintainer: SWING
 Maintainer: Skitty
 Maintainer: SquidForce(乌贼力量)
-Maintainer: TG频道@wxfx8
 Maintainer: WeChat
 Maintainer: admin@25mao.com
 Maintainer: appku
 Maintainer: ash
 Maintainer: curtinlv@126.com
 Maintainer: dvntm
-Maintainer: ethxnn88 <TG频道@wxfx8>
 Maintainer: ethxnn88 <ethxnn88@gmail.com>
 Maintainer: https://trollstorex.github.io/repo/
 Maintainer: ichitaso
 Maintainer: lclrc(SquidForce)
-Maintainer: lenglengyu <TG频道@wxfx8>
 Maintainer: lenglengyu <lenglengyu@126.com>
 Maintainer: opa334
 Maintainer: opa334 <opa334@protonmail.com>
@@ -839,7 +697,6 @@ Moderndepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.v
 Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
 Name: AirpodsCompanion
 Name: ApibugTextToVoice
-Name: App Lecard
 Name: AppData
 Name: Aria控制中心背景图
 Name: AwemeFullScreen
@@ -865,12 +722,10 @@ Name: Give me deb
 Name: Hammer It
 Name: HideSerialNumber
 Name: InstaLauncher 2
-Name: InternalStorageSettings
 Name: Lynx 2
 Name: MilkyWay4-iOS16Fix
 Name: MilkyWay4-rootless
 Name: MisakaHelper
-Name: Misaki
 Name: MutePlay
 Name: No Redirect禁止启动应用
 Name: OneSettings
@@ -891,7 +746,6 @@ Name: ShowTouch
 Name: Shuffle
 Name: SiriPlus
 Name: Sleipnizer for Safari (iOS 15-16)
-Name: Snapper 3
 Name: Snapper 3(rootless)
 Name: Speedster
 Name: StoreSwitchAccounts
@@ -900,9 +754,7 @@ Name: Svp分屏独立版(rootless)
 Name: SwipeExtenderX
 Name: SwipeExtenderX汉化
 Name: Telegram Return 回车键
-Name: ThemePro
 Name: ThemePro-3.0.8
-Name: ThemePro-3.1.1
 Name: ThemePro-3.1.1-Rootless
 Name: TikTok Hooks
 Name: Tinge
@@ -916,10 +768,8 @@ Name: dynamic-notifier
 Name: iCleaner Pro
 Name: ios6经典锁屏及声音
 Name: native-island-notifier
-Name: snapper3
 Name: split-view-pro
 Name: 京东（去广告+精简）
-Name: 内购神器
 Name: 去除misaka匿名艾特次数限制
 Name: 左滑返回-Rootless
 Name: 录屏花瓣
@@ -927,31 +777,26 @@ Name: 微信净化
 Name: 微信净化END
 Name: 微信助手
 Name: 微信去广告
-Name: 微信小布丁
 Name: 微信小布丁-rootless
 Name: 微信插件管理
 Name: 微信通知头像
 Name: 快斗
 Name: 抖音净化-Rootless
 Name: 抖音大气层-永久版
-Name: 斗图助手
 Name: 斗图助手-Rootless
 Name: 注销不锁屏
 Name: 消息屏蔽助手
 Name: 淘宝优惠券
 Name: 爱锋助手
-Name: 短视频助手
 Name: 短视频助手-Rootless
 Name: 移除小组件背景
 Name: 虚拟视频
 Name: 解锁威锋vip
 Name: 语音转文字免跳转
 Name: 酸果 - Rootless
-Name: 锤子助手
 Name: 锤子助手-Rootless
 Name: 键盘高度、地球及语音融入键盘
 Name: 隐私相机SneakyCam
-Name: 黄白助手
 Name: 黄白助手(微信插件)-Rootless
 Package: ApibugTextToVoice
 Package: MisakaHelper
@@ -1074,11 +919,9 @@ Replaces: com.ryannair05.cask2
 Replaces: com.twickd.nightwind.onesettings
 Replaces: netskao.wechatpurification
 Replaces: org.altervista.exilecom.icleaner
-SHA1: 02771b9e42cbe7a18a1a820c8312406a73fc5984
 SHA1: 02a00f517c9d3d17e4de369bcc87fd3ba0abc5ad
 SHA1: 02cdabd0f80216e593fd86f13ec8d870c7dbe103
 SHA1: 02e9fcacf4ff600e783d751eec2ac462b2f74c76
-SHA1: 048d442e6d6f2138176b03075e96ad19d48725ce
 SHA1: 080c3f5babb93c1d27ed2a608f3867862a3d6eab
 SHA1: 0874c25b17da566d445704ce1669ac136a7fef0e
 SHA1: 0d4cbbcaa83a7113ad2764e285462a6db32b0f75
@@ -1093,7 +936,6 @@ SHA1: 197c02b87d60a229f8827724fbe6a758c455adc1
 SHA1: 19ef775069e2314b3e58474591eaec2b068d9b76
 SHA1: 1d706762499031252754515b177b76810bbfe602
 SHA1: 1fb8d8f4247ec44f7c61629e5f4ef455a682c4a0
-SHA1: 20b09508dbc171b82dabb5e1dcb4096cbbd45473
 SHA1: 21ec3fb45a63f57300bdd42e9498d0585e6a2c2f
 SHA1: 226c48dcdf4b3d582bbf873c0f260896359b2bc8
 SHA1: 23efe1c17af2aaa2c42244f0ab16eaf1de1e34a8
@@ -1119,7 +961,6 @@ SHA1: 4c8c80f8597c3c7e94a0dd5ed600624cebb0f1ae
 SHA1: 4ce906bbc153407eed01d4e7f46101959c39e438
 SHA1: 4fcb3d48c478bba22facee4fd12bbeb66d6a8377
 SHA1: 52da8ab7cfd9068f2ec3f6caea5d144820ac95e3
-SHA1: 550734e92ba0c0692282e76636cdb40a7a26c8df
 SHA1: 575137e624ea6d038c4ab4dcc7da9a01ee417fc6
 SHA1: 59b9427208de01f3e0d58cab5028db07c0245b58
 SHA1: 5a627b065a36bc0f908894f481bf7aeaaa5518e8
@@ -1130,14 +971,12 @@ SHA1: 6073fe97c99e06c9a3ac02589218aa4469b7e233
 SHA1: 61c37fdc9ef8cc51d962d0cb329e5d99ecd5798c
 SHA1: 685af9088466a32d0bace2719ea6f1b119879d08
 SHA1: 6a60f5570978864599adc2b7b94509db24e5ff80
-SHA1: 6d6986b1221224eb6541cff3fe3c8bcf833bc4d8
 SHA1: 6e4c4771d8384c79f726da13b38077efbd0cf41e
 SHA1: 6e8c9e2021d22776364d6e1852663a9881ce1575
 SHA1: 72c759a2a5d59b3cb79f98b1a9a1f9fb9cab06a3
 SHA1: 7847170a763402fff6a3c97a89e21f860b66b62f
 SHA1: 784f2757b9cc751b4636b271e5c3884b37413f79
 SHA1: 7a3d4fa057ee888543853be6aa2c88da845f353e
-SHA1: 7c8ae51642543c841c211a05d54e2a6511697a0a
 SHA1: 7dfb84849f411c484f4da7d453b6b758ed656c8d
 SHA1: 7e2852f811343fd0afa5d04faa49a9d5059ea91f
 SHA1: 7e34a9ab993087de1aa4134fc6328ec30960d733
@@ -1167,7 +1006,6 @@ SHA1: b37085fe3d6c9f6f5319fd9a6be7c684acf6b544
 SHA1: b385f1ec8f510df305351aa6b810c136a18a3115
 SHA1: b48a3cae41e23081545aa407d3e62c884d97b027
 SHA1: b663d8a2f0e6d6f438791babd9450d6d816493e5
-SHA1: b74d92c9815e393cc4849fd18136ab133ad7bb53
 SHA1: b771c514e46c1c1f66e73bce2a54a6e8608ff7b1
 SHA1: ba3957e31a62237c579772fd161a92c3944dd6e8
 SHA1: bb122b22cfeb11362b7a52f4b3bdb166dcb85882
@@ -1204,7 +1042,6 @@ SHA1: f0b609ee92a34f4d37a78704c1e998e9a075c329
 SHA1: f1a191d48f27f8a935e697a68aa9cee9c9f5cc02
 SHA1: f3b547a0ccbc921e0da3924b3212cf4f3576b519
 SHA1: f417593501cdbae69b594ddbcc085043560d1626
-SHA1: f4d677b6f4ab1d5b20b77e8028e311b6247c7751
 SHA1: f5a1fbaa717230b7e53491ff0a0d2b3dfeb03b3d
 SHA1: f832820b54d631918b1e847bdd63364778ab9b5a
 SHA1: f857977fb5e9e7040d6d867a088256b77a1a296f
@@ -1297,13 +1134,11 @@ SHA256: 9c6622889ef922038863816b9a947caf5738a520f87f8e12245816faad58e44f
 SHA256: 9d8a218d53c9c2b87a4217ca1075009884ad3a10f2f630062d7633106d4e0206
 SHA256: 9dcfa92cd6da9ccc719c182a419c7d2603e76c68b0c994ae3a111ba87f0ad91f
 SHA256: 9edeab2018f72984ef6d8bd7c93b345d22bcd7becccc4dc9222a7b5bd62aa827
-SHA256: 9fbcb89918d7e5bb0276996a7c91fb5404ff9f7ff71a8543e63a76facc56aa19
 SHA256: a878bd7ac147336177c9136207ddbf5e06ab891c5be1df1464d9fc892460e871
 SHA256: aa76032ae10920e6db19e36a821ab6624baff4077f20c52486091f43be52d56b
 SHA256: aaf4bca339b1c3ad379ca371a1a4413c06c5fecef8cb471184863795864377c3
 SHA256: ab0a388eb6517840a500c3f55e7a94ea8a1c353371562ff5b0dd448bf1645950
 SHA256: ac2e5ad07fb8894a2f26faecd55d45661a93ad030b6545d4266f440696eafa7b
-SHA256: ac9a304aa75ea6cf52bc53ae699686a99051d137cafcaf7492caf2af0fddc04e
 SHA256: ad4d2c1f314b3557270d8d29529b3f3a7fb747758b6eb826ce77a96cb01bca96
 SHA256: ade213fe0da2a98d31ad8fc0fd53f499fa5591dbaf1b58e4fb2bf79be3ef992f
 SHA256: b42fde6cacef11a598bec18999a90cd02e628d69832c466526380a2a2e8d30c3
@@ -1312,7 +1147,6 @@ SHA256: b6cdb79568eaa24d75dc99ed5b126909bde0745c7745af7cb6876255a2701edf
 SHA256: b8bf7b5f9abf5536b1984b599455f5e6b5d4f79f326fc5446cfec7ad868f8d16
 SHA256: ba37bb22cb57829fa8fb0b9d0afcf2edf093acf926f6cc05863c07c14e961b57
 SHA256: ba8a51c489687cd2b0b0528b17cc3a9ca8927d513f20b207bde69c720a8f5be8
-SHA256: bab85c7fe217059c2075ad191c7431405d87a4b8c7e14ee9d351a48c22e036e8
 SHA256: bcc2e164c7b9fb78855c561e9f5a625eb731fe825be898eed5eaed06ac151f0f
 SHA256: bd6fe8ae356a251bf5a8e99d5497b5a029c4a3ce8a4129dc538f7e1b5e0180ce
 SHA256: be8f6e303e62a83455f820703cd1cfa51a811c0b262e6d64176f2f99c6291605
@@ -1320,9 +1154,6 @@ SHA256: bec9a719c4409e15d4b3f5d4eba46937364aded3e6a81adc7ce9c5b1562fb644
 SHA256: c394951f39da35090a9a1a52c519d309f3a0a0ac4d1a179e40d8a657ee6483cc
 SHA256: c44cf0f14e4abd1937bf35846e50f71268fd76306ce3e39d9e9221e492febbff
 SHA256: c500588113d6ea84f56f7222fc491d848e2cd2c8adec988662f65a85cd2096da
-SHA256: c57231870faa2dd638029de12066982c870cfe2d9850371c375c4112f9a25d04
-SHA256: c65cfeccd687f54dfe6beabb666c6eddb916aef44ad45f9bc75b0d1dfa1d983d
-SHA256: c7d5dbe6d654953d97891c251bd40ffad6d4aa0fb6ba1831fbd357d3d0f09ac8
 SHA256: c8406f394b742234206d153707362cfa1217f19e7d37de2bf4b00fb2682c2148
 SHA256: c9963d4eb9bf255628b3814049fb4752ee1e5932cc07507e6d9a089498588918
 SHA256: ca0bd035973d4a9164098cc412eed08cd1e3e8f83d217224dc2b4834d78993b8
@@ -1336,7 +1167,6 @@ SHA256: d6542f3f916e120cf00c32925a63446b3eb5d486221ec5ab92f1fa1250818468
 SHA256: d99206f4ced9de9d491867ebc1e88e306f20e5c9e75c9d4632efca3786ba9e24
 SHA256: db13b2d0dd0aa91d75c01abd823ec3c9051264a5037f98f058aae41b502186db
 SHA256: de2335f6b67c82c335ffecf9a10ca83b56d3f6045560c65aefbfe6cc59ae8fef
-SHA256: e15943f68b26cb241e153ac1d856ae5206663ed29b05468c53041c74f47fdc07
 SHA256: e2b0379937c20d9b5ebf3328dc0a9bff8d8cc1ca48cea21287717ba6e1771eb6
 SHA256: e6809e6c03fc9f01d942533a7a4da7bdaf8601275ce5307f443210b42654a02e
 SHA256: e91af083915e376a6a263842a639201a980bcdf6c547dd2cab001082b731c6b2
@@ -1347,20 +1177,13 @@ SHA256: f386ecd8893702ddd1f8512869d6857672c63dfb9c22096cce931ce45ee4d749
 SHA256: f7fd9a836eb9fd4f60278b8e6ef27312c0db17e0163ebec6c607c7f4e4380b1a
 SHA256: fa24e04a44ec6a87cac2df9a67d6659521a06622f77981b8a18dcc375aab4338
 SHA256: feb506d17972f6d2a0fa2881a40c451f11ccf0f32dfbafbc2e85714c39b6e513
-SHA256: ff047b6e608dff7772bc0752c4fd108527054ca3aa08c4ec9ecfb5e6584d5681
-Section:  B-微信插件
 Section: A-微信插件
 Section: Addons
 Section: Applications
 Section: Axs-Tweaks
-Section: B-微信插件
 Section: B-系统增强
 Section: C-系统增强
-Section: D-录屏轨迹
-Section: E-分屏插件
-Section: F-媒体类插件
 Section: G-越狱插件收纳
-Section: H-苹果商店账号切换
 Section: Mao
 Section: Netskao-Tweaks
 Section: PKC-插件
@@ -1376,7 +1199,6 @@ Section: 微信
 Section: 微信插件
 Section: 萝卜：进厂打螺丝是这样的
 Section: 软件增强
-Section:B-微信插件
 Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.qqmusicdesktoplyrics/depiction.json
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Kuaidou/js.json
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/CCLess/js.json
@@ -1403,61 +1225,6 @@ Sileodepiction: https://axs6.github.io/repo/sileodepiction/settingsrevamp/js.jso
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/sixls/js.json
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/svp/js.json
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/touchvis/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/Apibug/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/CCLess/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/HBWechat/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/Misaka/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/PKC/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/Picsew/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/Piiico/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/Snapper/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/SwipeExtenderX/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/ThemePro/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/appcardlite/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/appdata/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/appku/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/aria/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/awemefullscreen/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/axon/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/bigshot/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/bridge/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/ccborder/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/ccsupport/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/classicfolders3/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/desktoplyrics/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/dleasy/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/dockx/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/doutu/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/dumpapp/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/dumpdecrypter/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/dyhook/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/dynamic/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/edgesiri/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/hammerit/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/hideserialnumber/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/icleanerpro/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/instalauncher2/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/internalstoragesettings/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/jp/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/kuaidou/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/misaki/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/miyou/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/msgfilt/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/onesettings/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/pingfan/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/plamyuipro/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/safarix/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/settingsrevamp/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/sixls/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/split-view-pro/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/sutuplus/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/svp/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/telegramreturn/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/tinge/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/touchvis/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/wcpureextension/js.json
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/wxxbd/js.json
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
 Sileodepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
@@ -1493,7 +1260,6 @@ Size: 15260
 Size: 1537152
 Size: 1674748
 Size: 170044
-Size: 173828
 Size: 17668
 Size: 1895628
 Size: 1919638
@@ -1520,8 +1286,6 @@ Size: 2827574
 Size: 28332
 Size: 28720
 Size: 30140
-Size: 30196
-Size: 303048
 Size: 3048
 Size: 306520
 Size: 321592
@@ -1533,12 +1297,10 @@ Size: 36956
 Size: 3720
 Size: 375530
 Size: 3856
-Size: 386136
 Size: 39400
 Size: 39470
 Size: 39996
 Size: 403484
-Size: 4036
 Size: 40846
 Size: 40896
 Size: 408976
@@ -1572,10 +1334,8 @@ Size: 58620
 Size: 595452
 Size: 609608
 Size: 623244
-Size: 6272652
 Size: 6278058
 Size: 6284284
-Size: 6309720
 Size: 6310344
 Size: 640176
 Size: 6408
@@ -1603,7 +1363,6 @@ Size: 981312
 Size: 9968
 Sponsor: Axs
 Sponsor: Curtin <https://qr.alipay.com/2m612122dnnr9q6o488dgab>
-Sponsor: TG频道@wxfx8
 Sponsor: admin@25mao.com
 Tag: compatible_min::ios14.0
 Tag: compatible_min::ios15.0
@@ -1625,7 +1384,6 @@ Version: 0.1.1
 Version: 0.1.2
 Version: 0.2.1
 Version: 0.3.9~b1
-Version: 0.5-1
 Version: 0.5-2
 Version: 0.5-3
 Version: 0.5-4
@@ -1673,7 +1431,6 @@ Version: 1.4-4
 Version: 1.4.1
 Version: 1.4.10-3
 Version: 1.4.2
-Version: 1.6
 Version: 1.6-3
 Version: 1.6.1
 Version: 1.6.1~2
@@ -1699,8 +1456,6 @@ Version: 2.1-0-END
 Version: 2.1.1
 Version: 2.1.3
 Version: 2.1.6
-Version: 2.1.6-6
-Version: 2.1.8
 Version: 2.14.5k
 Version: 2.2
 Version: 2.2-1
@@ -1715,7 +1470,6 @@ Version: 3.0.0
 Version: 3.0.5
 Version: 3.0.8
 Version: 3.1-5
-Version: 3.1.0
 Version: 3.1.1
 Version: 3.1.1-9
 Version: 3.8-0
