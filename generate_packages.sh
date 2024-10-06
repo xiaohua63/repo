@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 # Exit immediately if a command exits with a non-zero status.
 set -e
@@ -16,16 +16,12 @@ fi
 # List contents of DEB_DIR for debugging
 ls -l "$DEB_DIR"
 
-# Check if Packages file exists, if not, generate the Packages file
-if [ ! -f Packages ]; then
-    dpkg-scanpackages -m "$DEB_DIR" > Packages
+# Generate the Packages file
+dpkg-scanpackages -m "$DEB_DIR" > Packages
 
-    # Compress the Packages file
-    bzip2 -fks Packages
-    gzip -fk Packages
-else
-    echo "Packages file already exists. Skipping generation."
-fi
+# Compress the Packages file
+bzip2 -fks Packages
+gzip -fk Packages
 
 # Create the Release file
 cat <<EOF > Release
