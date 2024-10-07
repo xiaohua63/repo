@@ -1505,16 +1505,16 @@ Maintainer: Netskao
 Installed-Size: 256
 Depends: firmware (>= 13.0), mobilesubstrate
 Filename: ./debs/com.netskao.awemedownloadmedia_1.1-2_iphoneos-arm64.deb
-Size: 66304
-MD5sum: 24ff5700d9499f43f562a682b4e84079
-SHA1: 8eccc28745e07487c73671504cae5c67b5cae3b4
-SHA256: 55925a579aadd13d57bd579a8c1abc2ab37bf5da5928abe91d1d29c8b2539114
+Size: 66284
+MD5sum: 995e682517a57e31c98bffc747ea2738
+SHA1: 161f5cfbe0c653192fb4f92456c30b014cc9fdc9
+SHA256: 7f0101abfe52a46f6ccad9c9939dc12ba8e8647cced429e43326e4965d331d65
 Section: Axs-Tweaks
 Description: Aweme No Watermark Download Media. Tested only on version 30.3.0 and above
 Author: Netskao
-Icon: https://axs6.github.io/repo/icon/dy.png
+Icon: https://axs66.github.io/repo/icon/dy.png
 Name: AwemeDownloadMedia
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.awemefullscreen
 Version: 1.1-2
