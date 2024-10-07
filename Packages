@@ -264,10 +264,10 @@ Maintainer: tt
 Installed-Size: 620
 Depends: preferenceloader
 Filename: ./debs/com.Axs.callwallpapervideo_1.0.2_iphoneos-arm64.deb
-Size: 3732644
-MD5sum: 49dbc6f29a7094fafaa2c46bbd012cc7
-SHA1: 128d24e276631221923e78c112f07d0131f60108
-SHA256: 519247f4f11dca1040aeae33c48a0b13a9715f427d199f243c2b6274539198dd
+Size: 3732456
+MD5sum: e5063748d63b9b30266bf0f65c79a0a4
+SHA1: b752f314dde9bc7d2ece405ece181e716bb2f69b
+SHA256: 5d9b031bd037b8e193ffd7a62721e6981e1e68bc2f7ab204f6f8ca6e4087a874
 Section: Axs-Tweaks
 Description: myWall 来电视频，随心所欲！
 Author: tt
