@@ -1516,6 +1516,24 @@ Icon: https://axs66.github.io/repo/icon/dy.png
 Name: AwemeDownloadMedia
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.netskao.awemedownloadmedia
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 304
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedownloadmedia_1.1-3_iphoneos-arm64.deb
+Size: 81436
+MD5sum: 5acf4992f719012908ab2dd7ff0a0582
+SHA1: 762bab70e8a8585a6b4640bfe319561250866697
+SHA256: 07a2d6c19f970bd086c557b67f6e95a818bc7742b7ba041af0b582eea261d466
+Section: Axs-Tweaks
+Description: Aweme No Watermark Download Media. Tested only on version 30.3.0 and above
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/dy.png
+Name: AwemeDownloadMedia
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.netskao.awemefullscreen
 Version: 1.1-2
 Architecture: iphoneos-arm64
