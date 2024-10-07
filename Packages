@@ -257,6 +257,25 @@ Name: BigShot长截图
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/bigshot/js.json
 Sponsor: Axs
 
+Package: com.Axs.callwallpapervideo
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: tt
+Installed-Size: 620
+Depends: preferenceloader
+Filename: ./debs/com.Axs.callwallpapervideo_1.0.2_iphoneos-arm64.deb
+Size: 3732644
+MD5sum: 49dbc6f29a7094fafaa2c46bbd012cc7
+SHA1: 128d24e276631221923e78c112f07d0131f60108
+SHA256: 519247f4f11dca1040aeae33c48a0b13a9715f427d199f243c2b6274539198dd
+Section: Axs-Tweaks
+Description: myWall 来电视频，随心所欲！
+Author: tt
+Icon: https://axs66.github.io/repo/icon/callwallpapervideo.png
+Name: callwallpapervideo来去电视频
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+Sponsor: mywall
+
 Package: com.Axs.classicfolders
 Version: 3.0.5
 Architecture: iphoneos-arm64
