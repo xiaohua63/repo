@@ -154,14 +154,16 @@ Maintainer: 0xkuj
 Installed-Size: 744
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
 Filename: ./debs/com.0xkuj.safarix_1.5.3_iphoneos-arm64.deb
-Size: 272976
-MD5sum: 2d187021b334da9525bf4902b0916883
-SHA1: ef54c44af574bbda06daef553c963bdb178f9d49
-SHA256: a3403465e255e865d8a2f00952f4d403d19bca3d95127852c15ba26b25baf86b
-Section: Tweaks
+Size: 272848
+MD5sum: a9aa249a82c8b7ef6da988c3be515ed6
+SHA1: 578004eff9b3a4f05528b30e8419d3e8a190271f
+SHA256: 786e766320eb8884a64dc6a8ebda476719c34c694d9e29efe6bcbe18c8cb5a7c
+Section: 系统增强
 Description: Safari Essential Features
 Author: 0xkuj
+Icon: https://axs66.github.io/repo/icon/safari.png
 Name: SafariX
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/safarix/js.json
 
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
