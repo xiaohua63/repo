@@ -235,6 +235,42 @@ Description: 查淘宝优惠券，查商品历史价
 Author: Mao
 Name: 淘宝优惠券
 
+Package: com.82flex.iconrestore
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 444
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.82flex.iconrestore_1.7_iphoneos-arm64.deb
+Size: 32056
+MD5sum: b9a0baf7cbb982d335da0bffa27150fe
+SHA1: beb9a9c08a8225d710a10dd7cbe64865521903f4
+SHA256: 3d83e47707e7e0249e387c1ea07ab681fe62d6b620e1e87c4657617264e7b6fb
+Section: Axs-Tweaks
+Description: Save and restore the layout of your icons.
+Author: Lessica <82flex@gmail.com>
+Icon: https://axs66.github.io/repo/icon/iconrestore.png
+Name: Icon Restore
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
+Package: com.82flex.noredirect
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 576
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.82flex.noredirect_1.9_iphoneos-arm64.deb
+Size: 54032
+MD5sum: e52bb29d80a5671f65be6fa161b57417
+SHA1: ff78c3d7cb6371dbb720842e02a9b4a4a144d379
+SHA256: 9161150d0268c6bf1e2a488a21423c99c0aff3d7f1258296f42a2ed1b3022eac
+Section: Tweaks
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Author: Lessica <82flex@gmail.com>
+Icon: https://axs66.github.io/repo/icon/noredirect.png
+Name: No Redirect
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.ThemePro
 Version: 3.1.1
 Architecture: iphoneos-arm64
