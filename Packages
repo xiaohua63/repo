@@ -627,41 +627,6 @@ Author: ichitaso
 Name: HideSerialNumber
 Sponsor: Axs
 
-Package: com.Axs.noredirect
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
-Filename: ./debs/com.Axs.noredirect_1.2_iphoneos-arm64.deb
-Size: 37092
-MD5sum: ea2518cd6566c1bcdc4b06ce690e8eef
-SHA1: 094dab34668276a5db8c7f5297e48b20c21f7d84
-SHA256: 7b68dfa8ce0951866dab29e8e915e9d99fc223ba6a356a2e6d11d6eed67cdd61
-Section: 系统增强
-Description: Stop specified apps from redirecting to App Store, Safari or other apps.
-Author: Lessica <82flex@gmail.com>
-Icon: https://axs6.github.io/repo/icon/noredirect.png
-Name: No Redirect禁止启动应用
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
-
-Package: com.Axs.noredirect
-Version: 1.9
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 576
-Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
-Filename: ./debs/com.Axs.noredirect_1.9_iphoneos-arm64.deb
-Size: 54064
-MD5sum: 0e15b94befd1ca74bd0c26aa93c7adbe
-SHA1: a533bede4899064eb03709017c8eebee264b9298
-SHA256: b8b703f4e67be13a01724b062dc731e8bee6ec5c7661d0cbf6c266b06beb20bb
-Section: Tweaks
-Description: Stop specified apps from redirecting to App Store, Safari or other apps.
-Author: Lessica <82flex@gmail.com>
-Icon: https://axs66.github.io/repo/icon/noredirect.png
-Name: No Redirect
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-
 Package: com.Axs.onesettings
 Version: 2.2
 Architecture: iphoneos-arm64
