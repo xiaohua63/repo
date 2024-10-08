@@ -1996,23 +1996,6 @@ Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.pn
 Name: DockX
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/dockx/js.json
 
-Package: com.xhg.dyhook
-Version: 8.8.9
-Architecture: iphoneos-arm64
-Maintainer: 人妖嘉嘉
-Installed-Size: 5280
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.Axs.dydqc_2.0.3-6_iphoneos-arm64.deb
-Size: 1895628
-MD5sum: 99efe287157ef002a291972e43be0e85
-SHA1: b385f1ec8f510df305351aa6b810c136a18a3115
-SHA256: 3b6c3cb0308dffac5ef8426a4b1cc8f84385f138242ce8b783f93d245e88a7c6
-Section: Tweaks
-Description: 成功让人妖嘉嘉取消了入群费21.88元
-Author: 人妖嘉嘉
-Name: 抖音大气层-永久版
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/dyhook/js.json
-
 Package: com.yourepo.trollstore.telegramreturnenterkeyreturnkeychangedtosendfunct
 Version: 1.0
 Architecture: iphoneos-arm64
