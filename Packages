@@ -1774,25 +1774,6 @@ Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 虚拟视频
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/pingfan/js.json
 
-Package: com.rosiepie.flora
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: rosiepie
-Installed-Size: 2040
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader (>= 2.2.3), com.mrgcgamer.libgcuniversal, com.opa334.libsandy
-Filename: ./debs/com.rosiepie.flora_1.1.3_iphoneos-arm64.deb
-Size: 1643876
-MD5sum: d889a56ea462dc7126766cca36cfcaa8
-SHA1: b1a05e451538ee898dd98e65d4402807763a12ee
-SHA256: ba5c8d044e1238a6c3da0f7f12c0b0fb9a244cffb7dc983c40d5d42077f1d677
-Section: Tweaks
-Description: A modern color changer, built for today's jailbreaks.
-Author: Rosie
-Depiction: https://repo.cypwn.xyz/depiction/2053
-Icon: https://media.havoc.app/65d920d5dc4f78f775457f85
-Name: Flora
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-
 Package: com.ryannair05.cask3
 Version: 1.0.2
 Architecture: iphoneos-arm64
