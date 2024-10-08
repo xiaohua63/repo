@@ -1530,14 +1530,16 @@ Maintainer: MTAC
 Installed-Size: 2848
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
 Filename: ./debs/com.mtac.lynxtwo_2.5.3_iphoneos-arm64.deb
-Size: 653282
-MD5sum: 32d7e71fd31a52fcf84fef816e433681
-SHA1: 4544482ba6f4a8fd2d020ce9001a19e3457e7312
-SHA256: 4ec0698763c02bcdeda94a6fb87a8460908acf29cdd6d084c1077d4c1e6b42bf
+Size: 655304
+MD5sum: 1e5cec5951c5f021e77cf61a30c6571e
+SHA1: d4510342ddc6b2d3e2f02c69b14206f093a0656e
+SHA256: 022f19608feea2ef7aaaae36745774399216d12a2483b5edca2fa9a937bc865a
 Section: Tweaks
 Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
+Icon: https://axs66.github.io/repo/icon/lynx2.png
 Name: Lynx 2
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.nahtedetihw.airpodscompanion
 Version: 1.4
