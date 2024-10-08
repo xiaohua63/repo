@@ -417,24 +417,6 @@ Icon: https://axs66.github.io/repo/icon/h5gg.png
 Name: H5GG跨进程悬浮版
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/h5gg/js.json
 
-Package: com.Axs.iconrestore
-Version: 1.7
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 444
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.Axs.iconrestore_1.7_iphoneos-arm64.deb
-Size: 32052
-MD5sum: 51b49ec3e7394b3b0e1cb52267c9af1d
-SHA1: 90244d1f110e1b6bb9f16ac463334067df351e66
-SHA256: ba65de14d7a68b6798d739ab859012346d41e9c3053aa200d9aaf83684712fbc
-Section: Axs-Tweaks
-Description: Save and restore the layout of your icons.
-Author: Lessica <82flex@gmail.com>
-Icon: https://axs66.github.io/repo/icon/iconrestore.png
-Name: Icon Restore
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-
 Package: com.Axs.keyboard
 Version: 1.1-8
 Architecture: iphoneos-arm64
