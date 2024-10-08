@@ -271,6 +271,24 @@ Icon: https://axs66.github.io/repo/icon/noredirect.png
 Name: No Redirect
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.82flex.removewidgetbg
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 384
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.82flex.removewidgetbg_1.7_iphoneos-arm64.deb
+Size: 29812
+MD5sum: 95f68a3fd7a9937c7c18ed8a452aee9f
+SHA1: 5d52568cd4311e035464a234bb5c42f0fdcfc49a
+SHA256: f87723f36761cd7bec86b88dbd5bcfbee63b234858eaf7146c96f6f4093be720
+Section: Tweaks
+Description: Remove the background of the widgets on the home screen.
+Author: Lessica <82flex@gmail.com>
+Icon: https://axs66.github.io/repo/icon/ycxzjbj.png
+Name: Remove Widget Background
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.ThemePro
 Version: 3.1.1
 Architecture: iphoneos-arm64
