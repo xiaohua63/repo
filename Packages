@@ -1541,6 +1541,24 @@ Description: Floating Noise Cancellation control next to volume slider
 Author: Ethan Whited
 Name: AirpodsCompanion
 
+Package: com.nahtedetihw.airpodscompanion
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 10704
+Depends: preferenceloader
+Filename: ./debs/com.nahtedetihw.airpodscompanion_1.5_iphoneos-arm64.deb
+Size: 10269180
+MD5sum: 6d8d80d540d8d1377f084cb06bdc1ca2
+SHA1: 5d3368fa17a1b2ef4c0e0fe74120ae2d8e646d94
+SHA256: 8d8942933d6294bb5a412e8b4cc0d03ce1cec80ee57ab633049e7dd617046cb6
+Section: Tweaks
+Description: Floating Noise Cancellation control next to volume slider
+Author: Ethan Whited
+Icon: https://axs66.github.io/repo/icon/AirPods2Pro.png
+Name: AirpodsCompanion
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.nan.givemedeb
 Version: 0.2.1
 Architecture: iphoneos-arm64
