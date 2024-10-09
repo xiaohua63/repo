@@ -117,19 +117,38 @@ Name: Bubble Apps
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.0xkuj.filzadirprobe
-Version: 1.0.5
+Version: 1.3.1
 Architecture: iphoneos-arm64
 Maintainer: 0xkuj
 Installed-Size: 240
-Filename: ./debs/com.0xkuj.filzadirprobe_1.0.5_iphoneos-arm64.deb
-Size: 28720
-MD5sum: 5c00bb8a9e5e2786048def95b24f8ffe
-SHA1: 2b0b58dbc6c113b96b5f4eea66c7a6094a2e1455
-SHA256: 37dff4f3fb00d0b30af30fc92bd53871076ac52458ae54f91dc20a30578ad7fb
+Filename: ./debs/com.0xkuj.filzadirprobe_1.3.1_iphoneos-arm64.deb
+Size: 33088
+MD5sum: d223b5026ee2c45a0670f0bc436a87b1
+SHA1: 6c23c9249e41b92b1dd064e94e9590533bb9d820
+SHA256: 3ebbd739971960241f1477103732d69a1cfd1cff1ca1c92b6f7f8decd8a7a624
 Section: Tweaks
 Description: Filza Extension To Calculate Folders Inside Your Filesystem
 Author: 0xkuj
+Icon: https://axs66.github.io/repo/icon/filza.png
 Name: FilzaDirProbe
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
+Package: com.0xkuj.filzadirprobe
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 240
+Filename: ./debs/com.0xkuj.filzadirprobe_1.4.1_iphoneos-arm64.deb
+Size: 34900
+MD5sum: 25366b58e2e171de804ac8c98d1ca057
+SHA1: 3e6c23f8e8c039ddfbbc2c2b673d60165b9adab3
+SHA256: 2adf2845b25fe111128bddbd805c323abf7d156da2e405c206e4230fc740efa0
+Section: Tweaks
+Description: Filza Extension To Calculate Folders Inside Your Filesystem
+Author: 0xkuj
+Icon: https://axs66.github.io/repo/icon/filza.png
+Name: FilzaDirProbe
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.0xkuj.safarix
 Version: 1.3.0
