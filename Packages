@@ -383,6 +383,24 @@ Author: CoolStar
 Name: ClassicFolders 3
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/classicfolders3/js.json
 
+Package: com.Axs.classicfolders
+Version: 3.0.6
+Architecture: iphoneos-arm64
+Maintainer: CoolStar
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.classicfolders_3.0.6_iphoneos-arm64.deb
+Size: 3294752
+MD5sum: fd428ec6468599fadc8eb3f05f3c3fd5
+SHA1: 0b9eacac3cac12ccaef01506edab9e81d91aa828
+SHA256: d910fd53fad881dedea598c1ddeeb391d99a85f65f3f02222ce372fe8708e25d
+Section: 系统增强
+Description: iOS 6 folders with a modern twist
+Author: CoolStar
+Depiction: https://trollstore.yourepo.com/
+Icon: https://axs66.github.io/repo/icon/ClassicFolders3.png
+Name: ClassicFolders 3
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/classicfolders3/js.json
+
 Package: com.Axs.copylogfix16
 Version: 1.0.1
 Architecture: iphoneos-arm64
