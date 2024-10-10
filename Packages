@@ -1792,24 +1792,6 @@ Icon: https://axs66.github.io/repo/icon/Appdata.png
 Name: AppData
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/appdata/js.json
 
-Package: com.netskao.awemefullscreen
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Netskao
-Installed-Size: 88
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.netskao.awemefullscreen_1.1-2_iphoneos-arm64.deb
-Size: 17896
-MD5sum: 4af18ad230acb716915b452a2d87ccd5
-SHA1: 26692eee994650231a83dbca0b307b2d96637c3e
-SHA256: 333aa71d6ec14322789221fa0ba4ebe7007fdbca5c30ee75375d1bfd50303837
-Section: Axs-Tweaks
-Description: Aweme Homepage Full Screen. Tested on version 29.8.0 only, failure will not be maintained
-Author: Netskao
-Icon: https://axs66.github.io/repo/icon/dy.png
-Name: AwemeFullScreen
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-
 Package: com.netskao.dumpdecrypter
 Version: 1.4-1
 Architecture: iphoneos-arm64
