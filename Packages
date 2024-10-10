@@ -366,6 +366,24 @@ Icon: https://axs66.github.io/repo/icon/dy.png
 Name: AwemeDownloadMedia
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.awemefullscreens
+Version: 1.1-9
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 108
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.Axs.awemefullscreens_1.1-9_iphoneos-arm64.deb
+Size: 26116
+MD5sum: d5eb3cd95e63ef727582b55ab3ef4000
+SHA1: ada1da8725e30df26c1bf3a4c7ad0aea018ba8ca
+SHA256: feb33a4beed16279c095e23fcdc8e3798e4c61530f19bd73d62214288a3ba7af
+Section: 抖音插件
+Description: 抖音全屏显示，仅在29.8.0版本上测试，后续版本更新导致的问题将不会被维护。
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/dy.png
+Name: AwemeFullScreen
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.bigshot
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -403,6 +421,42 @@ Name: callwallpapervideo来去电视频
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 Sponsor: mywall
 
+Package: com.Axs.ccbadgeclear
+Version: 1.2-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 224
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.Axs.ccbadgeclear_1.2-6_iphoneos-arm64.deb
+Size: 25728
+MD5sum: 46f94e5da1a7d00b1eeffcb7b130e53b
+SHA1: 5a6bc230df9e1cc828ed393a857a856b13e192d8
+SHA256: acad18edffcf484784a7366fe63c338f8360467ba1b18e9c834dd6aae5c5d4ac
+Section: Axs-Tweaks
+Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/ccbadgeclear.png
+Name: CCBadgeClear
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.cclifttowake
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 172
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.Axs.cclifttowake_1.1-1_iphoneos-arm64.deb
+Size: 16444
+MD5sum: 54443540f65c8a1a2cfbf5ebaccf8bb1
+SHA1: 3b1e9679a5fb1adea37acd4b88046d9d7413793c
+SHA256: a8706016530db4360713f2053b7d59bd178fef24194f2d409def6aeea76ad862
+Section: Axs-Tweaks
+Description: Quickly enable or disable Wake on Lift from Control Center, Support iOS15+
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/CCLiftToWake.png
+Name: CCLiftToWake
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.classicfolders
 Version: 3.0.5
 Architecture: iphoneos-arm64
@@ -438,6 +492,24 @@ Icon: https://axs66.github.io/repo/icon/ClassicFolders3.png
 Name: ClassicFolders 3
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/classicfolders3/js.json
 
+Package: com.Axs.classickeyboardxs
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1060
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.classickeyboardxs_1.1-8_iphoneos-arm64.deb
+Size: 233404
+MD5sum: e111cdfecea18e3b056471cf362106f2
+SHA1: ad5f732d19026028f5d971f00fa92fd0642187da
+SHA256: 64044232217fa3e3dada9ec7a84a5ef46659b366a5fd88b3b9c5b867a1f51d83
+Section: Axs-Tweaks
+Description: Customize the height of the bottom of the X-keyboard, the height of the bottom of the earth, etc.
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/ClassicKeyboardXS.png
+Name: ClassicKeyboardXS
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.copylogfix16
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -472,6 +544,43 @@ Author: Skitty
 Name: Ersatz替换文字
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 Sponsor: Axs
+
+Package: com.Axs.filzacrack
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 88
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Filename: ./debs/com.Axs.filzacrack_1.1-8_iphoneos-arm64.deb
+Size: 5028
+MD5sum: 9e83242e91cb29eab6ad11c534eed58f
+SHA1: 88f4a0ab963378d2f18727d90bbe9ea8e26b8717
+SHA256: e8446c41b2e5c2e34ee1825c8320952c7456f7c449f562d47a2e02decb4ab064
+Section: Axs-Tweaks
+Homepage: https://tigisoftware.com/cydia/
+Description: Filza unlock full functionality, the main program please install in the official source
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/filza.png
+Name: Filza Crack
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.flexlist
+Version: 1.4-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 5020
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.flexlist_1.4-2_iphoneos-arm64.deb
+Size: 1322024
+MD5sum: bb2842a0a2acb3fbca882e169481490f
+SHA1: d315c86672fe4242a63584c5e46b74d6651567d2
+SHA256: ceaa7551dc0488b5ff46ada9033fae127f9511531100d6af48926afdd7248430
+Section: Axs-Tweaks
+Description: FLEXList is a wrapper tool for FLEX Tool
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/FLEXList.png
+Name: FLEXList
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.Axs.h5gg
 Version: 7.9.1
@@ -755,6 +864,24 @@ Author: ichitaso
 Name: PrimalFolder2
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.qqnotiavatar
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 204
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/com.Axs.qqnotiavatar_1.2-2_iphoneos-arm64.deb
+Size: 25644
+MD5sum: 4b6a13ddfa5efa60957e8b3a6fc9c960
+SHA1: 59e5ee50115a95e93ef9664d3892b7cbd045cee9
+SHA256: 4ec8860c8d5e4c7046596d4c6ba9360399ccfbb8bec0848c09957a40da91ccb5
+Section: Axs-Tweaks
+Description: Display Notification Avatars for QQ App using iOS15+ APIs
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/qq.png
+Name: QQNotiAvatar
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.qqtc
 Version: 1.1.1-1
 Architecture: iphoneos-arm64
@@ -901,6 +1028,24 @@ Author: r_plus <anasthasia.r+sleipnizer@gmail.com>
 Dev: rplus
 Icon: file:///var/jb/Library/PreferenceBundles/SleipnizerSettings.bundle/Sleipnizer@2x.png
 Name: Sleipnizer for Safari (iOS 15-16)
+
+Package: com.Axs.smallbanners
+Version: 1.2-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 900
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Filename: ./debs/com.Axs.smallbanners_1.2-8_iphoneos-arm64.deb
+Size: 201592
+MD5sum: 58c2bbf511bde52a38dc5e851bf44402
+SHA1: 0de4f1bf1929bcc63fbc196aad8c82e57cbf9479
+SHA256: 69797fd75fb48b9573f8d1ff327c4f18c6f3c9da7076e0cbdb4b90f8d0e32936
+Section: Axs-Tweaks
+Description: Small Notification Banners. Support iOS15+
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/SmallBanners.png
+Name: SmallBanners
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.Axs.sneakycam
 Version: 2.0.7
