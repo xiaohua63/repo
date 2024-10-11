@@ -988,6 +988,25 @@ Author: Axs
 Name: SettingsRevamp汉化
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/settingsrevamp/js.json
 
+Package: com.Axs.settingswidgetss
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: shepgoba
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.shepgoba.settingswidgets
+Filename: ./debs/com.Axs.settingswidgetss_1.2.3_iphoneos-arm64.deb
+Size: 73292
+MD5sum: 9e6a2f1d6070f2dbce9c1d7c6e095022
+SHA1: c20ce47d4da809ac377756a6d047b5f0a32f4a4a
+SHA256: 324d6f52dd96adba2d02108f3c96fff863c65129383550c0e5ea0f6698c566a3
+Section: 系统增强
+Description: 将好看的小部件带到设置首页！
+Author: shepgoba
+Icon: https://axs66.github.io/repo/icon/settingswidgetss.png
+Name: SettingsWidgets设置小部件
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.singlevpns
 Version: 1.1
 Architecture: iphoneos-arm64
