@@ -202,6 +202,24 @@ Icon: https://axs66.github.io/repo/icon/safari.png
 Name: SafariX
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.0xkuj.safarix
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 748
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.0xkuj.safarix_1.7.1_iphoneos-arm64.deb
+Size: 275212
+MD5sum: 843bf98b6c7c78e957743676d05ec053
+SHA1: fa891ba4cff85c5bac4189c1b7c17b805be52412
+SHA256: 8909d9d932981fe76ead9b4dbe7c52fcdfea3e2d94ec298e10f7989414a9d58d
+Section: 系统增强
+Description: Safari Essential Features
+Author: 0xkuj
+Icon: https://axs66.github.io/repo/icon/safari.png
+Name: SafariX
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/safarix/js.json
+
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
 Architecture: iphoneos-arm64
@@ -1757,6 +1775,23 @@ Author: zhaonan <invalidunit@icloud.com>
 Icon: https://axs66.github.io/repo/icon/givemedeb.png
 Name: Give me deb
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
+Package: com.nan.givemedeb
+Version: 0.3.0
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/com.nan.givemedeb_0.3.0_iphoneos-arm64.deb
+Size: 2212
+MD5sum: 628a616d74d8027c181639f52c3f79b2
+SHA1: af2bcaa9084ab461244da01d45abbf468ec74bfb
+SHA256: 0afc6a9ea36edd61d8d74c919be8012dba42daf7a0943d68629e0aa59acdfbed
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
 
 Package: com.netskao.appdata
 Version: 1.4.1
