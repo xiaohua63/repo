@@ -1329,6 +1329,23 @@ Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 黄白助手(微信插件)-Rootless
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/HBWechat/js.json
 
+Package: com.HBWechatHelper.ailun
+Version: 1.7.6
+Architecture: iphoneos-arm64
+Maintainer: HuangBai
+Depends: mobilesubstrate
+Filename: ./debs/com.HBWechatHelper.ailun_1.7.6_iphoneos-arm64.deb
+Size: 11880500
+MD5sum: 9fa2e41ae8d9c8d4b794d27624444946
+SHA1: 58d5cc163cf1476f1722a5d7f6fa022819bc9de8
+SHA256: 5fca77aa5b95f4fa7d010b170eebc60d7cd99a75608ed63e043c73d96b4fc780
+Section: 微信插件
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai
+Icon: https://axs66.github.io/repo/icon/wechat.png
+Name: 黄白助手(微信插件)-Rootless
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/HBWechat/js.json
+
 Package: com.anthopak.quickprefs-rootless
 Version: 1.3.3
 Architecture: iphoneos-arm64
@@ -1818,11 +1835,11 @@ Architecture: iphoneos-arm64
 Maintainer: zhaonan
 Depends: coreutils, sed, gawk
 Filename: ./debs/com.nan.givemedeb_0.3.0_iphoneos-arm64.deb
-Size: 2212
-MD5sum: 628a616d74d8027c181639f52c3f79b2
-SHA1: af2bcaa9084ab461244da01d45abbf468ec74bfb
-SHA256: 0afc6a9ea36edd61d8d74c919be8012dba42daf7a0943d68629e0aa59acdfbed
-Section: Addons
+Size: 2240
+MD5sum: 23aa678d1149f4eaa5bdf9898e84fea0
+SHA1: fdd9af55d386b9b42e0c06a19b2282aa8507995b
+SHA256: 24ba2ca0cd8bb0e7d660ddc1663daefe33b9c02c83c39307ef92841a280793de
+Section: Axs-Tweaks
 Description: 尝试保存 apt 缓存目录下所有 deb
 Author: zhaonan <invalidunit@icloud.com>
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
