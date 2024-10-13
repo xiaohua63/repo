@@ -1330,6 +1330,23 @@ Name: 注销不锁屏
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
 Package: com.HBWechatHelper.ailun
+Version: 1.7-6
+Architecture: iphoneos-arm64
+Maintainer: HuangBai
+Depends: mobilesubstrate
+Filename: ./debs/com.HBWechatHelper.ailun_1.7-6_iphoneos-arm64.deb
+Size: 11879488
+MD5sum: 9b373005c771aad6724496af6633de7c
+SHA1: 648757d12c31263ad88fc3ece950e1db0d5495f8
+SHA256: eda41297fbc994f4db3fce8d55d70c42e20164e7b3a225e5e1e75b786e84985c
+Section: 微信插件
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai
+Icon: https://axs66.github.io/repo/icon/wechat.png
+Name: 黄白助手(微信插件)-Rootless
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/HBWechat/js.json
+
+Package: com.HBWechatHelper.ailun
 Version: 1.7.5
 Architecture: iphoneos-arm64
 Maintainer: HuangBai
