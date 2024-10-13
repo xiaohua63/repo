@@ -623,14 +623,14 @@ Architecture: iphoneos-arm64
 Maintainer: zhaonan
 Depends: coreutils, sed, gawk
 Filename: ./debs/com.Axs.givemedeb_0.3.0_iphoneos-arm64.deb
-Size: 2244
-MD5sum: 7cd503ddf78481e42a1cd9a77c5a8458
-SHA1: cfe6064a72454dc262ac633af421b4f537a64e5f
-SHA256: 1006a9f515dc67c807925838f97a8ceb868dc18fb8dbeb5509d0d35898a26d9f
+Size: 2228
+MD5sum: 224020cc37478a861c1a047f4a58d3c1
+SHA1: 90327fa3610bd174f2cbd6b757b8502c6d4b0d36
+SHA256: f7ac012a0c9e84ab8637d569f2edb009a3011818e69056dcb31fbaac4df2fb12
 Section: Axs-Tweaks
 Description: 尝试保存 apt 缓存目录下所有 deb
-Author: zhaonan <invalidunit@icloud.com>
-Icon: https://axs66.github.io/repo/icon/givemedeb.png
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Give me deb
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
 
