@@ -617,23 +617,6 @@ Icon: https://axs66.github.io/repo/icon/FLEXList.png
 Name: FLEXList
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
-Package: com.Axs.givemedeb
-Version: 0.3.0
-Architecture: iphoneos-arm64
-Maintainer: zhaonan
-Depends: coreutils, sed, gawk
-Filename: ./debs/com.Axs.givemedeb_0.3.0_iphoneos-arm64.deb
-Size: 2228
-MD5sum: 224020cc37478a861c1a047f4a58d3c1
-SHA1: 90327fa3610bd174f2cbd6b757b8502c6d4b0d36
-SHA256: f7ac012a0c9e84ab8637d569f2edb009a3011818e69056dcb31fbaac4df2fb12
-Section: Axs-Tweaks
-Description: 尝试保存 apt 缓存目录下所有 deb
-Author: zhaonan
-Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
-Name: Give me deb
-Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
-
 Package: com.Axs.h5gg
 Version: 7.9.1
 Architecture: iphoneos-arm64
