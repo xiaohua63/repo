@@ -1987,6 +1987,24 @@ Icon: https://axs66.github.io/repo/icon/appstore.png
 Name: StoreSwitchAccounts
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.nx.appcardlite
+Version: 2.2.8
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 940
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.nx.appcardlite_2.2.8_iphoneos-arm64.deb
+Size: 185884
+MD5sum: 3ecb794f8d7db8d22a830c9d93bbbecb
+SHA1: 1c0cb62b9385aa0729aaa26846da14cea37fdfd3
+SHA256: 236c39d6a3cce2ec26f2b692bc847f52b3cc521fb8a120f7bad606355c7a55c4
+Section: 分屏插件
+Description: 免费的分屏插件！吊打o2，无设置项！
+Author: Crassna
+Icon: https://axs66.github.io/repo/icon/applecard.png
+Name: App Lecard
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/applecard/js.json
+
 Package: com.opa334.choicy
 Version: 1.4.10-3
 Architecture: iphoneos-arm64
