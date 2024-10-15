@@ -98,6 +98,24 @@ Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 微信小布丁
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/wxxbd/js.json
 
+Package: codes.aurora.kayoko
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: Lessica
+Installed-Size: 1076
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/codes.aurora.kayoko_2.2_iphoneos-arm64.deb
+Size: 118320
+MD5sum: 51c9f052f33b51445b41d0bfca99ac5f
+SHA1: 8824273277c336cbb6f9b784cb5b34e24b705846
+SHA256: 173bc4159aaa1627208094fc119402374f7ffcc09419a97341fa78044cf03516
+Section: 系统增强
+Description: Clipboard manager for iOS.
+Author: Alexandra Aurora Göttlicher
+Icon: https://axs66.github.io/repo/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.0xkuj.bubbleapps
 Version: 3.0.0
 Architecture: iphoneos-arm64
