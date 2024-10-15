@@ -1,0 +1,99 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://axs66.github.io/repo/images/Axslogo.png",
+    "tintColor": "00BFFF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text":"✈分享频道",
+                    "action":"https://t.me/wxfx8",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                }, 
+               {
+                    "text":"✈交流群组",
+                    "action":"https://t.me/oncar2",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                },      
+               {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "功能：黑色手势区域</br>1. 屏幕视角左侧边缘下1/5，右侧边缘下1/3快拉打开或关闭浮窗，长按1s拖动改变占比（识别不灵敏，换手指多试试）。</br>2. 浮窗底部快速上滑关闭浮窗。</br>3. 横屏小键盘上防长按1s后左右滑动拖拽。图示键盘上放黑色部分。</br>4. 小屏脑门和下巴都没了，操作区域底部宽度降低了。</br>5. 底部左右滑动，切换 app。</br>6. 底部长按不松手拖动改变窗口位置。</br>7. 底部长按后松手可双指缩放，单指移动，双击恢复。- 双指上、右、下边缘也可缩放，难度自适应。</br>8. 底部上拉一定距离震动后松手，进入 app 选择界面：</br></br>  1) 左侧 Mirror 为已添加，点击图标可置顶 app。</br>  2) User System 为安装的 app，点击添加或取消，左侧 Mirror 窗口会增减 app。</br>  3) 快速右滑关闭 app 选择窗口，慢速不让退。",
+                    "useRawFormat": true,
+                },      
+               {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{300, 346}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://axs66.github.io/repo/sileodepiction/applecard/Screenshot_01.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "A先生",
+                    "title": "维护者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "VCR66T",
+                    "title": "微信"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 10 月 15 日",
+                    "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+               {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.2.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "优化相关问题。",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ],
+}
