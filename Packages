@@ -2058,6 +2058,24 @@ Icon: https://axs66.github.io/repo/icon/applecard.png
 Name: App Lecard
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/applecard/js.json
 
+Package: com.nx.appcardlite
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 972
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Filename: ./debs/com.nx.appcardlite_2.3_iphoneos-arm64.deb
+Size: 194000
+MD5sum: 81296e2a8ebbb241444879d1b47b44c1
+SHA1: 2b99e93810b0890e101d8272c8507a3bbb96e0ac
+SHA256: 85d869e38cd16b6422ebcd2c208027ba5a6abf7872112dfc157e065cc943ce5d
+Section: 分屏插件
+Description: 免费的分屏插件。
+Author: Crassna
+Icon: https://axs66.github.io/repo/icon/applecard.png
+Name: App Lecard 分屏插件
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/applecard/js.json
+
 Package: com.opa334.choicy
 Version: 1.4.10-3
 Architecture: iphoneos-arm64
