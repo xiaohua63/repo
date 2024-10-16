@@ -688,24 +688,6 @@ Icon: https://axs66.github.io/repo/icon/h5gg.png
 Name: H5GG跨进程悬浮版
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/h5gg/js.json
 
-Package: com.Axs.kayoko
-Version: 2.4
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 1084
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Filename: ./debs/com.Axs.kayoko_2.4_iphoneos-arm64.deb
-Size: 125680
-MD5sum: 28c79880c105ae128ea2f5ee8cc13734
-SHA1: 4d011115eb930b49002be714281e5582e7407115
-SHA256: be84a1849e4b14a404f863c54db04e219b662d6deae03f647c5b1ca2baba36c5
-Section: 系统增强
-Description: Clipboard manager for iOS.
-Author: Alexandra Aurora Göttlicher
-Icon: https://axs66.github.io/repo/icon/kayoko.png
-Name: Kayoko
-Sileodepiction: https://axs66.github.io/repo/
-
 Package: com.Axs.keyboard
 Version: 1.1-8
 Architecture: iphoneos-arm64
