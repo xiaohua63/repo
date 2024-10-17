@@ -880,6 +880,24 @@ Author: ichitaso
 Name: HideSerialNumber
 Sponsor: Axs
 
+Package: com.Axs.ocd5
+Version: 5.4.1.1
+Architecture: iphoneos-arm64
+Maintainer: b4db1r3 <nfive060@gmail.com>
+Depends: com.mrgcgamer.libgcuniversal, preferenceloader, ws.hbang.common, ws.hbang.alderis
+Conflicts: com.noisyflake.cozybadges, com.dao.ocd, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd5lite
+Filename: ./debs/com.Axs.ocd5_5.4.1.1_iphoneos-arm64.deb
+Size: 325004
+MD5sum: 5ae1b441e9bc3bee3202ade0adfbcf65
+SHA1: dc4e8db94befacd16db4a064912b29d78967e32d
+SHA256: ced2b571cc535a78cfb4e76ae9f153ff208a06c5f1ef566b10596a9642f6a8c0
+Section: 系统增强
+Description: 根据App图标颜色来自适应App名称和角标的颜色，5系列更多新功能，有类似dotto+插件的圆点/空心效果，精简无用文件，替换插件图标。
+Author: b4db1r3
+Icon: https://axs66.github.io/repo/icon/ocd.png
+Name: OCD5
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ocd5/js.json
+
 Package: com.Axs.onesettings
 Version: 2.2
 Architecture: iphoneos-arm64
