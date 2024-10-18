@@ -2022,6 +2022,24 @@ Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
 Name: DumpDecrypter
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/dumpdecrypter/js.json
 
+Package: com.netskao.dumpdecrypter
+Version: 1.4-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 848
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.dumpdecrypter_1.4-6_iphoneos-arm64.deb
+Size: 350844
+MD5sum: c99781103afe83a2b0a7f2e34eea3de5
+SHA1: 2f6e8ba3f6eeebdb1b33acff879bc83417512bf5
+SHA256: f80f48fc2220194c28eaeb32e32240a1c0722a8b9884bc2fe09b38a44bc88408
+Section: Axs-Tweaks
+Description: Decrypt iOS Apps and Plugins, Supports iOS15+, Only Tested iOS16.1
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/dumpdecrypter.png
+Name: DumpDecrypter
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/dumpdecrypter/js.json
+
 Package: com.netskao.pulloverpro
 Version: 2.1.6
 Architecture: iphoneos-arm64
