@@ -1954,6 +1954,23 @@ Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Give me deb
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
 
+Package: com.nan.givemedeb
+Version: 0.3.1
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/com.nan.givemedeb_0.3.1_iphoneos-arm64.deb
+Size: 2248
+MD5sum: 7f26e823dda9674a9019ea20600007bd
+SHA1: 2f62c49feab5a5e38a24220d61edeb870c92e09f
+SHA256: c98431e04faea18bfe83bc81a616daa433223bb8ec57442705a736f29159135e
+Section: Tweaks
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://axs66.github.io/repo/icon/givemedeb.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
 Package: com.netskao.appdata
 Version: 1.4.1
 Architecture: iphoneos-arm64
