@@ -1303,14 +1303,14 @@ Architecture: iphoneos-arm64
 Maintainer: Axs
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.Axs.touchvis_2.8-1_iphoneos-arm64.deb
-Size: 708680
-MD5sum: fe806e25c2a51a3245c9b2c275874010
-SHA1: 2dc730d1c705f8b230ea5d5c51ba97f7937c7bc4
-SHA256: 421150cd44f28f77b214dcab6ceef1c3a1e27a282f64e811c8805f6686ca3e11
+Size: 708676
+MD5sum: 31aca45fd3c93136c32ba3e7984a34c5
+SHA1: 21e243d18116f278f3678c4c0c9b8b696a9b599e
+SHA256: 78341b31a152ae77f5d4334652ac7cdc8092fc7b16a19798f7d39f99dcddf82a
 Section: 录屏轨迹
 Description: Displays your touch interactions! 显示触摸屏幕的轨迹；很酷炫，很丝滑的一个插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。
 Author: Lessica
-Icon: https://axs66.github.io/repo/sileodepiction/touchvis/icon.png
+Icon: https://axs66.github.io/repo/icon/TVZ.png
 Name: Touch-Viz触摸轨迹
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/touchvis/js.json
 
