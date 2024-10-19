@@ -651,6 +651,25 @@ Author: 0xkuj
 Name: CopyLogFix16
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.cozybadges
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 596
+Depends: firmware (>= 13.0), mobilesubstrate, org.thebigboss.libcolorpicker (>= 1.6.7)
+Filename: ./debs/com.Axs.cozybadges_2.1_iphoneos-arm64.deb
+Size: 59680
+MD5sum: 147a235c9ca1e6fe9815ceeb42dd85bf
+SHA1: d699d5cf04270b50e174615454f1df72bf2f025b
+SHA256: dd54d8d0ce2840019691f3028e9a684c6ac9aecd2ae6043250ab6ffd1b631bc8
+Section: 系统增强
+Description: 彩色角标通知，显示在APP下！
+Author: NoisyFlake
+Icon: https://axs66.github.io/repo/icon/cozybadges.png
+Name: CozyBadges彩色通知
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+Sponsor: Axs
+
 Package: com.Axs.ersatz
 Version: 1.0.1
 Architecture: iphoneos-arm64
