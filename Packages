@@ -222,6 +222,23 @@ Icon: https://axs66.github.io/repo/icon/filza.png
 Name: FilzaDirProbe
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.0xkuj.filzadirprobe
+Version: 1.6.0
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 240
+Filename: ./debs/com.0xkuj.filzadirprobe_1.6.0_iphoneos-arm64.deb
+Size: 57016
+MD5sum: 9b4906c8339cf9a345e53341e323faad
+SHA1: cf963b4fb2fa85cadf93641aff404e780ea1a8af
+SHA256: 25f8cc699cec97445dd2d71a455a731b017d6f65eb6443673d800e2c747f69fe
+Section: 系统增强
+Description: Filza扩展程序用于计算文件系统内的文件夹
+Author: 0xkuj
+Icon: https://axs66.github.io/repo/icon/filza.png
+Name: FilzaDirProbe
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.0xkuj.safarix
 Version: 1.3.0
 Architecture: iphoneos-arm64
