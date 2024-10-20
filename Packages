@@ -455,6 +455,24 @@ Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: ThemePro
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/ThemePro/js.json
 
+Package: com.Axs.actionbar
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 796
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.Axs.actionbar_1.1-2_iphoneos-arm64.deb
+Size: 161684
+MD5sum: eb5392a448e8edb807e670d22a4ec80b
+SHA1: e698efb829e13071666d14aaa417782f86cfb401
+SHA256: ac558edb1de17d5e059838bb87d866e0f92d2f4f5ffd66c1eb8f0f6148a87d78
+Section: Axs-Tweaks
+Description: 键盘底部显示[撤销] [选择] [粘贴]按钮。Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/actionbar.png
+Name: ActionBar Reborn
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.awemedownloadmedia
 Version: 1.1-5
 Architecture: iphoneos-arm64
