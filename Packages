@@ -776,6 +776,23 @@ Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 快斗
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.lyric
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: Mika <qiaozhani000@163.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.lyric_3.0_iphoneos-arm64.deb
+Size: 115868
+MD5sum: e9523501995f8532222850e7ee04a71b
+SHA1: c5a9b17a31f3b778e0c6408fb8b5feffac0506c6
+SHA256: fd31a74469ccd7b9da982e661528802225b32fc3a649008c2014388445c8a4c2
+Section: Axs-Tweaks
+Description: 适配任何带锁屏歌词的应用！
+Author: Mika <qiaozhani000@163.com>
+Icon: https://axs66.github.io/repo/icon/lyric.png
+Name: 桌面歌词
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.misaka
 Version: 0.1-1+debug
 Architecture: iphoneos-arm64
