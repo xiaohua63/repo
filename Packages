@@ -1837,6 +1837,24 @@ Icon: https://axs66.github.io/repo/icon/Snapper3.png
 Name: Snapper 3
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/Snapper/js.json
 
+Package: com.ketty.meowtimemachine
+Version: 0.0.1-106+debug
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Installed-Size: 6912
+Depends: firmware (>= 14.0)
+Filename: ./debs/com.ketty.meowtimemachine_0.0.1-106+debug_iphoneos-arm64.deb
+Size: 2322808
+MD5sum: ee44614247106e5f1cee79ac31732100
+SHA1: dc6e2692d56074985ce3f640ebb13577ec792872
+SHA256: 25ed0ae5193fa4d339215ca1ea50fcbdb7659cdfd3444cba299653250eaf5cdf
+Section: Axs-Tweaks
+Description: An awesome SwiftUI application!
+Author: 预言小猫
+Icon: https://axs66.github.io/repo/icon/meowtimemachine.png
+Name: MeowTimeMachine插件备份(含配置)
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.ketty.tweaktool
 Version: 0.0.1-252+debug
 Architecture: iphoneos-arm64
