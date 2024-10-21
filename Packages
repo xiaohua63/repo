@@ -2112,6 +2112,24 @@ Icon: https://axs66.github.io/repo/icon/Appdata.png
 Name: AppData
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/appdata/js.json
 
+Package: com.netskao.appdata
+Version: 1.4.3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 12532
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.netskao.appdata_1.4.3_iphoneos-arm64.deb
+Size: 4627108
+MD5sum: 56277c3f4a6cff27bb058dcfffb58d7c
+SHA1: 85d1b27b664f940c38194d16d5fff923e17c2044
+SHA256: 6200df74c4b963138df30aacc049eb7d538c1033337d7dc5d5b7da2b1739501a
+Section: 系统增强
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Icon: https://axs66.github.io/repo/icon/Appdata.png
+Name: AppData
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/appdata/js.json
+
 Package: com.netskao.dumpdecrypter
 Version: 1.4-1
 Architecture: iphoneos-arm64
