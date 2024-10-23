@@ -777,6 +777,26 @@ Author: Axs
 Name: 键盘高度、地球及语音融入键盘
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/jp/js.json
 
+Package: com.Axs.keyboards
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.keyboards_3.0_iphoneos-arm64.deb
+Size: 4196
+MD5sum: c28de9fc65050e537cf514d79d186bce
+SHA1: dcc4b26460b7dbe94b17952cd29a1af61d5dfe41
+SHA256: 47ffc60e588cd5f512a2781ed96c854f4c589d6b054ee306d743c38acb7018d2
+Section: 系统增强
+Priority: optional
+Description: 在很多时候输入，手机总默认自带键盘，且不能更换第三方，有了这插件，你想用啥键盘用啥键盘(第三方输入法都可以)
+Author: Axs
+Icon: https://axs66.github.io/repo/icon/keyboards.png
+Name: 强制使用第三方键盘
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+Sponsor: Axs
+
 Package: com.Axs.kuaidou
 Version: 0.1-1
 Architecture: iphoneos-arm64
