@@ -1963,6 +1963,24 @@ Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
 Name: 短视频助手-Rootless
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/shortvideodlsileo
 
+Package: com.mikifp.griddy
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mikifp
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/com.mikifp.griddy_1.0_iphoneos-arm64.deb
+Size: 16368
+MD5sum: b3fbe3f00fd6dfeed192b75ffdc91afa
+SHA1: ab87d564048163c835f9a8abe72c9391aafff476
+SHA256: 1cd4517a08dfdee0ab6dadcd368b25113da7fd5c5cb94e9f1b2c33f2dabe3499
+Section: 系统增强
+Description: Make your icons hit the griddy
+Author: mikifp
+Icon: https://axs66.github.io/repo/icon/griddy.png
+Name: Griddy
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/griddy/js.json
+
 Package: com.mtac.bridge
 Version: 1.1
 Architecture: iphoneos-arm64
