@@ -1981,6 +1981,24 @@ Icon: https://axs66.github.io/repo/icon/griddy.png
 Name: Griddy
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/griddy/js.json
 
+Package: com.mikifp.griddy
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: mikifp
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/com.mikifp.griddy_1.0.3_iphoneos-arm64.deb
+Size: 17740
+MD5sum: cc29af3f589aaf1db836504caee0f93e
+SHA1: f41f4a37475421712f6f344ffce2bb26fd9102aa
+SHA256: d6c951afa8abcac85c46cb919b7d7eeb7926dd33ea837e06c29fbd3b9535875f
+Section: 系统增强
+Description: Make your icons hit the griddy。使用 Griddy 将图标放置在网格上的任意位置
+Author: mikifp
+Icon: https://axs66.github.io/repo/icon/griddy.png
+Name: Griddy
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/griddy/js.json
+
 Package: com.mtac.bridge
 Version: 1.1
 Architecture: iphoneos-arm64
