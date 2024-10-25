@@ -473,6 +473,25 @@ Icon: https://axs66.github.io/repo/icon/actionbar.png
 Name: ActionBar Reborn
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.autoscroll
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: pxcex
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.autoscroll_1.0.0_iphoneos-arm64.deb
+Size: 5428
+MD5sum: fef92ef735a0ba18475f99e7c74f1b5a
+SHA1: 71903fec949110544595c3991439f2678d4f23ef
+SHA256: 399f222535b85b9f3cc5b94d935439f41dbd9eece6af44d3b6131ae0ff3715fe
+Section: 系统增强
+Description: 页面自动滑动
+ * 安装生效无设置选项
+ * 跟随你的手指滑动幅度，页面始终自动滑动，直到你触摸屏幕才停止
+Author: pxcex
+Icon: https://axs66.github.io/repo/icon/contributorl.png
+Name: AutoScroll 自动滑动
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.awemedownloadmedia
 Version: 1.1-5
 Architecture: iphoneos-arm64
