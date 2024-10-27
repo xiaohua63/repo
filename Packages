@@ -2365,6 +2365,25 @@ Icon: https://axs66.github.io/repo/icon/appstore.png
 Name: StoreSwitchAccounts
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.nightwind.jade
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Nightwind
+Installed-Size: 1509
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.nightwind.jade_1.0.3_iphoneos-arm64.deb
+Size: 308744
+MD5sum: 85476f6530f8f136e5e094145f150de7
+SHA1: a9093dd73f62054d2e0e2bb67db46107c4c02e7a
+SHA256: 1688fb3994b4d20c74541117a877752e459f79b278380dd70a055c0da31c88ba
+Section: Nightwind
+Description: 重新定义控制中心，屏幕底部弹出
+Author: Nightwind and thetimeloop
+Icon: https://axs66.github.io/repo/icon/jade.png
+Name: Jade
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+Sponsor: Nightwind
+
 Package: com.nx.appcardlite
 Version: 2.2.8
 Architecture: iphoneos-arm64
