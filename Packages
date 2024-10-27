@@ -2372,11 +2372,11 @@ Maintainer: Nightwind
 Installed-Size: 1509
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/com.nightwind.jade_1.0.3_iphoneos-arm64.deb
-Size: 308744
-MD5sum: 85476f6530f8f136e5e094145f150de7
-SHA1: a9093dd73f62054d2e0e2bb67db46107c4c02e7a
-SHA256: 1688fb3994b4d20c74541117a877752e459f79b278380dd70a055c0da31c88ba
-Section: Nightwind
+Size: 308756
+MD5sum: bd9f8a571efdfb81abc4d3c08d3c6587
+SHA1: daf307c09cf374ad6a4f72244d8c07aeeed82b23
+SHA256: 8824104cc512498d0ea60eefb747ced94a9a0d6c8b7210df4539a8dd34f4731c
+Section: 系统增强
 Description: 重新定义控制中心，屏幕底部弹出
 Author: Nightwind and thetimeloop
 Icon: https://axs66.github.io/repo/icon/jade.png
