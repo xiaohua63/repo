@@ -1171,6 +1171,25 @@ Icon: https://axs66.github.io/repo/icon/camera.png
 Name: RecordPause录像暂停
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.satella
+Version: 1.9.0
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 456
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/com.Axs.satella_1.9.0_iphoneos-arm64.deb
+Size: 69676
+MD5sum: e81a284092e68cbd3e793d5daf25e6d6
+SHA1: c1cc414e9136df779cab87fcb8c4ef8fa3b5d1f2
+SHA256: bf988cfed9661c4dbf7fd8ee6da4992172aaaec50ecb6cd34cb8b1f90530b630
+Section: 系统增强
+Description: Modern in-app purchase cracker
+Author: Paisseon
+Depiction: 破解应用内购，不是100%能行。
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.settingsrevamp
 Version: 2.1.1
 Architecture: iphoneos-arm64
