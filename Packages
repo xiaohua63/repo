@@ -2976,3 +2976,21 @@ Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 微信净化END
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/wcpureextension/js.json
 
+Package: wiki.qaq.colorfulwallpaperx
+Version: 4.6
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/wiki.qaq.colorfulwallpaperx_4.6_iphoneos-arm64.deb
+Size: 1234132
+MD5sum: 50a3df827e36bd3cb081157c16047ac1
+SHA1: b5729b04a2a01b84697b302d612de3235358a11e
+SHA256: 579ab2f0a766935fcf4ba12dcaf527d80faf976509bc33104c63c434a380cedd
+Section: 系统增强
+Description: Dynamic wallpaper with colorful effects.
+Author: Lessica
+Depiction: Axs
+Icon: https://axs66.github.io/repo/icon/colorful.png
+Name: ColorfulWallpaperX
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
