@@ -1320,6 +1320,25 @@ Icon: https://axs66.github.io/repo/icon/SmallBanners.png
 Name: SmallBanners
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.smallboards
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.icraze.smallboard
+Filename: ./debs/com.Axs.smallboards_1.1_iphoneos-arm64.deb
+Size: 3740
+MD5sum: 5f25510b2053fdfa44151553600e3da4
+SHA1: 981a306fb2a279ccc536cde889547d7d12939041
+SHA256: 7de62f4225468ef06400e7f02604339cd80ca350966671c3df46230219f8eaeb
+Section: 系统增强
+Description: 缩小键盘与底部的间隙，无设置项，安装注销生效。
+Author: iCraze
+Icon: https://axs66.github.io/repo/icon/SmallBoard.png
+Name: SmallBoard 键盘下沉
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/SmallBoard/js.json
+
 Package: com.Axs.sneakycam
 Version: 2.0.7
 Architecture: iphoneos-arm64
