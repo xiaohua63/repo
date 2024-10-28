@@ -1769,6 +1769,24 @@ Icon: https://axs66.github.io/repo/icon/wechat.png
 Name: 锤子助手
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/dumpapp/js.json
 
+Package: com.dumpapp.wechat-rootless
+Version: 2.0.4
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 23952
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/com.dumpapp.wechat-rootless_2.0.4_iphoneos-arm64.deb
+Size: 9236092
+MD5sum: 9dd4f03bf9df5af57ff4af6d0d168751
+SHA1: 06c3078781dc7a5170e79478d29b12cdae74db15
+SHA256: 1dd1866b65a39a50f58dbba2c16316641dcb5e074b399b9cdfa28e70762ade50
+Section: 微信插件
+Description: 锤子助手插件
+Author: DumpApp
+Icon: https://axs66.github.io/repo/icon/wechat.png
+Name: 锤子助手-Rootless
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/dumpapp/js.json
+
 Package: com.dvntm.showmytouches
 Version: 1.1.2
 Architecture: iphoneos-arm64
