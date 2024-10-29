@@ -170,6 +170,24 @@ Icon: https://axs66.github.io/repo/icon/kayoko.png
 Name: Kayoko剪贴板
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: codes.aurora.kayoko
+Version: 2.6
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1104
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/codes.aurora.kayoko_2.6_iphoneos-arm64.deb
+Size: 126276
+MD5sum: 65b5b8cbcc005fe84127efd8f3620309
+SHA1: 1f6c6a13989cc5c0e3bc5dfe2e99c64123d25e47
+SHA256: 4cfc602e18dbab691296e85a65a7f8a47762d4641fc5c6056ee0084142ea3005
+Section: 系统增强
+Description: Clipboard manager for iOS.
+Author: Alexandra Aurora Göttlicher
+Icon: https://axs66.github.io/repo/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.0xkuj.bubbleapps
 Version: 3.0.0
 Architecture: iphoneos-arm64
