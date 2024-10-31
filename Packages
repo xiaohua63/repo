@@ -566,24 +566,6 @@ Icon: https://axs66.github.io/repo/icon/dy.png
 Name: AwemeDownloadMedia
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
-Package: com.Axs.awemefullscreens
-Version: 1.1-9
-Architecture: iphoneos-arm64
-Maintainer: Netskao
-Installed-Size: 108
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.Axs.awemefullscreens_1.1-9_iphoneos-arm64.deb
-Size: 26116
-MD5sum: d5eb3cd95e63ef727582b55ab3ef4000
-SHA1: ada1da8725e30df26c1bf3a4c7ad0aea018ba8ca
-SHA256: feb33a4beed16279c095e23fcdc8e3798e4c61530f19bd73d62214288a3ba7af
-Section: 抖音插件
-Description: 抖音全屏显示，仅在29.8.0版本上测试，后续版本更新导致的问题将不会被维护。
-Author: Netskao
-Icon: https://axs66.github.io/repo/icon/dy.png
-Name: AwemeFullScreen
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-
 Package: com.Axs.bigshot
 Version: 1.1
 Architecture: iphoneos-arm64
