@@ -1085,6 +1085,26 @@ Icon: https://axs66.github.io/repo/icon/onesettings.png
 Name: OneSettings
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/onesettings/js.json
 
+Package: com.Axs.pancake
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: ./debs/com.Axs.pancake_2.2_iphoneos-arm64.deb
+Size: 98468
+MD5sum: 4ae3d805f3da79ef5ed543e498a4aa3d
+SHA1: 738b56abd14747fd2efaea3aa8f18d12c5817980
+SHA256: e9676d744ddc8da17b64c8c3038006f6c3ab36c7ee64ef9eb08c9dc24f7d84c5
+Section: 系统增强
+Homepage: https://repo.anthopak.dev
+Description: 所有应用程序在屏幕中间往左或者往右滑，可以返回上一步操作。
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
+Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+Name: PanCake
+Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+
 Package: com.Axs.picsew
 Version: 0.0.1
 Architecture: iphoneos-arm64
