@@ -1137,6 +1137,24 @@ Author: ichitaso
 Name: PrimalFolder2
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.qqmusic
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.Axs.qqmusic_1.0.3_iphoneos-arm64.deb
+Size: 4984
+MD5sum: 0f1177f9640c5c5108b0a0a81236c36e
+SHA1: e53266b9d60651ec3983100f9fb70baa55c97c08
+SHA256: 3a99d19f73837ddda4a0f70a2141ab39c18d64ba6bf217db5fcdade950bf751e
+Section: Axs-Tweaks
+Description: 免费解锁臻品音质2.0，优化去除广告、精简个人主页。
+Author: Axs
+Icon: https://axs66.github.io/repo/icon/qqyy.png
+Name: QQ音乐增强
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+Sponsor: Axs
+
 Package: com.Axs.qqnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64
