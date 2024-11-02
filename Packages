@@ -1958,6 +1958,26 @@ Icon: https://axs66.github.io/repo/icon/iCleanerPro.png
 Name: iCleaner Pro
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/icleanerpro/js.json
 
+Package: com.hitori.misaki
+Version: 2.1.9
+Architecture: iphoneos-arm64
+Maintainer: Hitori
+Installed-Size: 1064
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.1.9_iphoneos-arm64.deb
+Size: 305868
+MD5sum: be77515e14d212a11995fd2614748245
+SHA1: 9419d41f6258ecd6f22f9fdd8699fc2838172ffb
+SHA256: 5967fb375938844e0678af6eeaba4f8f105bbfdf1c6e44529e1c36a84549ccac
+Section: 系统增强
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Hitori
+Depiction: Axs
+Icon: https://axs66.github.io/repo/icon/misaki.png
+Name: Misaki
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/misaki/js.json
+
 Package: com.hk.rootless.cc
 Version: 2.0.5.5
 Architecture: iphoneos-arm64
