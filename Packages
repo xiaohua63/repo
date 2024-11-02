@@ -3053,6 +3053,26 @@ Icon: https://axs66.github.io/repo/icon/zetsu.png
 Name: Zetsu
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/zestu/js.json
 
+Package: kr.xsf1re.vnodebypass
+Version: 0.4.3
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Installed-Size: 492
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: ./debs/kr.xsf1re.vnodebypass_0.4.3_iphoneos-arm64.deb
+Size: 67692
+MD5sum: d28e11e4921b2580a737b1fcdb3131cd
+SHA1: e12c99da52fdb1c29a11d3ffe6b18b176b3b9759
+SHA256: ed6a3790d47dd0c3965555c439a543436f0452f3907a371459f83184c9b58ecf
+Section: System
+Description: 替换原本控制中心图标。仅在需要时开启，不要常开！用于隐藏越狱文件以绕过检测的工具。（仅支持iOS15-16系统Dopamine2越狱）
+Tag: role::hacker, compatible::ios15, compatible::ios16
+Author: XsF1re, ichitaso, level3tjg
+Depiction: Axs
+Icon: https://axs66.github.io/repo/icon/vnodebypass.png
+Name: vnodebypass
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: me.nebula.ding
 Version: 1.1.0
 Architecture: iphoneos-arm64
