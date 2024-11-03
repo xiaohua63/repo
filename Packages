@@ -2590,6 +2590,24 @@ Icon: https://axs66.github.io/repo/icon/appstore.png
 Name: StoreSwitchAccounts
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
 
+Package: com.netskao.wcdisablehotupdates
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.netskao.wcdisablehotupdates_1.1-1_iphoneos-arm64.deb
+Size: 2248
+MD5sum: 27a0c8c228bd93c5a16dc0665b53fd9e
+SHA1: 886afa52a3e6ccd541c80976739a8fc4df58906a
+SHA256: 73ea0151b66589d7a6565c8bd7c68646aa3377ba25cc07bd2741fb4fd1b4f81d
+Section: 微信插件
+Description: 微信禁用热更新
+Author: Netskao
+Icon: https://axs66.github.io/repo/icon/wechat.png
+Name: 微信禁用热更新
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.nightwind.jade
 Version: 1.0.3
 Architecture: iphoneos-arm64
