@@ -1487,6 +1487,25 @@ Name: Svp分屏独立版(rootless)
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/svp/js.json
 Ts: sp-sss
 
+Package: com.Axs.split-view-pro-helper
+Version: 999.1
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 13792
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.Axs.split-view-pro-helper_999.1_iphoneos-arm64.deb
+Size: 1480
+MD5sum: 1d01fa32304732195c883add52749860
+SHA1: 7aa98faad25bf7f9611f36f2bb7454cae9464f73
+SHA256: dad8eb94c204a0fb1ec42d5628200ec4e7513cfd66a1f5322b05657a31e85937
+Section: 分屏插件
+Description: 假如Svp分屏安装出现安全模式，可以安装此依赖试试。
+Author: sunshinesong
+Icon: https://axs66.github.io/repo/icon/svp.png
+Name: Svp分屏独立版 依赖
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+Ts: sp-sss
+
 Package: com.Axs.storeswitcher2
 Version: 1.0.4
 Architecture: iphoneos-arm64
