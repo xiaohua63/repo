@@ -73,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 10 月 15 日",
+                    "text": "2024 年 11 月 2 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -88,13 +88,24 @@
             "views": [
                {
                     "class": "DepictionSubheaderView",
-                    "title": "2.2.8",
+                    "title": "3.3.1",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "优化相关问题。",
+                    "markdown": "装逼版本，你们用不了，安心用3.1.0版本。",
+                    "useRawFormat": true
+                },
+               {
+                    "class": "DepictionSubheaderView",
+                    "title": "3.1.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1. 新增一个app圆盘，随原手势一起呼出，点拨至圆盘中心可固定并切换app。\n2. 竖屏小窗裁切上下白色画面新增一个小横条长按可移动位置；\n3. 新增长按边框上下滑动可单指放大缩小。",
                     "useRawFormat": true
                 }
             ]
