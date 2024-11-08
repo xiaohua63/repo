@@ -45,7 +45,7 @@
                 {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 0,
-                    "itemSize": "{240, 520}",
+                    "itemSize": "{150, 450}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
@@ -96,7 +96,7 @@
                 },
                                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 10 月 19 日",
+                    "text": "2024 年 11 月 08 日",
                     "title": "最后更新"
                 }
             ]
@@ -105,6 +105,13 @@
             "class": "DepictionStackView",
             "tabname": "更新",
             "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 0.6.2\n1.默认模式，全改为本地转换，无需搭建服务器中转。\n2.默认模式，支持自定义音色分类管理，可自行搭建管理后台维护音色，项目地址：音色后台搭建教程。\n3.默认模式，背景音可本地导入合成。\n4.新增音色快捷指令，在音色列表左滑-指令，可针对某个音色定义触发命令。\n5.优化转音Pro按钮，支持已添加到”快捷指令“的音色快捷发送。\n6.修复已知问题。",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 0.6.1\n-「新增[壁纸]功能，可自定义壁纸。\n优化[匿名艾特]、[自动验证好友]、[群动态昵称]、[早午晚安]等功能 。\n插件采用新的UI界面。",
