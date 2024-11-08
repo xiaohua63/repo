@@ -45,7 +45,7 @@
                 {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 0,
-                    "itemSize": "{150, 450}",
+                    "itemSize": "{150, 345}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
@@ -86,7 +86,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.6.1",
+                    "text": "0.6.2",
                     "title": "插件版本"
                 },
                 {
