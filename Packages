@@ -1159,6 +1159,24 @@ Name: Picsew长截图 破解-Rootless
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/Picsew/js.json
 Sponsor: Axs
 
+Package: com.Axs.picturemodule
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: firmware(>= 12.0), mobilesubstrate, com.opa334.ccsupport, cn.llld.hhxt, oldabi
+Conflicts: com.4nni3.picturemodule
+Filename: ./debs/com.Axs.picturemodule_1.2_iphoneos-arm64.deb
+Size: 6690696
+MD5sum: 5a27f88cbf8288a3a04029ddbf5a4418
+SHA1: 8415cdba19f30fe25d9e464bb4744bc52eed9fb5
+SHA256: a07deaa1495b912633ad6a80f7f40488120c5546ccb6a4f7488a3fa69a056902
+Section: 系统增强
+Description: 自定义照片，视频和小部件装饰您的控制中心。
+Author: 4nni3
+Icon: https://axs66.github.io/repo/icon/picturemodel.png
+Name: PictureModule（控制中心图片视频）
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
+
 Package: com.Axs.plamyuipro
 Version: 1.0
 Architecture: iphoneos-arm64
