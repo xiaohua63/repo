@@ -655,25 +655,6 @@ Icon: https://axs66.github.io/repo/icon/bzhelper.png
 Name: bzhelper
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/bzhelper/js.json
 
-Package: com.Axs.callwallpapervideo
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: tt
-Installed-Size: 620
-Depends: preferenceloader
-Filename: ./debs/com.Axs.callwallpapervideo_1.0.2_iphoneos-arm64.deb
-Size: 3732456
-MD5sum: e5063748d63b9b30266bf0f65c79a0a4
-SHA1: b752f314dde9bc7d2ece405ece181e716bb2f69b
-SHA256: 5d9b031bd037b8e193ffd7a62721e6981e1e68bc2f7ab204f6f8ca6e4087a874
-Section: Axs-Tweaks
-Description: myWall 来电视频，随心所欲！
-Author: tt
-Icon: https://axs66.github.io/repo/icon/callwallpapervideo.png
-Name: callwallpapervideo来去电视频
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/js.json
-Sponsor: mywall
-
 Package: com.Axs.ccbadgeclear
 Version: 1.2-6
 Architecture: iphoneos-arm64
